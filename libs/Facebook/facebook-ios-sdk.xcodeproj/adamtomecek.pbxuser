@@ -1,0 +1,148 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = D2AAC07D0554694100DB518D /* facebook-ios-sdk */;
+		codeSenseManager = C2393BB513BDC6E100D0B076 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					721,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 331204258;
+			PBXWorkspaceStateSaveDate = 331204258;
+		};
+		perUserProjectItems = {
+			C2393BAA13BDC6E100D0B076 /* PBXTextBookmark */ = C2393BAA13BDC6E100D0B076 /* PBXTextBookmark */;
+			C2393BAB13BDC6E100D0B076 /* PBXTextBookmark */ = C2393BAB13BDC6E100D0B076 /* PBXTextBookmark */;
+			C2393BAC13BDC6E100D0B076 /* PBXTextBookmark */ = C2393BAC13BDC6E100D0B076 /* PBXTextBookmark */;
+			C2393BAD13BDC6E100D0B076 /* PBXBookmark */ = C2393BAD13BDC6E100D0B076 /* PBXBookmark */;
+			C2393BB713BDC6E100D0B076 /* PBXTextBookmark */ = C2393BB713BDC6E100D0B076 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C2393BB413BDC6E100D0B076 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	AEA93B0111D5293B000A4545 /* FBConnect.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 417}}";
+			sepNavSelRange = "{614, 0}";
+			sepNavVisRange = "{0, 706}";
+		};
+	};
+	AEA93B0211D5293B000A4545 /* FBRequest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1508}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1008}";
+		};
+	};
+	AEA93B0311D5293B000A4545 /* FBRequest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 4745}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1133}";
+		};
+	};
+	AEA93B0411D5293B000A4545 /* Facebook.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 8697}}";
+			sepNavSelRange = "{659, 0}";
+			sepNavVisRange = "{33, 1226}";
+		};
+	};
+	C2393BAA13BDC6E100D0B076 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEA93B0411D5293B000A4545 /* Facebook.m */;
+		name = "Facebook.m: 20";
+		rLen = 0;
+		rLoc = 659;
+		rType = 0;
+		vrLen = 1226;
+		vrLoc = 33;
+	};
+	C2393BAB13BDC6E100D0B076 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEA93B0311D5293B000A4545 /* FBRequest.m */;
+		name = "FBRequest.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1133;
+		vrLoc = 0;
+	};
+	C2393BAC13BDC6E100D0B076 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEA93B0211D5293B000A4545 /* FBRequest.h */;
+		name = "FBRequest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1008;
+		vrLoc = 0;
+	};
+	C2393BAD13BDC6E100D0B076 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = AEA93B0111D5293B000A4545 /* FBConnect.h */;
+	};
+	C2393BB413BDC6E100D0B076 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C2393BB513BDC6E100D0B076 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C2393BB713BDC6E100D0B076 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AEA93B0111D5293B000A4545 /* FBConnect.h */;
+		name = "FBConnect.h: 18";
+		rLen = 0;
+		rLoc = 614;
+		rType = 0;
+		vrLen = 706;
+		vrLoc = 0;
+	};
+	D2AAC07D0554694100DB518D /* facebook-ios-sdk */ = {
+		activeExec = 0;
+	};
+}

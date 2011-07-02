@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<dict>
+		<key>name</key>
+		<string>1-1</string>
+		<key>difficulty</key>
+		<integer>5</integer>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>score</key>
+		<integer>30</integer>
+		<key>text</key>
+		<string>Great start. You&apos;ve defeated your garden today!</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>name</key>
+		<string>1-2</string>
+		<key>difficulty</key>
+		<integer>4</integer>
+		<key>mode</key>
+		<integer>2</integer>
+		<key>score</key>
+		<integer>50</integer>
+		<key>text</key>
+		<string>You&apos;re getting better. Let&apos;s hope there won&apos;t be much more moles next day!</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>name</key>
+		<string>1-3</string>
+		<key>difficulty</key>
+		<integer>4</integer>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>score</key>
+		<integer>30</integer>
+		<key>text</key>
+		<string>Great start. You&apos;ve defeated your garden today!</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>name</key>
+		<string>1-4</string>
+		<key>difficulty</key>
+		<integer>4</integer>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>score</key>
+		<integer>30</integer>
+		<key>text</key>
+		<string>Great start. You&apos;ve defeated your garden today!</string>
+	</dict>
+</dict>
+</plist>
