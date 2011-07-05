@@ -72,11 +72,7 @@
 }
 
 - (void) aboutButtonTouched{		
-	id appDelegate = [[UIApplication sharedApplication] delegate];
 	
-	NSString *message = [NSString stringWithFormat:@"I've just ousted %d moles in iPhone game Molemageddon. Can you do better?", 25];
-	
-	[appDelegate facebookAccountLogin:message];
 }
 
 @end

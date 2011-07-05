@@ -14,6 +14,7 @@
 
 - (id) scene;
 
+- (id) initWithScore:(int)score gameType:(int)type gamePlace:(int)place scoreLimit:(int)minScore;
 - (id) initWithScore:(int)score gameType:(int)type gamePlace:(int)place;
 
 @end

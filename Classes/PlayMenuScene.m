@@ -99,7 +99,13 @@
 }
 
 - (void) continueButtonTouched{
+	Settings *settings = [Settings sharedSettings];
 	
+	int lastLevel = [settings.lastLevel intValue];
+	StoryScene * scene = [StoryScene alloc];
+	
+	[scene initWithLevel:lastLevel + 1];
+	[[CCDirector sharedDirector] replaceScene:[scene scene]];
 }
 
 - (void) newstoryButtonTouched{

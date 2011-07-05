@@ -1,7 +1,7 @@
 TMolemageddon
 v7
 r0
-t331243748.744399
+t331496253.965143
 cCheck dependencies
 cProcessInfoPlistFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Info.plist Resources/Info.plist
 cCpResource build/Debug-iphonesimulator/Molemageddon.app/Default.png Resources/Default.png
@@ -39,6 +39,7 @@ cCpResource build/Debug-iphonesimulator/Molemageddon.app/bg_garden.png Resources
 cCpResource build/Debug-iphonesimulator/Molemageddon.app/game_over.png Resources/game_over.png
 cCpResource build/Debug-iphonesimulator/Molemageddon.app/FBDialog.bundle libs/Facebook/FBDialog.bundle
 cCopyPlistFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/levels.plist Resources/levels.plist
+cCpResource build/Debug-iphonesimulator/Molemageddon.app/level_done.png Resources/level_done.png
 cProcessPCH /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch.gch Molemageddon_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
 cProcessPCH++ /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-gkkuddyiiqohgzfshxkotkrgeipz/Molemageddon_Prefix.pch.gch Molemageddon_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/main.o /Users/adamtomecek/Programování/Molemageddon/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
@@ -85,6 +86,7 @@ cCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Obje
 cCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/SBJsonParser.o /Users/adamtomecek/Programování/Molemageddon/libs/Facebook/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/SBJsonWriter.o /Users/adamtomecek/Programování/Molemageddon/libs/Facebook/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/StoryScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/StoryScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/LevelDoneScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cLd /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon normal i386
 cGenerateDSYMFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app.dSYM /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon
 cTouch /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app
@@ -289,16 +291,16 @@ t1307535690
 s1123
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.h
-c000000004E0417F60000000000000159
-t1308891126
-s345
+c000000004E0F677E00000000000001BC
+t1309632382
+s444
 i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m
-c000000004E0DB6490000000000000F6B
-t1309521481
-s3947
+c000000004E1202960000000000002166
+t1309803158
+s8550
 i"GameOverScene.h"
 i"GameScene.h"
 i"MainMenuScene.h"
@@ -311,9 +313,9 @@ i"cocos2d.h"
 i"Mole.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m
-c000000004E0E293C0000000000003B50
-t1309550908
-s15184
+c000000004E0F77D30000000000003D69
+t1309636563
+s15721
 i"GameScene.h"
 i"CCAnimationHelper.h"
 i"Tools.h"
@@ -322,6 +324,7 @@ i"Spawner.h"
 i"Position.h"
 i"GameOverScene.h"
 i"Settings.h"
+i"LevelDoneScene.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/HelloWorldLayer.h
 c000000004DEF69CA0000000000000196
@@ -333,6 +336,23 @@ N/Users/adamtomecek/Programování/Molemageddon/Classes/HelloWorldLayer.m
 c00000000000000000000000000000000
 t2
 s0
+
+N/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.h
+c000000004E0F713C0000000000000130
+t1309634876
+s304
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m
+c000000004E0F7C4E00000000000010C0
+t1309637710
+s4288
+i"LevelDoneScene.h"
+i"StoryScene.h"
+i"GameScene.h"
+i"MainMenuScene.h"
+i"StoryScene.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/LocationMenu.h
 c000000004DFDC1AF000000000000010D
@@ -387,9 +407,9 @@ i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m
-c000000004E0D91E80000000000000B75
-t1309512168
-s2933
+c000000004E0F542F0000000000000A7F
+t1309627439
+s2687
 i"MainMenuScene.h"
 i"SettingsScene.h"
 i"PlayMenuScene.h"
@@ -461,9 +481,9 @@ i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/PlayMenuScene.m
-c000000004E0E1E5500000000000018F6
-t1309548117
-s6390
+c000000004E0F793800000000000019EA
+t1309636920
+s6634
 i"PlayMenuScene.h"
 i"GameScene.h"
 i"LocationScene.h"
@@ -561,9 +581,9 @@ i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/StoryScene.m
-c000000004E0E28FF0000000000000BEF
-t1309550847
-s3055
+c000000004E0ED4630000000000000BC3
+t1309594723
+s3011
 i"StoryScene.h"
 i"Settings.h"
 i"GameScene.h"
@@ -686,9 +706,9 @@ t1307535435
 s6203
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/game_over.png
-c000000004E040D9C0000000000013DF6
-t1308888476
-s81398
+c000000004E0F6B900000000000012FD5
+t1309633424
+s77781
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/iTunesArtwork
 c000000004DEF684B000000000000F21E
@@ -705,20 +725,25 @@ c000000004DECED27000000000001EDF9
 t1307372839
 s126457
 
+N/Users/adamtomecek/Programování/Molemageddon/Resources/level_done.png
+c000000004E0F72720000000000012F45
+t1309635186
+s77637
+
 N/Users/adamtomecek/Programování/Molemageddon/Resources/levels.plist
-c000000004E0E0AF60000000000000575
-t1309543158
-s1397
+c000000004E0F76C20000000000000574
+t1309636290
+s1396
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu.plist
-c000000004E0DFBEF00000000000022CE
-t1309539311
-s8910
+c000000004E0F73400000000000002A97
+t1309635392
+s10903
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu.png
-c000000004E0DFBEF0000000000060469
-t1309539311
-s394345
+c000000004E0F7340000000000006FFBE
+t1309635392
+s458686
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/pozadi.png
 c000000004DB957CE000000000001DAB7
@@ -771,11 +796,11 @@ t1309421059
 s318716
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app
-t1309550945
-s1360
+t1309803161
+s1394
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app.dSYM
-t1309550945
+t1309803161
 s102
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Default.png
@@ -819,8 +844,8 @@ t1309549888
 s1668
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon
-t1309550945
-s2116268
+t1309803161
+s2130916
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/OAuthTwitterDemo-Info.plist
 t1309549887
@@ -867,8 +892,8 @@ t1309549887
 s6203
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/game_over.png
-t1309549888
-s81398
+t1309633430
+s77781
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/iTunesArtwork
 t1309549887
@@ -890,17 +915,21 @@ N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Mo
 t1309549887
 s126457
 
+N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/level_done.png
+t1309635523
+s77637
+
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/levels.plist
-t1309549888
-s348
+t1309636290
+s352
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/menu.plist
-t1309549887
-s2342
+t1309635523
+s2930
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/menu.png
-t1309549887
-s394345
+t1309635523
+s458686
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/pozadi.png
 t1308297454
@@ -972,16 +1001,20 @@ t1309549896
 s75872
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/GameOverScene.o
-t1309549896
-s23968
+t1309803160
+s33912
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/GameScene.o
-t1309550945
-s96892
+t1309636565
+s99204
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/HelloWorldLayer.o
 t2
 s0
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/LevelDoneScene.o
+t1309803031
+s24968
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/LocationMenu.o
 t1308476777
@@ -1044,17 +1077,17 @@ t1309549895
 s21768
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/MainMenuScene.o
-t1309549893
-s20012
+t1309627450
+s19236
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/Mole.o
 t1309549893
 s34556
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/Molemageddon.LinkFileList
-c000000004E0E253F0000000000001A5D
-t1309549887
-s6749
+c000000004E0F73C30000000000001AF5
+t1309635523
+s6901
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/MolemageddonAppDelegate.o
 t1309549892
@@ -1081,8 +1114,8 @@ t1309549895
 s48024
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/PlayMenuScene.o
-t1309550611
-s64812
+t1309636921
+s65524
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/Position.o
 t1309549896
@@ -1133,8 +1166,8 @@ t1309549893
 s11072
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/StoryScene.o
-t1309550848
-s23096
+t1309594723
+s23636
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/Tools.o
 t1309549893
@@ -2471,7 +2504,7 @@ s1441
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies331243748#331243748#0(0"0(0#1#0"8611081536#0"0#
+lSLF07#2@18"Check dependencies331496253#331496253#0(0"0(0#1#0"8616926560#0"0#
 
 CCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/CCAnimationHelper.o /Users/adamtomecek/Programování/Molemageddon/Classes/CCAnimationHelper.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s331242692.655858
@@ -2549,8 +2582,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@81"Compile /Users/adamtomecek/Programování/Molemageddon/libs/Facebook/Facebook.m331242696#331242696#0(0"0(0#0#73"/Users/adamtomecek/Programování/Molemageddon/libs/Facebook/Facebook.m8628707936#2738"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/libs/Facebook/Facebook.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/Facebook.o0#
 
 CCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/GameOverScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s331242696.069785
-e331242696.340002
+s331495960.718602
+e331495961.005730
 r1
 xCompileC
 xbuild/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/GameOverScene.o
@@ -2559,19 +2592,19 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m: In function '-[GameOverScene init]':
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:72: warning: unused variable 'twitterButton'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m: In function '-[GameOverScene facebookShare]':
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:201: warning: no '-facebookAccountLogin:' method found
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:201: warning: (Messages without a matching method signature
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:201: warning: will be assumed to return 'id' and accept
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:201: warning: '...' as arguments.)
 o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m: In function '-[GameOverScene twitterShare]':
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:96: warning: no '-twitterAccountLogin:' method found
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:96: warning: (Messages without a matching method signature
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:96: warning: will be assumed to return 'id' and accept
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:96: warning: '...' as arguments.)
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:100: warning: no '-sendUpdate:' method found
-lSLF07#2@80"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m331242696#331242696#0(959"/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m: In function '-[GameOverScene init]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:72: warning: unused variable 'twitterButton'/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m: In function '-[GameOverScene twitterShare]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:96: warning: no '-twitterAccountLogin:' method found/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:96: warning: (Messages without a matching method signature/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:96: warning: will be assumed to return 'id' and accept/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:96: warning: '...' as arguments.)/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:100: warning: no '-sendUpdate:' method found4(22@31"Unused variable 'twitterButton'331242696#109#116#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m331214281#72#0#72#0#19"unused variable '*'0(22@39"No '-twitterAccountLogin:' method found331242696#342#124#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m331214281#96#0#96#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)331242696#466#130#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m331214281#96#0#96#0#0"0(22@30"No '-sendUpdate:' method found331242696#827#116#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m331214281#100#0#100#0#19"no '*' method found0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m8635462016#2742"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/GameOverScene.o0#
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:208: warning: no '-twitterAccountLogin:' method found
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:212: warning: no '-sendUpdate:' method found
+lSLF07#2@80"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m331495960#331495961#0(982"/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m: In function '-[GameOverScene facebookShare]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:201: warning: no '-facebookAccountLogin:' method found/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:201: warning: (Messages without a matching method signature/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:201: warning: will be assumed to return 'id' and accept/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:201: warning: '...' as arguments.)/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m: In function '-[GameOverScene twitterShare]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:208: warning: no '-twitterAccountLogin:' method found/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m:212: warning: no '-sendUpdate:' method found4(22@40"No '-facebookAccountLogin:' method found331495960#118#126#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m331495958#201#0#201#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)331495960#244#131#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m331495958#201#0#201#0#0"0(22@39"No '-twitterAccountLogin:' method found331495960#725#125#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m331495958#208#0#208#0#19"no '*' method found0(22@30"No '-sendUpdate:' method found331495960#850#116#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m331495958#212#0#212#0#19"no '*' method found0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m8607924384#2742"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/GameOverScene.o0#
 
 CCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/GameScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s331243744.740951
-e331243745.054144
+s331329364.839172
+e331329365.196614
 r1
 xCompileC
 xbuild/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/GameScene.o
@@ -2581,25 +2614,42 @@ xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
 o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene init]':
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:325: warning: 'GameScene' may not respond to '-createScoreboard'
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:325: warning: (Messages without a matching method signature
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:325: warning: will be assumed to return 'id' and accept
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:325: warning: '...' as arguments.)
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:340: warning: 'GameScene' may not respond to '-updateTime'
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:342: warning: 'GameScene' may not respond to '-updateLives'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:326: warning: 'GameScene' may not respond to '-createScoreboard'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:326: warning: (Messages without a matching method signature
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:326: warning: will be assumed to return 'id' and accept
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:326: warning: '...' as arguments.)
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:341: warning: 'GameScene' may not respond to '-updateTime'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:343: warning: 'GameScene' may not respond to '-updateLives'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene addScore]':
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:375: warning: 'GameScene' may not respond to '-updateLives'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:375: warning: 'GameScene' may not respond to '-newLevel'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:382: warning: 'GameScene' may not respond to '-updateLives'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene removeLive]':
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:400: warning: 'GameScene' may not respond to '-gameOver'
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene updateTime]':
 o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:407: warning: 'GameScene' may not respond to '-gameOver'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene updateTime]':
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:414: warning: 'GameScene' may not respond to '-gameOver'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene ccTouchesBegan:withEvent:]':
-o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:532: warning: conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:559: warning: conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'
 o/Users/adamtomecek/Programování/Molemageddon/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h:69: warning: previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'
-lSLF07#2@76"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331243744#331243745#0(2062"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene init]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:325: warning: 'GameScene' may not respond to '-createScoreboard'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:325: warning: (Messages without a matching method signature/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:325: warning: will be assumed to return 'id' and accept/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:325: warning: '...' as arguments.)/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:340: warning: 'GameScene' may not respond to '-updateTime'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:342: warning: 'GameScene' may not respond to '-updateLives'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene addScore]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:375: warning: 'GameScene' may not respond to '-updateLives'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene removeLive]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:400: warning: 'GameScene' may not respond to '-gameOver'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene updateTime]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:407: warning: 'GameScene' may not respond to '-gameOver'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene ccTouchesBegan:withEvent:]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:532: warning: conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'/Users/adamtomecek/Programování/Molemageddon/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h:69: warning: previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'9(22@50"'GameScene' may not respond to '-createScoreboard'331243744#101#132#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331243708#325#0#325#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)331243744#233#127#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331243708#325#0#325#0#0"0(22@44"'GameScene' may not respond to '-updateTime'331243744#585#126#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331243708#340#0#340#0#26"'*' may not respond to '*'0(22@45"'GameScene' may not respond to '-updateLives'331243744#711#127#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331243708#342#0#342#0#26"'*' may not respond to '*'0(22@45"'GameScene' may not respond to '-updateLives'331243744#943#127#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331243708#375#0#375#0#26"'*' may not respond to '*'0(22@42"'GameScene' may not respond to '-gameOver'331243744#1177#124#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331243708#400#0#400#0#26"'*' may not respond to '*'0(22@42"'GameScene' may not respond to '-gameOver'331243744#1408#124#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331243708#407#0#407#0#26"'*' may not respond to '*'0(22@89"Conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'331243744#1654#171#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331243708#532#0#532#0#25"conflicting types for '*'0(22@91"Previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'331243744#1825#205#0(6@101"/Users/adamtomecek/Programování/Molemageddon/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h329228619#69#0#69#0#0"0(0#0#68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m8627797344#2734"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/GameScene.o0#
+lSLF07#2@76"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331329364#331329365#0(2188"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene init]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:326: warning: 'GameScene' may not respond to '-createScoreboard'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:326: warning: (Messages without a matching method signature/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:326: warning: will be assumed to return 'id' and accept/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:326: warning: '...' as arguments.)/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:341: warning: 'GameScene' may not respond to '-updateTime'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:343: warning: 'GameScene' may not respond to '-updateLives'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene addScore]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:375: warning: 'GameScene' may not respond to '-newLevel'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:382: warning: 'GameScene' may not respond to '-updateLives'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene removeLive]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:407: warning: 'GameScene' may not respond to '-gameOver'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene updateTime]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:414: warning: 'GameScene' may not respond to '-gameOver'/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m: In function '-[GameScene ccTouchesBegan:withEvent:]':/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m:559: warning: conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'/Users/adamtomecek/Programování/Molemageddon/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h:69: warning: previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'10(22@50"'GameScene' may not respond to '-createScoreboard'331329365#101#132#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331329363#326#0#326#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)331329365#233#127#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331329363#326#0#326#0#0"0(22@44"'GameScene' may not respond to '-updateTime'331329365#585#126#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331329363#341#0#341#0#26"'*' may not respond to '*'0(22@45"'GameScene' may not respond to '-updateLives'331329365#711#127#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331329363#343#0#343#0#26"'*' may not respond to '*'0(22@42"'GameScene' may not respond to '-newLevel'331329365#943#124#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331329363#375#0#375#0#26"'*' may not respond to '*'0(22@45"'GameScene' may not respond to '-updateLives'331329365#1067#127#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331329363#382#0#382#0#26"'*' may not respond to '*'0(22@42"'GameScene' may not respond to '-gameOver'331329365#1301#124#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331329363#407#0#407#0#26"'*' may not respond to '*'0(22@42"'GameScene' may not respond to '-gameOver'331329365#1532#124#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331329363#414#0#414#0#26"'*' may not respond to '*'0(22@89"Conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'331329365#1778#171#0(6@68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m331329363#559#0#559#0#25"conflicting types for '*'0(22@91"Previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'331329365#1949#205#0(6@101"/Users/adamtomecek/Programování/Molemageddon/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h329228619#69#0#69#0#0"0(0#0#68"/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m8630419008#2734"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/GameScene.o0#
 
 CCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/HelloWorldLayer.o /Users/adamtomecek/Programování/Molemageddon/Classes/HelloWorldLayer.m normal i386 objective-c com.apple.compilers.llvmgcc42
 r0
+
+CCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/LevelDoneScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s331495831.063936
+e331495831.323251
+r1
+xCompileC
+xbuild/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/LevelDoneScene.o
+x/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m: In function '-[LevelDoneScene init]':
+o/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m:53: warning: unused variable 'gamePlace'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m:52: warning: unused variable 'gameType'
+lSLF07#2@81"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m331495831#331495831#0(342"/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m: In function '-[LevelDoneScene init]':/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m:53: warning: unused variable 'gamePlace'/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m:52: warning: unused variable 'gameType'2(22@27"Unused variable 'gamePlace'331495831#111#113#0(6@73"/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m331330510#53#0#53#0#19"unused variable '*'0(22@26"Unused variable 'gameType'331495831#224#112#0(6@73"/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m331330510#52#0#52#0#19"unused variable '*'0(0#0#73"/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m8609713504#2744"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/LevelDoneScene.o0#
 
 CCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/LocationMenu.o /Users/adamtomecek/Programování/Molemageddon/Classes/LocationMenu.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s330169577.379449
@@ -2832,8 +2882,8 @@ o/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEn
 lSLF07#2@112"Compile /Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m331242695#331242695#0(586"/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m: In function '-[MGTwitterXMLParser initWithXML:delegate:connectionIdentifier:requestType:responseType:]':/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m:35: warning: suggest parentheses around assignment used as truth value/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m:45: warning: class 'MGTwitterXMLParser' does not implement the 'NSXMLParserDelegate' protocol2(22@57"Suggest parentheses around assignment used as truth value331242695#209#174#0(6@104"/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m326487066#35#0#35#0#0"0(22@80"Class 'MGTwitterXMLParser' does not implement the 'NSXMLParserDelegate' protocol331242695#383#197#0(6@104"/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m326487066#45#0#45#0#45"class '*' does not implement the '*' protocol0(0#0#104"/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m8625563520#2779"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/MGTwitterXMLParser.o0#
 
 CCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/MainMenuScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s331242692.842701
-e331242693.185449
+s331320250.231089
+e331320250.866353
 r1
 xCompileC
 xbuild/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/MainMenuScene.o
@@ -2842,7 +2892,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@80"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m331242692#331242693#0(0"0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m8628077504#2742"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/MainMenuScene.o0#
+lSLF07#2@80"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m331320250#331320250#0(0"0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m8626014304#2742"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/MainMenuScene.o0#
 
 CCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/Mole.o /Users/adamtomecek/Programování/Molemageddon/Classes/Mole.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s331242693.185712
@@ -2941,8 +2991,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@97"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/OAuthTwitterDemoViewController.m331242695#331242695#0(0"0(0#0#89"/Users/adamtomecek/Programování/Molemageddon/Classes/OAuthTwitterDemoViewController.m8629342368#2776"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/OAuthTwitterDemoViewController.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/OAuthTwitterDemoViewController.o0#
 
 CCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/PlayMenuScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/PlayMenuScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s331243411.417272
-e331243411.781867
+s331329720.841414
+e331329721.124953
 r1
 xCompileC
 xbuild/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/PlayMenuScene.o
@@ -2951,7 +3001,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@80"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/PlayMenuScene.m331243411#331243411#0(0"0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Classes/PlayMenuScene.m8638018304#2742"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/PlayMenuScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/PlayMenuScene.o0#
+lSLF07#2@80"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/PlayMenuScene.m331329720#331329721#0(0"0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Classes/PlayMenuScene.m8600012160#2742"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/PlayMenuScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/PlayMenuScene.o0#
 
 CCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/Position.o /Users/adamtomecek/Programování/Molemageddon/Classes/Position.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s331242695.980925
@@ -3136,8 +3186,8 @@ o/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m:33: warning:
 lSLF07#2@74"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m331242693#331242693#0(967"/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m: In function '+[Spawner spawnerWithPositions:objectLifeTime:spawnDelay:objectNumberLimit:]':/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m:29: warning: instance variable 'positions' accessed in class method/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m:30: warning: instance variable 'delay' accessed in class method/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m:31: warning: instance variable 'lifeTime' accessed in class method/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m:32: warning: instance variable 'numberLimit' accessed in class method/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m:33: warning: instance variable 'objects' accessed in class method/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m:33: warning: instance variable 'numberLimit' accessed in class method6(22@54"Instance variable 'positions' accessed in class method331242693#158#133#0(6@66"/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m329043237#29#0#29#0#0"0(22@50"Instance variable 'delay' accessed in class method331242693#291#129#0(6@66"/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m329043237#30#0#30#0#0"0(22@53"Instance variable 'lifeTime' accessed in class method331242693#420#132#0(6@66"/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m329043237#31#0#31#0#0"0(22@56"Instance variable 'numberLimit' accessed in class method331242693#552#135#0(6@66"/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m329043237#32#0#32#0#0"0(22@52"Instance variable 'objects' accessed in class method331242693#687#131#0(6@66"/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m329043237#33#0#33#0#0"0(22@56"Instance variable 'numberLimit' accessed in class method331242693#818#135#0(6@66"/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m329043237#33#0#33#0#0"0(0#0#66"/Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m8633202048#2730"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/Spawner.o0#
 
 CCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/StoryScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/StoryScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s331243647.903490
-e331243648.132504
+s331287523.709511
+e331287523.926681
 r1
 xCompileC
 xbuild/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/StoryScene.o
@@ -3146,7 +3196,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@77"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/StoryScene.m331243647#331243648#0(0"0(0#0#69"/Users/adamtomecek/Programování/Molemageddon/Classes/StoryScene.m8635317312#2736"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/StoryScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/StoryScene.o0#
+lSLF07#2@77"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/StoryScene.m331287523#331287523#0(0"0(0#0#69"/Users/adamtomecek/Programování/Molemageddon/Classes/StoryScene.m8607361920#2736"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-fdtuztnwfzkhgbfbsoaedsozyccv/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/StoryScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/StoryScene.o0#
 
 CCompileC build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/Tools.o /Users/adamtomecek/Programování/Molemageddon/Classes/Tools.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s331242693.693755
@@ -3215,22 +3265,22 @@ xResources/krtci.plist
 lSLF07#2@26"Copy Resources/krtci.plist331242687#331242687#0(0"0(0#0#70"/Users/adamtomecek/Programování/Molemageddon/Resources/krtci.plist8634921280#421"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/krtci.plist --outdir /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
 
 CCopyPlistFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/levels.plist Resources/levels.plist
-s331242688.319907
-e331242688.365501
+s331329090.595952
+e331329090.620921
 r1
 xCopyPlistFile
 x/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/levels.plist
 xResources/levels.plist
-lSLF07#2@27"Copy Resources/levels.plist331242688#331242688#0(0"0(0#0#71"/Users/adamtomecek/Programování/Molemageddon/Resources/levels.plist8628094656#422"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/levels.plist --outdir /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
+lSLF07#2@27"Copy Resources/levels.plist331329090#331329090#0(0"0(0#0#71"/Users/adamtomecek/Programování/Molemageddon/Resources/levels.plist8627964768#422"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/levels.plist --outdir /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
 
 CCopyPlistFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/menu.plist Resources/menu.plist
-s331242687.525206
-e331242687.645787
+s331328323.262830
+e331328323.629394
 r1
 xCopyPlistFile
 x/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/menu.plist
 xResources/menu.plist
-lSLF07#2@25"Copy Resources/menu.plist331242687#331242687#0(0"0(0#0#69"/Users/adamtomecek/Programování/Molemageddon/Resources/menu.plist8633275968#420"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/menu.plist --outdir /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
+lSLF07#2@25"Copy Resources/menu.plist331328323#331328323#0(0"0(0#0#69"/Users/adamtomecek/Programování/Molemageddon/Resources/menu.plist28429440802291824#420"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/menu.plist --outdir /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
 
 CCopyPlistFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/settings.plist Resources/settings.plist
 s331242687.643449
@@ -3395,13 +3445,13 @@ xResources/fps_images.png
 lSLF07#2@29"Copy Resources/fps_images.png331242687#331242687#0(0"0(0#0#73"/Users/adamtomecek/Programování/Molemageddon/Resources/fps_images.png8616946208#517"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adamtomecek/Programování/Molemageddon/Resources/fps_images.png /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
 
 CCpResource build/Debug-iphonesimulator/Molemageddon.app/game_over.png Resources/game_over.png
-s331242688.316068
-e331242688.338023
+s331326230.245908
+e331326230.320045
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/Molemageddon.app/game_over.png
 xResources/game_over.png
-lSLF07#2@28"Copy Resources/game_over.png331242688#331242688#0(0"0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Resources/game_over.png8628646432#516"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adamtomecek/Programování/Molemageddon/Resources/game_over.png /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
+lSLF07#2@28"Copy Resources/game_over.png331326230#331326230#0(0"0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Resources/game_over.png8602245888#516"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adamtomecek/Programování/Molemageddon/Resources/game_over.png /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
 
 CCpResource build/Debug-iphonesimulator/Molemageddon.app/iTunesArtwork Resources/iTunesArtwork
 s331242687.506175
@@ -3439,14 +3489,23 @@ xbuild/Debug-iphonesimulator/Molemageddon.app/krtci.png
 xResources/krtci.png
 lSLF07#2@24"Copy Resources/krtci.png331242687#331242687#0(0"0(0#0#68"/Users/adamtomecek/Programování/Molemageddon/Resources/krtci.png8634146304#512"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adamtomecek/Programování/Molemageddon/Resources/krtci.png /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
 
+CCpResource build/Debug-iphonesimulator/Molemageddon.app/level_done.png Resources/level_done.png
+s331328323.265624
+e331328323.371994
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Molemageddon.app/level_done.png
+xResources/level_done.png
+lSLF07#2@29"Copy Resources/level_done.png331328323#331328323#0(0"0(0#0#73"/Users/adamtomecek/Programování/Molemageddon/Resources/level_done.png8626035232#517"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adamtomecek/Programování/Molemageddon/Resources/level_done.png /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
+
 CCpResource build/Debug-iphonesimulator/Molemageddon.app/menu.png Resources/menu.png
-s331242687.623103
-e331242687.645662
+s331328323.263697
+e331328323.379527
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/Molemageddon.app/menu.png
 xResources/menu.png
-lSLF07#2@23"Copy Resources/menu.png331242687#331242687#0(0"0(0#0#67"/Users/adamtomecek/Programování/Molemageddon/Resources/menu.png8629371360#511"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adamtomecek/Programování/Molemageddon/Resources/menu.png /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
+lSLF07#2@23"Copy Resources/menu.png331328323#331328323#0(0"0(0#0#67"/Users/adamtomecek/Programování/Molemageddon/Resources/menu.png8627392416#511"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adamtomecek/Programování/Molemageddon/Resources/menu.png /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
 
 CCpResource build/Debug-iphonesimulator/Molemageddon.app/pozadi.png Resources/pozadi.png
 s329990254.866918
@@ -3530,23 +3589,23 @@ xResources/ui.png
 lSLF07#2@21"Copy Resources/ui.png331242688#331242688#0(0"0(0#0#65"/Users/adamtomecek/Programování/Molemageddon/Resources/ui.png8634778368#509"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adamtomecek/Programování/Molemageddon/Resources/ui.png /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
 
 CGenerateDSYMFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app.dSYM /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon
-s331243745.349851
-e331243745.534620
+s331495961.440982
+e331495961.651946
 r1
 xGenerateDSYMFile
 x/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app.dSYM
 x/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/Molemageddon.app.dSYM build/Debug-iphonesimulator/Molemageddon.app/Molemageddon331243745#331243745#0(0"0(0#0#106"/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon8634479008#428"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon -o /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app.dSYM0#
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/Molemageddon.app.dSYM build/Debug-iphonesimulator/Molemageddon.app/Molemageddon331495961#331495961#0(0"0(0#0#106"/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon8613222880#428"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon -o /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app.dSYM0#
 
 CLd /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon normal i386
-s331243745.054230
-e331243745.349721
+s331495961.005853
+e331495961.440805
 r1
 xLd
 x/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon
 xnormal
 xi386
-lSLF07#2@111"Link /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon331243745#331243745#0(0"0(0#0#0"8635218976#1237"    cd /Users/adamtomecek/Programování/Molemageddon    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator "-L/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/Libraries & Headers" -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -filelist /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/Molemageddon.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -lOAuth -lxml2 -o /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon0#
+lSLF07#2@111"Link /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon331495961#331495961#0(0"0(0#0#0"8618451840#1237"    cd /Users/adamtomecek/Programování/Molemageddon    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator "-L/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/Libraries & Headers" -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -filelist /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Objects-normal/i386/Molemageddon.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -lOAuth -lxml2 -o /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Molemageddon0#
 
 CProcessInfoPlistFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app/Info.plist Resources/Info.plist
 s331242687.466976
@@ -3691,10 +3750,10 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@34"Precompile Molemageddon_Prefix.pch331242688#331242691#0(0"0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Molemageddon_Prefix.pch8625375552#2614"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources/i386 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphonesimulator/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -c /Users/adamtomecek/Programování/Molemageddon/Molemageddon_Prefix.pch -o /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-gkkuddyiiqohgzfshxkotkrgeipz/Molemageddon_Prefix.pch.gch0#
 
 CTouch /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app
-s331243745.534709
-e331243745.537432
+s331495961.652037
+e331495961.655304
 r1
 xTouch
 x/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app
-lSLF07#2@99"Touch /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app331243745#331243745#0(0"0(0#0#0"8633085760#303"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
+lSLF07#2@99"Touch /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app331495961#331495961#0(0"0(0#0#0"8618425664#303"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphonesimulator/Molemageddon.app0#
 

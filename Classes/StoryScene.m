@@ -50,16 +50,16 @@ int mscore;
 		/* load exact level details */
 		NSDictionary *level = [dictionary objectForKey:l];
 	
-		/*
-		self.levelName = (NSString *)[level objectForKey:@"name"];
-		self.gameType = (NSNumber *)[level objectForKey:@"mode"];
-		self.gamePlace = (NSNumber *)[level objectForKey:@"difficulty"];
-		self.minScore = (NSNumber *)[level objectForKey:@"score"];
-		*/
+		
+		levelName = (NSString *)[level objectForKey:@"name"];
+		gameType = (NSNumber *)[level objectForKey:@"mode"];
+		gamePlace = (NSNumber *)[level objectForKey:@"difficulty"];
+		minScore = (NSNumber *)[level objectForKey:@"score"];
+		
 		
 		
 		gplace = [[level objectForKey:@"difficulty"] intValue];
-		gtype = [[level objectForKey:@"mode"] intValue];
+		gtype = [gameType intValue];
 		mscore = [[level objectForKey:@"score"] intValue];
 		
 		CCSpriteFrameCache* frameCache = [CCSpriteFrameCache sharedSpriteFrameCache];

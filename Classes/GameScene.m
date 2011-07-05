@@ -15,6 +15,7 @@
 #import "Position.h"
 #import "GameOverScene.h"
 #import "Settings.h"
+#import "LevelDoneScene.h"
 
 #define kScoreboard 12
 #define kLabelR 10
@@ -369,6 +370,12 @@ static GameScene* instanceOfGameScene;
 	CCLabelTTF *time = (CCLabelTTF *)[scoreboard getChildByTag:kLabelR];
 	[time setString:scoreString];
 	
+	if (storyMode) {
+		if (score >= scoreLimit) {
+			[self newLevel];
+		}
+	}
+	
 	if (gtype == kGameModeClassic) {
 		if ((score % addLiveAfter) == 0) {
 			self.lives += 1;
@@ -511,7 +518,7 @@ static GameScene* instanceOfGameScene;
 	}
 }
 
-- (void)gameOver{
+- (void)clear{
 	[self unscheduleAllSelectors];
 	
 	int count = [moles count];
@@ -520,6 +527,26 @@ static GameScene* instanceOfGameScene;
 		Mole *mole = (Mole *)[moles randomObject];
 		[mole remove];
 	}
+}
+
+- (void)newLevel{
+	[self clear];
+	
+	Settings *settings = [Settings sharedSettings];
+	
+	int lastLevel = [settings.lastLevel intValue] + 1;
+	
+	settings.lastLevel = [NSNumber numberWithInt:lastLevel];
+	[settings saveSettings];
+	
+	LevelDoneScene *scene = [LevelDoneScene alloc];
+	[scene initWithLevel:lastLevel];
+	
+	[[CCDirector sharedDirector] replaceScene:[scene scene]];
+}
+
+- (void)gameOver{	
+	[self clear];
 	
 	GameOverScene *gameOverScene = [GameOverScene alloc];
 	
