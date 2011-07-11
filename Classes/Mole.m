@@ -76,6 +76,7 @@ CGPoint position;
 		[sae preloadEffect:@"sound_disappear.wav"];
 		[sae preloadEffect:@"sound_loop.wav"];
 		[sae preloadEffect:@"sound_hit.wav"];
+		sae.effectsVolume = settings.soundsVolume;
 		
 		appearSound = [[sae soundSourceForFile:@"sound_appear.wav"] retain];
 		disappearSound = [[sae soundSourceForFile:@"sound_disappear.wav"] retain];

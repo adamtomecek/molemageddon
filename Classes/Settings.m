@@ -43,6 +43,7 @@ static Settings *settings;
 	sae = [SimpleAudioEngine sharedEngine];
 	
 	[sae setEffectsVolume:settings.soundsVolume];
+	[sae setBackgroundMusicVolume:musicVolume];
 	
 	[sounds release];
 	[music release];
@@ -51,6 +52,9 @@ static Settings *settings;
 }
 
 - (void)saveSettings{
+	[sae setEffectsVolume:soundsVolume];
+	[sae setBackgroundMusicVolume:musicVolume];
+	
 	NSNumber *sounds = [NSNumber numberWithFloat:soundsVolume];
 	NSNumber *music = [NSNumber numberWithFloat:musicVolume];
 	

@@ -15,7 +15,7 @@
 int gameType;
 int gamePlace;
 int gScore;
-int scoreLimit;
+int scoreLimit = 0;
 
 - (id) scene
 {
@@ -47,6 +47,7 @@ int scoreLimit;
 	gameType = type;
 	gamePlace = place;
 	gScore = score;
+	scoreLimit = 0;
 	return self;
 }
 

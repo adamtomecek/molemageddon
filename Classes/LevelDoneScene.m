@@ -79,8 +79,8 @@ int levelNumber;
 		
 		/* create menu with items */
 		CCMenu *menu = [CCMenu menuWithItems:playAgainButton, mainMenuButton, nil];
-		[menu alignItemsVerticallyWithPadding:10];
-		menu.position = CGPointMake(screenSize.width / 2, 70);
+		[menu alignItemsVerticallyWithPadding:8];
+		menu.position = CGPointMake(screenSize.width / 2, 65);
 		[self addChild:menu];
 		
 		NSString *yourScore = [NSString stringWithFormat:@"You finished level"];
@@ -95,10 +95,10 @@ int levelNumber;
 		skoreLabel.color = ccc3(75, 56, 31);
 		skoreLabel.position = ccp(screenSize.width / 2, 320);
 		
-		CCLabelTTF *messageLabel = [CCLabelTTF labelWithString:message dimensions:CGSizeMake(screenSize.width * 0.65f, 100) alignment:UITextAlignmentCenter lineBreakMode:UILineBreakModeClip fontName:@"font.otf" fontSize:20];
+		CCLabelTTF *messageLabel = [CCLabelTTF labelWithString:message dimensions:CGSizeMake(screenSize.width * 0.65f, 130) alignment:UITextAlignmentCenter lineBreakMode:UILineBreakModeClip fontName:@"font.otf" fontSize:18];
 		
 		messageLabel.color = ccc3(199, 224, 43);
-		messageLabel.position = CGPointMake(screenSize.width / 2, 235);
+		messageLabel.position = CGPointMake(screenSize.width / 2, 215);
 		
 		[self addChild:messageLabel];
 		

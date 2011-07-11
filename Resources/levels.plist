@@ -7,11 +7,13 @@
 		<key>name</key>
 		<string>1-1</string>
 		<key>difficulty</key>
-		<integer>5</integer>
+		<integer>4</integer>
 		<key>mode</key>
 		<integer>1</integer>
 		<key>score</key>
 		<integer>3</integer>
+		<key>begintext</key>
+		<string>Your garden is ruined. Can you defend it against mole hordes?</string>
 		<key>text</key>
 		<string>Great start. You&apos;ve defeated your garden today!</string>
 	</dict>
@@ -20,11 +22,13 @@
 		<key>name</key>
 		<string>1-2</string>
 		<key>difficulty</key>
-		<integer>6</integer>
+		<integer>4</integer>
 		<key>mode</key>
 		<integer>2</integer>
 		<key>score</key>
 		<integer>50</integer>
+		<key>begintext</key>
+		<string>You was woken up this morning by terrifying mole noise. Will you be able to get rid of them?</string>
 		<key>text</key>
 		<string>You&apos;re getting better. Let&apos;s hope there won&apos;t be much more moles next day!</string>
 	</dict>
@@ -40,6 +44,8 @@
 		<integer>30</integer>
 		<key>text</key>
 		<string>Great start. You&apos;ve defeated your garden today!</string>
+		<key>begintext</key>
+		<string>Your garden is ruined. Can you defend it against mole hordes?</string>
 	</dict>
 	<key>4</key>
 	<dict>
@@ -53,6 +59,8 @@
 		<integer>30</integer>
 		<key>text</key>
 		<string>Great start. You&apos;ve defeated your garden today!</string>
+		<key>begintext</key>
+		<string>Your garden is ruined. Can you defend it against mole hordes?</string>
 	</dict>
 </dict>
 </plist>

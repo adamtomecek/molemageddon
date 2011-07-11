@@ -8,11 +8,11 @@
 	<real>1</real>
 	<key>LastLevel</key>
 	<integer>0</integer>
-	<key>Country</key>
-	<false/>
-	<key>Golf</key>
-	<true/>
 	<key>Garden</key>
+	<true/>
+	<key>Country</key>
+	<true/>
+	<key>Golf</key>
 	<true/>
 </dict>
 </plist>

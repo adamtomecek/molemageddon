@@ -306,9 +306,9 @@ i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m
-c000000004E1202960000000000002166
-t1309803158
-s8550
+c000000004E1789D2000000000000217C
+t1310165458
+s8572
 i"GameOverScene.h"
 i"GameScene.h"
 i"MainMenuScene.h"
@@ -321,9 +321,9 @@ i"cocos2d.h"
 i"Mole.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m
-c000000004E0F77D30000000000003D69
-t1309636563
-s15721
+c000000004E1867FF00000000000042EA
+t1310222335
+s17130
 i"GameScene.h"
 i"CCAnimationHelper.h"
 i"Tools.h"
@@ -342,9 +342,9 @@ i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/LevelDoneScene.m
-c000000004E0F7C4E00000000000010C0
-t1309637710
-s4288
+c000000004E178D1400000000000010BF
+t1310166292
+s4287
 i"LevelDoneScene.h"
 i"StoryScene.h"
 i"GameScene.h"
@@ -394,9 +394,9 @@ i"cocos2d.h"
 i"SimpleAudioEngine.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/Mole.m
-c000000004E0E0B3D0000000000001780
-t1309543229
-s6016
+c000000004E1862CC00000000000017AE
+t1310221004
+s6062
 i"Mole.h"
 i"CCAnimationHelper.h"
 i"GameScene.h"
@@ -495,9 +495,9 @@ i"cocos2d.h"
 i"SimpleAudioEngine.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.m
-c000000004E0DFAEF0000000000000ADE
-t1309539055
-s2782
+c000000004E18638C0000000000000B64
+t1310221196
+s2916
 i"Settings.h"
 i"MolemageddonAppDelegate.h"
 i"SimpleAudioEngine.h"
@@ -550,12 +550,13 @@ i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/StoryScene.m
-c000000004E0ED4630000000000000BC3
-t1309594723
-s3011
+c000000004E178CB20000000000001A52
+t1310166194
+s6738
 i"StoryScene.h"
 i"Settings.h"
 i"GameScene.h"
+i"MainMenuScene.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/Tools.h
 c000000004DFF5AB8000000000000014D
@@ -577,6 +578,16 @@ t1307535818
 s195
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
+
+N/Users/adamtomecek/Programování/Molemageddon/Resources/AllWeDid.mp3
+c000000004E186648000000000006ED03
+t1310221896
+s453891
+
+N/Users/adamtomecek/Programování/Molemageddon/Resources/BreakOfDawn.mp3
+c000000004E18670B0000000000074F2C
+t1310222091
+s479020
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/Default.png
 c000000004DEF684B00000000000077AB
@@ -628,15 +639,20 @@ c000000004DC5949A00000000000038D2
 t1304794266
 s14546
 
+N/Users/adamtomecek/Programování/Molemageddon/Resources/WhyWouldI.mp3
+c000000004E1867EA0000000000078027
+t1310222314
+s491559
+
 N/Users/adamtomecek/Programování/Molemageddon/Resources/bg_country.png
 c000000004DFDB8B400000000000165FB
 t1308473524
 s91643
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/bg_garden.png
-c000000004DB957CE000000000001DAB7
-t1303992270
-s121527
+c000000004E1567200000000000019BA8
+t1310025504
+s105384
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/bg_golf.png
 c000000004DFDB8B3000000000001BAA6
@@ -674,14 +690,14 @@ t1307372839
 s126457
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/level_done.png
-c000000004E0F72720000000000012F45
-t1309635186
-s77637
+c000000004E178C0A0000000000011128
+t1310166026
+s69928
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/levels.plist
-c000000004E0F76C20000000000000574
-t1309636290
-s1396
+c000000004E1787D30000000000000733
+t1310164947
+s1843
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu.plist
 c000000004E0F73400000000000002A97
@@ -709,9 +725,9 @@ t1308508262
 s104887
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/settings.plist
-c000000004E0E0BF2000000000000018D
-t1309543410
-s397
+c000000004E186800000000000000018C
+t1310222336
+s396
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/sound_appear.wav
 c000000004DDBFC6A0000000000004168
@@ -733,6 +749,11 @@ c000000004DDBFC990000000000028A56
 t1306262681
 s166486
 
+N/Users/adamtomecek/Programování/Molemageddon/Resources/story_mode.png
+c000000004E178AD90000000000011328
+t1310165721
+s70440
+
 N/Users/adamtomecek/Programování/Molemageddon/Resources/ui.plist
 c000000004E0C2E030000000000000DE1
 t1309421059
@@ -750,6 +771,14 @@ s1462
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app.dSYM
 t1308908397
 s102
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/AllWeDid.mp3
+t2
+s0
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/BreakOfDawn.mp3
+t2
+s0
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/Default.png
 t1307564437
@@ -810,6 +839,10 @@ s8
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/ResourceRules.plist
 t1307564436
 s485
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/WhyWouldI.mp3
+t2
+s0
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/bg_country.png
 t1308908390
@@ -906,6 +939,10 @@ s56608
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/sound_loop.wav
 t1307564443
 s166486
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/story_mode.png
+t2
+s0
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/twitter_load.png
 t1308908389
@@ -3138,6 +3175,9 @@ x/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemaged
 xResources/pozadi_menu_hlavni.png
 lSLF07#2@105"CopyPNGFile build/Debug-iphoneos/Molemageddon.app/pozadi_menu_hlavni.png Resources/pozadi_menu_hlavni.png330601187#330601189#0(0"0(0#0#81"/Users/adamtomecek/Programování/Molemageddon/Resources/pozadi_menu_hlavni.png8641069824#629"    cd /Users/adamtomecek/Programování/Molemageddon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adamtomecek/Programování/Molemageddon/Resources/pozadi_menu_hlavni.png /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/pozadi_menu_hlavni.png0#
 
+CCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/story_mode.png Resources/story_mode.png
+r0
+
 CCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/twitter_load.png libs/Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png
 s330601188.762401
 e330601189.192049
@@ -3204,6 +3244,12 @@ x/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemaged
 xResources/ui.plist
 lSLF07#2@23"Copy Resources/ui.plist330601189#330601189#0(0"0(0#0#67"/Users/adamtomecek/Programování/Molemageddon/Resources/ui.plist8639731872#404"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/ui.plist --outdir /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app0#
 
+CCpResource build/Debug-iphoneos/Molemageddon.app/AllWeDid.mp3 Resources/AllWeDid.mp3
+r0
+
+CCpResource build/Debug-iphoneos/Molemageddon.app/BreakOfDawn.mp3 Resources/BreakOfDawn.mp3
+r0
+
 CCpResource build/Debug-iphoneos/Molemageddon.app/FBDialog.bundle libs/Facebook/FBDialog.bundle
 r0
 
@@ -3215,6 +3261,9 @@ xCpResource
 xbuild/Debug-iphoneos/Molemageddon.app/ResourceRules.plist
 x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist329257236#329257236#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8657841664#519"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app0#
+
+CCpResource build/Debug-iphoneos/Molemageddon.app/WhyWouldI.mp3 Resources/WhyWouldI.mp3
+r0
 
 CCpResource build/Debug-iphoneos/Molemageddon.app/font.otf Resources/font.otf
 s329257242.909381

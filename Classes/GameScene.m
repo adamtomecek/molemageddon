@@ -106,6 +106,7 @@ static GameScene* instanceOfGameScene;
 		
 		switch (gplace) {
 			case kGamePlaceGolf:{
+				[settings.sae playBackgroundMusic:@"BreakOfDawn.mp3"];
 				settings.golf = [NSNumber numberWithInt:1];
 				
 				CCSprite *pozadi = [CCSprite spriteWithFile:@"bg_golf.png"];
@@ -199,6 +200,7 @@ static GameScene* instanceOfGameScene;
 				break;
 			}
 			case kGamePlaceCountry:{
+				[settings.sae playBackgroundMusic:@"WhyWouldI.mp3"];
 				settings.country = [NSNumber numberWithInt:1];
 				
 				CCSprite *pozadi = [CCSprite spriteWithFile:@"bg_country.png"];
@@ -275,14 +277,59 @@ static GameScene* instanceOfGameScene;
 				break;
 			}
 			case kGamePlaceGarden:{
+				[settings.sae playBackgroundMusic:@"AllWeDid.mp3"];
+				
 				settings.garden = [NSNumber numberWithInt:1];
 				
 				CCSprite *pozadi = [CCSprite spriteWithFile:@"bg_garden.png"];
 				pozadi.position = ccp([pozadi texture].contentSize.width / 2, [pozadi texture].contentSize.height / 2);
 				[self addChild:pozadi];
 				
-				positionsCount = 9;
+				positionsCount = 7;
 				[positions initWithCapacity:positionsCount];
+				
+				Position *p1 = [Position new];
+				p1.position = CGPointMake(120, 107);
+				p1.scale = 1.0f;
+				p1.free = YES;
+				
+				Position *p2 = [Position new];
+				p2.position = CGPointMake(255, 126);
+				p2.scale = 1.0f;
+				p2.free = YES;
+				
+				Position *p3 = [Position new];
+				p3.position = CGPointMake(185, 201);
+				p3.scale = 1.0f;
+				p3.free = YES;
+				
+				Position *p4 = [Position new];
+				p4.position = CGPointMake(134, 300);
+				p4.scale = 0.8f;
+				p4.free = YES;
+				
+				Position *p5 = [Position new];
+				p5.position = CGPointMake(243, 329);
+				p5.scale = 0.6f;
+				p5.free = YES;
+				
+				Position *p6 = [Position new];
+				p6.position = CGPointMake(89, 346);
+				p6.scale = 0.4f;
+				p6.free = YES;
+				
+				Position *p7 = [Position new];
+				p7.position = CGPointMake(181, 356);
+				p7.scale = 0.4f;
+				p7.free = YES;
+				
+				[positions addObject:p1];
+				[positions addObject:p2];
+				[positions addObject:p3];
+				[positions addObject:p4];
+				[positions addObject:p5];
+				[positions addObject:p6];
+				[positions addObject:p7];
 				
 				moleLimit = 3;
 				
@@ -323,7 +370,7 @@ static GameScene* instanceOfGameScene;
 				break;
 		}
 		
-		[self createScoreboard];
+			//[self createScoreboard];
 		
 		moles = [[CCArray alloc] initWithCapacity:moleLimit];
 		
@@ -344,8 +391,8 @@ static GameScene* instanceOfGameScene;
 		}
 		 
 		
-		
 		/*
+		
 		for (int i = 0; i < positionsCount; i++) {
 			Position *p = [positions objectAtIndex:i];
 			
@@ -372,7 +419,8 @@ static GameScene* instanceOfGameScene;
 	
 	if (storyMode) {
 		if (score >= scoreLimit) {
-			[self newLevel];
+			[self unscheduleAllSelectors];
+			[self schedule:@selector(newLevel) interval:1.0f];
 		}
 	}
 	
@@ -519,6 +567,7 @@ static GameScene* instanceOfGameScene;
 }
 
 - (void)clear{
+	[[Settings sharedSettings].sae stopBackgroundMusic];
 	[self unscheduleAllSelectors];
 	
 	int count = [moles count];
