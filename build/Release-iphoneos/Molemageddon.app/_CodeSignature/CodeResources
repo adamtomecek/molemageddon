@@ -106,7 +106,7 @@
 		</data>
 		<key>game_over-hd.png</key>
 		<data>
-		qd8qG6hgan0D81bDs2LrdgKUQvQ=
+		5mHSYNlpKcFYUFhdiK5mqtgahDM=
 		</data>
 		<key>game_over.png</key>
 		<data>
@@ -158,11 +158,11 @@
 		</data>
 		<key>menu-hd.plist</key>
 		<data>
-		HOd3/Iz/H75mSXRqgZAeGonbvlQ=
+		0NnsEExhmDXUgLxSxQnqeoX/qWg=
 		</data>
 		<key>menu-hd.png</key>
 		<data>
-		107O5y4kQ7w1JdoxdPu9ctHyQik=
+		B8i7bX3HGjqgYkNfNp3RIagucow=
 		</data>
 		<key>menu.plist</key>
 		<data>
@@ -171,6 +171,14 @@
 		<key>menu.png</key>
 		<data>
 		NXCUiXrqCe9qjLf5YkUoGGGM7tA=
+		</data>
+		<key>pause-hd.png</key>
+		<data>
+		Q4wh4DdipzTn1GrXEJUfZbGwLZA=
+		</data>
+		<key>pause.png</key>
+		<data>
+		mAZSGpz67vdgJpJLeYAIWMtHU5k=
 		</data>
 		<key>pozadi_menu-hd.png</key>
 		<data>
@@ -219,6 +227,14 @@
 		<key>twitter_load.png</key>
 		<data>
 		AKiI05ikI41r8idbjryeJgpUExA=
+		</data>
+		<key>ui-hd.plist</key>
+		<data>
+		4b353HAL2KYFVuN2XIO/9W4o9gs=
+		</data>
+		<key>ui-hd.png</key>
+		<data>
+		svIHBlMkO29kuQRev8EMuRkKPHI=
 		</data>
 		<key>ui.plist</key>
 		<data>

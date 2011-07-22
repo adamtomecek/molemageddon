@@ -23,6 +23,7 @@
 #define kLabelR 10
 #define kLabelL 11
 #define kPauseMenu 13
+#define kPauseBackground 14
 
 // HelloWorld implementation
 @implementation GameScene
@@ -480,15 +481,19 @@ static GameScene* instanceOfGameScene;
 	CGSize screenSize = [[CCDirector sharedDirector] winSize];
 	
 	CCSprite *scoreboard = [CCSprite spriteWithSpriteFrameName:@"scoreboard1.png"];
+	
+	CCSprite *scoreboard1 = [CCSprite spriteWithSpriteFrameName:@"scoreboard1.png"];
 	CCSprite *scoreboard2 = [CCSprite spriteWithSpriteFrameName:@"scoreboard1.png"];
 	
-	CCMenuItemSprite *pauseButton = [CCMenuItemSprite itemFromNormalSprite:scoreboard selectedSprite:scoreboard2 target:self selector:@selector(pause)];
+	CCMenuItemSprite *pauseButton = [CCMenuItemSprite itemFromNormalSprite:scoreboard1 selectedSprite:scoreboard2 target:self selector:@selector(pause)];
 	
 	CCMenu *pauseMenu = [CCMenu menuWithItems:pauseButton, nil];
 	
 	pauseMenu.position = ccp(screenSize.width / 2, screenSize.height - [scoreboard contentSize].height / 2);
+	scoreboard.position = ccp(screenSize.width / 2, screenSize.height - [scoreboard contentSize].height / 2);
 	
-	[self addChild:pauseMenu z:3 tag:kScoreboard];
+	[self addChild:scoreboard z:5 tag:kScoreboard];
+	[self addChild:pauseMenu z:4];
 	
 	switch (gtype) {
 		case kGameModeMoleMadness:{
@@ -539,6 +544,13 @@ static GameScene* instanceOfGameScene;
 
 - (void) pause{
 	if (!paused) {
+		CCSprite *pauseBackground = [CCSprite spriteWithFile:@"pause.png"];
+		CGSize screenSize = [[CCDirector sharedDirector] winSize];
+		
+		pauseBackground.position = ccp(screenSize.width / 2, screenSize.height / 2);
+		
+		[self addChild:pauseBackground z:2 tag:kPauseBackground];
+		
 		[[CCDirector sharedDirector] pause];
 		
 		CCLayer *pauseMenu = [PauseMenu node];
@@ -558,6 +570,7 @@ static GameScene* instanceOfGameScene;
 
 - (void) pauseOver{
 	[self removeChildByTag:kPauseMenu cleanup:YES];
+	[self removeChildByTag:kPauseBackground cleanup:YES];
 	[[CCDirector sharedDirector] resume];
 	Settings *settings = [Settings sharedSettings];
 	[settings.sae resumeBackgroundMusic];
@@ -644,7 +657,11 @@ static GameScene* instanceOfGameScene;
 	
 	GameOverScene *gameOverScene = [GameOverScene alloc];
 	
-	[gameOverScene initWithScore:score gameType:gtype gamePlace:gplace];
+	if (scoreLimit > 0) {
+		[gameOverScene initWithScoreLimit:score gameType:gtype gamePlace:gplace scoreLimit:scoreLimit];
+	}else {
+		[gameOverScene initWithScore:score gameType:gtype gamePlace:gplace];
+	}
 	
 	[[CCDirector sharedDirector] replaceScene:[gameOverScene scene]];
 }

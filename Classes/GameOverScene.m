@@ -35,7 +35,7 @@ int scoreLimit = 0;
 	return scene;
 }
 
-- (id) initWithScore:(int)score gameType:(int)type gamePlace:(int)place scoreLimit:(int)minScore{
+- (id) initWithScoreLimit:(int)score gameType:(int)type gamePlace:(int)place scoreLimit:(int)minScore{
 	gameType = type;
 	gamePlace = place;
 	gScore = score;

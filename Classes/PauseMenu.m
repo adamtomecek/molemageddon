@@ -47,7 +47,7 @@ BOOL settingsOpen = NO;
 		
 		
 		CCMenu *menu = [CCMenu menuWithItems:continueButton, settingsButton, mainmenuButton, nil];
-		[menu alignItemsVerticallyWithPadding:20];
+		[menu alignItemsVerticallyWithPadding:8];
 		
 		CGSize screenSize = [[CCDirector sharedDirector] winSize];
 		menu.position = CGPointMake(screenSize.width / 2, 300);
