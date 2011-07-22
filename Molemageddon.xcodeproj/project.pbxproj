@@ -91,6 +91,19 @@
 		C25C6D9313AB80E500FDF93C /* OAuthTwitterDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C25C6D9113AB80E500FDF93C /* OAuthTwitterDemo-Info.plist */; };
 		C25C6D9413AB80E500FDF93C /* OAuthTwitterDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25C6D9213AB80E500FDF93C /* OAuthTwitterDemoViewController.xib */; };
 		C25C6DA413AB847500FDF93C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25C6DA313AB847500FDF93C /* MainWindow.xib */; };
+		C26AE52513D4C50600704DBD /* pozadi_menu_hlavni-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE52413D4C50600704DBD /* pozadi_menu_hlavni-hd.png */; };
+		C26AE52A13D4C70700704DBD /* menu-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = C26AE52813D4C70700704DBD /* menu-hd.plist */; };
+		C26AE52B13D4C70700704DBD /* menu-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE52913D4C70700704DBD /* menu-hd.png */; };
+		C26AE53513D4C79F00704DBD /* bg_country-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE52E13D4C79F00704DBD /* bg_country-hd.png */; };
+		C26AE53613D4C79F00704DBD /* bg_garden-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE52F13D4C79F00704DBD /* bg_garden-hd.png */; };
+		C26AE53713D4C79F00704DBD /* bg_golf-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE53013D4C79F00704DBD /* bg_golf-hd.png */; };
+		C26AE53813D4C79F00704DBD /* game_over-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE53113D4C79F00704DBD /* game_over-hd.png */; };
+		C26AE53913D4C79F00704DBD /* level_done-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE53213D4C79F00704DBD /* level_done-hd.png */; };
+		C26AE53A13D4C79F00704DBD /* pozadi_menu-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE53313D4C79F00704DBD /* pozadi_menu-hd.png */; };
+		C26AE53B13D4C79F00704DBD /* story_mode-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE53413D4C79F00704DBD /* story_mode-hd.png */; };
+		C26AE54213D4C91A00704DBD /* krtci-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = C26AE54013D4C91A00704DBD /* krtci-hd.plist */; };
+		C26AE54313D4C91A00704DBD /* krtci-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE54113D4C91A00704DBD /* krtci-hd.png */; };
+		C281388813D8A9E300E38027 /* PauseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C281388713D8A9E300E38027 /* PauseMenu.m */; };
 		C2A9644813AA2C7700AABD5F /* PlayMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A9644713AA2C7700AABD5F /* PlayMenuScene.m */; };
 		C2A967A313AA801F00AABD5F /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2A967A213AA801F00AABD5F /* settings.plist */; };
 		C2A967A613AA8B3600AABD5F /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A967A513AA8B3600AABD5F /* Settings.m */; };
@@ -105,6 +118,15 @@
 		C2B5583513AE781A00C0232C /* bg_golf.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B5583313AE781A00C0232C /* bg_golf.png */; };
 		C2B558CA13AF377100C0232C /* bg_garden.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B558C913AF377100C0232C /* bg_garden.png */; };
 		C2B558D513AF394B00C0232C /* Position.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B558D413AF394B00C0232C /* Position.m */; };
+		C2CBFE7013CAE4AC0011ECE0 /* CCVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CBFE6A13CAE4AC0011ECE0 /* CCVideoPlayer.m */; };
+		C2CBFE7113CAE4AC0011ECE0 /* CCVideoPlayerImpliOS.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CBFE6D13CAE4AC0011ECE0 /* CCVideoPlayerImpliOS.m */; };
+		C2CBFE7213CAE4AC0011ECE0 /* videoOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CBFE6F13CAE4AC0011ECE0 /* videoOverlayView.m */; };
+		C2CBFE7413CAE4B90011ECE0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CBFE7313CAE4B90011ECE0 /* MediaPlayer.framework */; };
+		C2CBFE8813CAE4F50011ECE0 /* CCVideoPlayerImplMac.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CBFE8413CAE4F50011ECE0 /* CCVideoPlayerImplMac.m */; };
+		C2CBFE8913CAE4F50011ECE0 /* CustomVideoView.nib in Resources */ = {isa = PBXBuildFile; fileRef = C2CBFE8513CAE4F50011ECE0 /* CustomVideoView.nib */; };
+		C2CBFE8A13CAE4F50011ECE0 /* MyMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CBFE8713CAE4F50011ECE0 /* MyMovieView.m */; };
+		C2CBFE9413CAE5710011ECE0 /* intro.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C2CBFE9313CAE5710011ECE0 /* intro.m4v */; };
+		C2CBFEF813CAED6A0011ECE0 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CBFEF713CAED6A0011ECE0 /* MovieViewController.m */; };
 		C2D4A250139FA16B0057D8CF /* CCAnimationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A243139FA16B0057D8CF /* CCAnimationHelper.m */; };
 		C2D4A251139FA16B0057D8CF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A245139FA16B0057D8CF /* GameScene.m */; };
 		C2D4A252139FA16B0057D8CF /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4A247139FA16B0057D8CF /* MainMenuScene.m */; };
@@ -468,6 +490,20 @@
 		C25C6D9113AB80E500FDF93C /* OAuthTwitterDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OAuthTwitterDemo-Info.plist"; sourceTree = "<group>"; };
 		C25C6D9213AB80E500FDF93C /* OAuthTwitterDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OAuthTwitterDemoViewController.xib; sourceTree = "<group>"; };
 		C25C6DA313AB847500FDF93C /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C26AE52413D4C50600704DBD /* pozadi_menu_hlavni-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pozadi_menu_hlavni-hd.png"; sourceTree = "<group>"; };
+		C26AE52813D4C70700704DBD /* menu-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "menu-hd.plist"; sourceTree = "<group>"; };
+		C26AE52913D4C70700704DBD /* menu-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-hd.png"; sourceTree = "<group>"; };
+		C26AE52E13D4C79F00704DBD /* bg_country-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_country-hd.png"; sourceTree = "<group>"; };
+		C26AE52F13D4C79F00704DBD /* bg_garden-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_garden-hd.png"; sourceTree = "<group>"; };
+		C26AE53013D4C79F00704DBD /* bg_golf-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_golf-hd.png"; sourceTree = "<group>"; };
+		C26AE53113D4C79F00704DBD /* game_over-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game_over-hd.png"; sourceTree = "<group>"; };
+		C26AE53213D4C79F00704DBD /* level_done-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "level_done-hd.png"; sourceTree = "<group>"; };
+		C26AE53313D4C79F00704DBD /* pozadi_menu-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pozadi_menu-hd.png"; sourceTree = "<group>"; };
+		C26AE53413D4C79F00704DBD /* story_mode-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "story_mode-hd.png"; sourceTree = "<group>"; };
+		C26AE54013D4C91A00704DBD /* krtci-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "krtci-hd.plist"; sourceTree = "<group>"; };
+		C26AE54113D4C91A00704DBD /* krtci-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "krtci-hd.png"; sourceTree = "<group>"; };
+		C281388613D8A9E300E38027 /* PauseMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseMenu.h; sourceTree = "<group>"; };
+		C281388713D8A9E300E38027 /* PauseMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseMenu.m; sourceTree = "<group>"; };
 		C2A9644613AA2C7700AABD5F /* PlayMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayMenuScene.h; sourceTree = "<group>"; };
 		C2A9644713AA2C7700AABD5F /* PlayMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayMenuScene.m; sourceTree = "<group>"; };
 		C2A967A213AA801F00AABD5F /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
@@ -487,6 +523,21 @@
 		C2B558C913AF377100C0232C /* bg_garden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_garden.png; sourceTree = "<group>"; };
 		C2B558D313AF394B00C0232C /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
 		C2B558D413AF394B00C0232C /* Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Position.m; sourceTree = "<group>"; };
+		C2CBFE6913CAE4AC0011ECE0 /* CCVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVideoPlayer.h; sourceTree = "<group>"; };
+		C2CBFE6A13CAE4AC0011ECE0 /* CCVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVideoPlayer.m; sourceTree = "<group>"; };
+		C2CBFE6C13CAE4AC0011ECE0 /* CCVideoPlayerImpliOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVideoPlayerImpliOS.h; sourceTree = "<group>"; };
+		C2CBFE6D13CAE4AC0011ECE0 /* CCVideoPlayerImpliOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVideoPlayerImpliOS.m; sourceTree = "<group>"; };
+		C2CBFE6E13CAE4AC0011ECE0 /* videoOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoOverlayView.h; sourceTree = "<group>"; };
+		C2CBFE6F13CAE4AC0011ECE0 /* videoOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoOverlayView.m; sourceTree = "<group>"; };
+		C2CBFE7313CAE4B90011ECE0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C2CBFE8313CAE4F50011ECE0 /* CCVideoPlayerImplMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVideoPlayerImplMac.h; sourceTree = "<group>"; };
+		C2CBFE8413CAE4F50011ECE0 /* CCVideoPlayerImplMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVideoPlayerImplMac.m; sourceTree = "<group>"; };
+		C2CBFE8513CAE4F50011ECE0 /* CustomVideoView.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = CustomVideoView.nib; sourceTree = "<group>"; };
+		C2CBFE8613CAE4F50011ECE0 /* MyMovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMovieView.h; sourceTree = "<group>"; };
+		C2CBFE8713CAE4F50011ECE0 /* MyMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMovieView.m; sourceTree = "<group>"; };
+		C2CBFE9313CAE5710011ECE0 /* intro.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro.m4v; sourceTree = "<group>"; };
+		C2CBFEF613CAED6A0011ECE0 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		C2CBFEF713CAED6A0011ECE0 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
 		C2D4A242139FA16B0057D8CF /* CCAnimationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAnimationHelper.h; sourceTree = "<group>"; };
 		C2D4A243139FA16B0057D8CF /* CCAnimationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAnimationHelper.m; sourceTree = "<group>"; };
 		C2D4A244139FA16B0057D8CF /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
@@ -722,6 +773,7 @@
 				506EE1A91030508200A389B3 /* libcocos2d libraries.a in Frameworks */,
 				C25C6A9D13AB580300FDF93C /* libOAuth.a in Frameworks */,
 				C25C6BF413AB63FB00FDF93C /* libxml2.dylib in Frameworks */,
+				C2CBFE7413CAE4B90011ECE0 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -754,6 +806,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				C2CBFE6813CAE4AC0011ECE0 /* ccvideo */,
 				C208125413BDC7BC00073B17 /* Facebook */,
 				C25C6BF313AB63FB00FDF93C /* libxml2.dylib */,
 				C25C6A5F13AB580300FDF93C /* Twitter+OAuth */,
@@ -790,6 +843,7 @@
 				DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */,
 				506EDB87102F4C4000A389B3 /* libz.dylib */,
 				506EDBA4102F4C9F00A389B3 /* AVFoundation.framework */,
+				C2CBFE7313CAE4B90011ECE0 /* MediaPlayer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -834,6 +888,10 @@
 				C20813FD13BE407C00073B17 /* StoryScene.m */,
 				C23E58CE13BFA8A800C75D2F /* LevelDoneScene.h */,
 				C23E58CF13BFA8A800C75D2F /* LevelDoneScene.m */,
+				C2CBFEF613CAED6A0011ECE0 /* MovieViewController.h */,
+				C2CBFEF713CAED6A0011ECE0 /* MovieViewController.m */,
+				C281388613D8A9E300E38027 /* PauseMenu.h */,
+				C281388713D8A9E300E38027 /* PauseMenu.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -903,6 +961,19 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C26AE54013D4C91A00704DBD /* krtci-hd.plist */,
+				C26AE54113D4C91A00704DBD /* krtci-hd.png */,
+				C26AE52E13D4C79F00704DBD /* bg_country-hd.png */,
+				C26AE52F13D4C79F00704DBD /* bg_garden-hd.png */,
+				C26AE53013D4C79F00704DBD /* bg_golf-hd.png */,
+				C26AE53113D4C79F00704DBD /* game_over-hd.png */,
+				C26AE53213D4C79F00704DBD /* level_done-hd.png */,
+				C26AE53313D4C79F00704DBD /* pozadi_menu-hd.png */,
+				C26AE53413D4C79F00704DBD /* story_mode-hd.png */,
+				C26AE52813D4C70700704DBD /* menu-hd.plist */,
+				C26AE52913D4C70700704DBD /* menu-hd.png */,
+				C26AE52413D4C50600704DBD /* pozadi_menu_hlavni-hd.png */,
+				C2CBFE9313CAE5710011ECE0 /* intro.m4v */,
 				C2ABFAB313C89F6E003ADE65 /* WhyWouldI.mp3 */,
 				C2ABFAAE13C89E91003ADE65 /* BreakOfDawn.mp3 */,
 				C2ABFAA713C89C88003ADE65 /* AllWeDid.mp3 */,
@@ -1086,6 +1157,41 @@
 				C25C6A9A13AB580300FDF93C /* twitter_load.png */,
 			);
 			path = SAOAuthTwitterEngine;
+			sourceTree = "<group>";
+		};
+		C2CBFE6813CAE4AC0011ECE0 /* ccvideo */ = {
+			isa = PBXGroup;
+			children = (
+				C2CBFE8213CAE4F50011ECE0 /* Mac */,
+				C2CBFE6913CAE4AC0011ECE0 /* CCVideoPlayer.h */,
+				C2CBFE6A13CAE4AC0011ECE0 /* CCVideoPlayer.m */,
+				C2CBFE6B13CAE4AC0011ECE0 /* iOS */,
+			);
+			name = ccvideo;
+			path = libs/ccvideo;
+			sourceTree = "<group>";
+		};
+		C2CBFE6B13CAE4AC0011ECE0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C2CBFE6C13CAE4AC0011ECE0 /* CCVideoPlayerImpliOS.h */,
+				C2CBFE6D13CAE4AC0011ECE0 /* CCVideoPlayerImpliOS.m */,
+				C2CBFE6E13CAE4AC0011ECE0 /* videoOverlayView.h */,
+				C2CBFE6F13CAE4AC0011ECE0 /* videoOverlayView.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		C2CBFE8213CAE4F50011ECE0 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				C2CBFE8313CAE4F50011ECE0 /* CCVideoPlayerImplMac.h */,
+				C2CBFE8413CAE4F50011ECE0 /* CCVideoPlayerImplMac.m */,
+				C2CBFE8513CAE4F50011ECE0 /* CustomVideoView.nib */,
+				C2CBFE8613CAE4F50011ECE0 /* MyMovieView.h */,
+				C2CBFE8713CAE4F50011ECE0 /* MyMovieView.m */,
+			);
+			path = Mac;
 			sourceTree = "<group>";
 		};
 		E02BB764126CC223006E46A2 /* cocos2d */ = {
@@ -1569,6 +1675,20 @@
 				C2ABFAA813C89C88003ADE65 /* AllWeDid.mp3 in Resources */,
 				C2ABFAAF13C89E91003ADE65 /* BreakOfDawn.mp3 in Resources */,
 				C2ABFAB413C89F6E003ADE65 /* WhyWouldI.mp3 in Resources */,
+				C2CBFE8913CAE4F50011ECE0 /* CustomVideoView.nib in Resources */,
+				C2CBFE9413CAE5710011ECE0 /* intro.m4v in Resources */,
+				C26AE52513D4C50600704DBD /* pozadi_menu_hlavni-hd.png in Resources */,
+				C26AE52A13D4C70700704DBD /* menu-hd.plist in Resources */,
+				C26AE52B13D4C70700704DBD /* menu-hd.png in Resources */,
+				C26AE53513D4C79F00704DBD /* bg_country-hd.png in Resources */,
+				C26AE53613D4C79F00704DBD /* bg_garden-hd.png in Resources */,
+				C26AE53713D4C79F00704DBD /* bg_golf-hd.png in Resources */,
+				C26AE53813D4C79F00704DBD /* game_over-hd.png in Resources */,
+				C26AE53913D4C79F00704DBD /* level_done-hd.png in Resources */,
+				C26AE53A13D4C79F00704DBD /* pozadi_menu-hd.png in Resources */,
+				C26AE53B13D4C79F00704DBD /* story_mode-hd.png in Resources */,
+				C26AE54213D4C91A00704DBD /* krtci-hd.plist in Resources */,
+				C26AE54313D4C91A00704DBD /* krtci-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1624,6 +1744,13 @@
 				C208127B13BDC7BD00073B17 /* SBJsonWriter.m in Sources */,
 				C20813FE13BE407C00073B17 /* StoryScene.m in Sources */,
 				C23E58D013BFA8A800C75D2F /* LevelDoneScene.m in Sources */,
+				C2CBFE7013CAE4AC0011ECE0 /* CCVideoPlayer.m in Sources */,
+				C2CBFE7113CAE4AC0011ECE0 /* CCVideoPlayerImpliOS.m in Sources */,
+				C2CBFE7213CAE4AC0011ECE0 /* videoOverlayView.m in Sources */,
+				C2CBFE8813CAE4F50011ECE0 /* CCVideoPlayerImplMac.m in Sources */,
+				C2CBFE8A13CAE4F50011ECE0 /* MyMovieView.m in Sources */,
+				C2CBFEF813CAED6A0011ECE0 /* MovieViewController.m in Sources */,
+				C281388813D8A9E300E38027 /* PauseMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1824,7 +1951,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Adam Tomecek";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Adam Tomecek (S3634P54H6)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					DEBUG,
@@ -1840,7 +1967,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F519A75E-0ED5-4170-A5E8-CEFB279FC252";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D556FECB-F522-4DDF-8E07-899A8910E566";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
@@ -1852,7 +1979,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Adam Tomecek";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Adam Tomecek (S3634P54H6)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NS_BLOCK_ASSERTIONS,
@@ -1867,7 +1994,7 @@
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F519A75E-0ED5-4170-A5E8-CEFB279FC252";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D556FECB-F522-4DDF-8E07-899A8910E566";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";

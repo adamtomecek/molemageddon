@@ -12,6 +12,10 @@
 		<data>
 		QKOL4H9EVFKRg/bVygrvAYfYBag=
 		</data>
+		<key>CustomVideoView.nib</key>
+		<data>
+		/WgWd3sUqwBnpBKvkPqbbB4ZLNI=
+		</data>
 		<key>Default.png</key>
 		<data>
 		GMnDY+7MpXsYdu29GbRE4rbJ1RM=
@@ -64,13 +68,25 @@
 		<data>
 		YDjz/FV94d3Eu5PijP/QVRLTrUQ=
 		</data>
+		<key>bg_country-hd.png</key>
+		<data>
+		SA8OmaV44OrxQmzeJr44YsCvgvY=
+		</data>
 		<key>bg_country.png</key>
 		<data>
 		sJdPP6m/Jx9yzLH3cnWq1ZNOT6s=
 		</data>
+		<key>bg_garden-hd.png</key>
+		<data>
+		TEi/eL4fr6XDj1h620WkXQKgBRg=
+		</data>
 		<key>bg_garden.png</key>
 		<data>
 		leV7YtDWc0S0Iclmc7qI4rTDUXQ=
+		</data>
+		<key>bg_golf-hd.png</key>
+		<data>
+		syUMSlQB1KOpw8WZ8SY4cyrT9TU=
 		</data>
 		<key>bg_golf.png</key>
 		<data>
@@ -78,7 +94,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		xlxGZu+mu7/FhwGNPuLzckzt/+c=
+		AnZKNVErPe1tkgbfdWHE8sOCf7A=
 		</data>
 		<key>font.otf</key>
 		<data>
@@ -88,6 +104,10 @@
 		<data>
 		df+X61fyIPq6c17u1Duc22Sp4Hs=
 		</data>
+		<key>game_over-hd.png</key>
+		<data>
+		+SyjxU+iPbjonJxRR4AGLcjo4fk=
+		</data>
 		<key>game_over.png</key>
 		<data>
 		k8hi9SkuCHTBvbeAp8FV50GQoGk=
@@ -95,6 +115,10 @@
 		<key>iTunesArtwork</key>
 		<data>
 		aUHj5b3DvHdve2xdq/f8Xa45Noo=
+		</data>
+		<key>intro.m4v</key>
+		<data>
+		LUy2NsNJ9KBktu0Rsd+cLPLwRME=
 		</data>
 		<key>jQueryInject.txt</key>
 		<data>
@@ -104,6 +128,14 @@
 		<data>
 		5e9ciCfcuUsw+8TrupSR3Ae0TtE=
 		</data>
+		<key>krtci-hd.plist</key>
+		<data>
+		nifjkwG7QxiWdcEkGnsj6dvCWwY=
+		</data>
+		<key>krtci-hd.png</key>
+		<data>
+		xaIr073znFdDjX7tAdwVBZTldQw=
+		</data>
 		<key>krtci.plist</key>
 		<data>
 		J/LKla+h5jj7pUBH4H/3cAcDkU8=
@@ -111,6 +143,10 @@
 		<key>krtci.png</key>
 		<data>
 		8h5mMxeHn+jAH7qvsgO9Gt2oDk4=
+		</data>
+		<key>level_done-hd.png</key>
+		<data>
+		MlfN7Gw0bAig4v0Pmv/YB/t4EcA=
 		</data>
 		<key>level_done.png</key>
 		<data>
@@ -120,6 +156,14 @@
 		<data>
 		TvmoPUK9m5SUEIlzXjKp2PCuR9A=
 		</data>
+		<key>menu-hd.plist</key>
+		<data>
+		+K4fm6v7TuOexCV28OGxmHkeW4E=
+		</data>
+		<key>menu-hd.png</key>
+		<data>
+		a9tlPmzCcW/Reg9F1V/qykBpC7c=
+		</data>
 		<key>menu.plist</key>
 		<data>
 		inmV+LIgz7dpiXtEOmyz0qUKVlM=
@@ -128,9 +172,17 @@
 		<data>
 		XJITxXCeY5na92uKItgYuAZDEEo=
 		</data>
+		<key>pozadi_menu-hd.png</key>
+		<data>
+		5mxuNC4deAEDUROwEiDx6/+lZlA=
+		</data>
 		<key>pozadi_menu.png</key>
 		<data>
 		WHYo8/X9IefaoDk/pL+KDY14JAg=
+		</data>
+		<key>pozadi_menu_hlavni-hd.png</key>
+		<data>
+		mKqtQO35RpYaLn1+S6tcrqwJT18=
 		</data>
 		<key>pozadi_menu_hlavni.png</key>
 		<data>
@@ -138,7 +190,7 @@
 		</data>
 		<key>settings.plist</key>
 		<data>
-		igACHxacfxE3ZuhiIdAgJA0rX8g=
+		J9R0Dg4qNL0osVuxoAR24zrtw3U=
 		</data>
 		<key>sound_appear.wav</key>
 		<data>
@@ -155,6 +207,10 @@
 		<key>sound_loop.wav</key>
 		<data>
 		Il37Y8zZ9DV6Zx2hC6OKIDmFRac=
+		</data>
+		<key>story_mode-hd.png</key>
+		<data>
+		oDqswiYUP6CyN1YmO1iD5nZ3IW8=
 		</data>
 		<key>story_mode.png</key>
 		<data>

@@ -1,0 +1,2 @@
+/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m: In function '-[MolemageddonAppDelegate applicationDidFinishLaunching:]':
+/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m:122: warning: unused variable 'settings'

@@ -39,6 +39,7 @@ static Settings *settings;
 	country = [dictionary objectForKey:@"Country"];
 	garden = [dictionary objectForKey:@"Garden"];
 	lastLevel = [dictionary objectForKey:@"LastLevel"];
+	intro = [dictionary objectForKey:@"Intro"];
 	
 	sae = [SimpleAudioEngine sharedEngine];
 	
@@ -68,6 +69,7 @@ static Settings *settings;
 	[dictionary setValue:self.country forKey:@"Country"];
 	[dictionary setValue:self.garden forKey:@"Garden"];
 	[dictionary setValue:self.lastLevel forKey:@"LastLevel"];
+	[dictionary setValue:self.intro forKey:@"Intro"];
 	
 	[dictionary writeToFile:path atomically:YES];
 
@@ -99,6 +101,10 @@ static Settings *settings;
 	lastLevel = set;
 }
 
+- (void)setIntro:(NSNumber *)set{
+	intro = set;
+}
+
 - (NSNumber *)golf{
 	return golf;
 }
@@ -121,6 +127,10 @@ static Settings *settings;
 
 - (float)musicVolume{
 	return musicVolume;
+}
+
+- (NSNumber *)intro{
+	return intro;
 }
 
 - (void) dealloc{

@@ -17,6 +17,11 @@
 #define kKrtekHelma 2
 #define kKrtekLopata 3
 
+#define kAppearSound 40
+#define kLoopSound 41
+#define kDisappearSound 42
+#define kHitSound 43
+
 
 int lives;
 bool isActive;
@@ -91,6 +96,7 @@ CGPoint position;
 - (void)runAppearAnim{
 	self.isActive = NO;
 	self.beenHit = NO;
+	lastSound = kAppearSound;
 	
 	NSString *animName = [NSString stringWithFormat:@"krt_objev_%i_", self.moleType];
 	
@@ -106,6 +112,7 @@ CGPoint position;
 }
 
 - (void)runLoopAnim{	
+	lastSound = kLoopSound;
 	isActive = YES;
 	
 	NSString *animName = [NSString stringWithFormat:@"krt_loop_%i_", self.moleType];
@@ -129,6 +136,7 @@ CGPoint position;
 }
 
 - (void) runHitAnim{
+	lastSound = kHitSound;
 	isActive = NO;
 	
 	[self stopAllActions];
@@ -160,6 +168,7 @@ CGPoint position;
 
 - (void) runDisappearAnim{
 	isActive = NO;
+	lastSound = kDisappearSound;
 	
 	[self stopAllActions];
 		//[[CCScheduler sharedScheduler] unscheduleAllSelectorsForTarget:self];
@@ -195,6 +204,33 @@ CGPoint position;
 	[self unscheduleAllSelectors];
 	[GameScene deleteFromArray:self pos:self.posIndex];
 	[self removeFromParentAndCleanup:YES];
+}
+
+- (void) stopSounds{
+	[appearSound pause];
+	[loopSound pause];
+	[disappearSound pause];
+	[hitSound pause];
+}
+
+- (void) continueSounds{
+	switch (lastSound) {
+		case kAppearSound:
+			[appearSound play];
+			break;
+		case kLoopSound:
+			[loopSound play];
+			break;
+		case kDisappearSound:
+			[disappearSound play];
+			break;
+		case kHitSound:
+			[hitSound play];
+			break;
+
+		default:
+			break;
+	}
 }
 
 - (int)moleType{

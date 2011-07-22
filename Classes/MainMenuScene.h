@@ -8,10 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
+#import "MovieViewController.h"
 
 @interface MainMenuScene : CCLayer {
-
+	MovieViewController *videoController;
 }
+
+@property (readwrite, retain) MovieViewController *videoController;
 
 + (id) scene;
 

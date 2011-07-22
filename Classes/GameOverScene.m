@@ -198,17 +198,17 @@ int scoreLimit = 0;
 
 - (void) facebookShare{
 	id appDelegate = [[UIApplication sharedApplication] delegate];
-	NSString *message = [NSString stringWithFormat:@"I've just ousted %d moles in iPhone game Molemageddon. Can you do better?", gScore];
+	NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in iPhone game Molemageddon. Can you do better?", gScore];
 	[appDelegate facebookAccountLogin:message];
 }
 
 - (void) twitterShare{
 	if ([[NSUserDefaults standardUserDefaults] objectForKey: @"authData"] == nil) {	
-		NSString *message = [NSString stringWithFormat:@"I've just ousted %d moles in Molemageddon", gScore];
+		NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in Molemageddon", gScore];
 		id appDelegate = [[UIApplication sharedApplication] delegate];
 		[appDelegate twitterAccountLogin:message];
 	}else {
-		NSString *message = [NSString stringWithFormat:@"I've just ousted %d moles in Molemageddon", gScore];
+		NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in Molemageddon", gScore];
 		id appDelegate = [[UIApplication sharedApplication] delegate];
 		[appDelegate sendUpdate:message];
 	}

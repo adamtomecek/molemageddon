@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>krt_loop_1_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{440, 2}, {144, 132}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{28, 34}, {144, 132}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_loop_2_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 2}, {144, 150}}</string>
+			<key>offset</key>
+			<string>{0, 8}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{28, 17}, {144, 150}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_loop_3_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 154}, {164, 132}}</string>
+			<key>offset</key>
+			<string>{8, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{26, 32}, {164, 132}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_1_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 388}, {104, 50}}</string>
+			<key>offset</key>
+			<string>{1, -28}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{49, 103}, {104, 50}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_1_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{898, 2}, {120, 80}}</string>
+			<key>offset</key>
+			<string>{8, -19}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{48, 79}, {120, 80}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_1_3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{568, 288}, {132, 86}}</string>
+			<key>offset</key>
+			<string>{7, -17}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{41, 74}, {132, 86}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_1_4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{764, 154}, {142, 98}}</string>
+			<key>offset</key>
+			<string>{-1, -7}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{28, 58}, {142, 98}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_1_5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{290, 288}, {142, 94}}</string>
+			<key>offset</key>
+			<string>{-3, -11}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{26, 64}, {142, 94}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_1_6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{168, 154}, {144, 118}}</string>
+			<key>offset</key>
+			<string>{0, -9}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{28, 50}, {144, 118}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_1_7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{586, 2}, {144, 132}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{28, 34}, {144, 132}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_2_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{824, 288}, {104, 50}}</string>
+			<key>offset</key>
+			<string>{-5, -26}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{43, 101}, {104, 50}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_2_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{702, 288}, {120, 80}}</string>
+			<key>offset</key>
+			<string>{2, -19}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{42, 79}, {120, 80}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_2_3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{434, 288}, {132, 86}}</string>
+			<key>offset</key>
+			<string>{4, -17}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{38, 74}, {132, 86}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_2_4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 288}, {142, 98}}</string>
+			<key>offset</key>
+			<string>{-1, -7}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{28, 58}, {142, 98}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_2_5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{146, 288}, {142, 98}}</string>
+			<key>offset</key>
+			<string>{-3, -10}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{26, 61}, {142, 98}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_2_6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{294, 2}, {144, 136}}</string>
+			<key>offset</key>
+			<string>{2, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{30, 33}, {144, 136}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_2_7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{148, 2}, {144, 150}}</string>
+			<key>offset</key>
+			<string>{0, 8}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{28, 17}, {144, 150}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_3_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{908, 246}, {56, 40}}</string>
+			<key>offset</key>
+			<string>{2, -34}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{74, 114}, {56, 40}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_3_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{898, 84}, {56, 68}}</string>
+			<key>offset</key>
+			<string>{9, -19}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{81, 85}, {56, 68}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_3_3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{908, 154}, {88, 90}}</string>
+			<key>offset</key>
+			<string>{2, -13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{58, 68}, {88, 90}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_3_4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{478, 154}, {140, 110}}</string>
+			<key>offset</key>
+			<string>{12, -13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{42, 58}, {140, 110}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_3_5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{620, 154}, {142, 106}}</string>
+			<key>offset</key>
+			<string>{13, -19}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{42, 66}, {142, 106}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_3_6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{314, 154}, {162, 114}}</string>
+			<key>offset</key>
+			<string>{6, -8}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{25, 51}, {162, 114}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+		<key>krt_objev_3_7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{732, 2}, {164, 132}}</string>
+			<key>offset</key>
+			<string>{8, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{26, 32}, {164, 132}}</string>
+			<key>sourceSize</key>
+			<string>{200, 200}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1024, 512}</string>
+	</dict>
+</dict>
+</plist>

@@ -18,6 +18,7 @@
 	NSNumber *golf;
 	NSNumber *garden;
 	NSNumber *lastLevel;
+	NSNumber *intro;
 	
 	SimpleAudioEngine *sae;
 }
@@ -30,6 +31,7 @@
 - (void)setGolf:(NSNumber *)set;
 - (void)setGarden:(NSNumber *)set;
 - (void)setLastLevel:(NSNumber *)set;
+- (void)setIntro:(NSNumber *)set;
 
 - (float)soundsVolume;
 - (float)musicVolume;
@@ -37,6 +39,7 @@
 - (NSNumber *)golf;
 - (NSNumber *)garden;
 - (NSNumber *)lastLevel;
+- (NSNumber *)intro;
 
 - (SimpleAudioEngine *)sae;
 

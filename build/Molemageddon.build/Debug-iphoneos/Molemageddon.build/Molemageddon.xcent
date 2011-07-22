@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>XQ4PT4BVXL.com.yourcompany.Molemageddon</string>
+	<string>569BA526VX.cz.adamtomecek.moles</string>
 	<key>get-task-allow</key>
-	<true/>
+	<false/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>XQ4PT4BVXL.com.yourcompany.Molemageddon</string>
+		<string>569BA526VX.cz.adamtomecek.moles</string>
 	</array>
 </dict>
 </plist>

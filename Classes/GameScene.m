@@ -16,10 +16,13 @@
 #import "GameOverScene.h"
 #import "Settings.h"
 #import "LevelDoneScene.h"
+#import "PauseMenu.h"
+#import "MainMenuScene.h"
 
 #define kScoreboard 12
 #define kLabelR 10
 #define kLabelL 11
+#define kPauseMenu 13
 
 // HelloWorld implementation
 @implementation GameScene
@@ -36,6 +39,7 @@ int positionsCount;
 int timeRemaining;
 int moleLimit;
 int moleCount;
+BOOL paused = NO;
 
 int gplace;
 int gtype;
@@ -370,7 +374,7 @@ static GameScene* instanceOfGameScene;
 				break;
 		}
 		
-			//[self createScoreboard];
+		[self createScoreboard];
 		
 		moles = [[CCArray alloc] initWithCapacity:moleLimit];
 		
@@ -476,9 +480,15 @@ static GameScene* instanceOfGameScene;
 	CGSize screenSize = [[CCDirector sharedDirector] winSize];
 	
 	CCSprite *scoreboard = [CCSprite spriteWithSpriteFrameName:@"scoreboard1.png"];
-	scoreboard.position = ccp(screenSize.width / 2, screenSize.height - [scoreboard contentSize].height / 2);
+	CCSprite *scoreboard2 = [CCSprite spriteWithSpriteFrameName:@"scoreboard1.png"];
 	
-	[self addChild:scoreboard z:3 tag:kScoreboard];
+	CCMenuItemSprite *pauseButton = [CCMenuItemSprite itemFromNormalSprite:scoreboard selectedSprite:scoreboard2 target:self selector:@selector(pause)];
+	
+	CCMenu *pauseMenu = [CCMenu menuWithItems:pauseButton, nil];
+	
+	pauseMenu.position = ccp(screenSize.width / 2, screenSize.height - [scoreboard contentSize].height / 2);
+	
+	[self addChild:pauseMenu z:3 tag:kScoreboard];
 	
 	switch (gtype) {
 		case kGameModeMoleMadness:{
@@ -525,6 +535,41 @@ static GameScene* instanceOfGameScene;
 	labelL.position = ccp(labelL.contentSize.width * 3, scoreboard.contentSize.height / 3.8f);
 	[scoreboard addChild:labelL z:1 tag:kLabelL];
 	[labelL setString:@"0"];
+}
+
+- (void) pause{
+	if (!paused) {
+		[[CCDirector sharedDirector] pause];
+		
+		CCLayer *pauseMenu = [PauseMenu node];
+		[self addChild: pauseMenu z:10 tag:kPauseMenu];
+		Settings *settings = [Settings sharedSettings];
+		[settings.sae pauseBackgroundMusic];
+		int count = [moles count];
+		
+		for (int i = 0; i < count; i++) {
+			Mole *mole = (Mole *)[moles randomObject];
+			[mole stopSounds];
+		}
+		
+		paused = YES;
+	}
+}
+
+- (void) pauseOver{
+	[self removeChildByTag:kPauseMenu cleanup:YES];
+	[[CCDirector sharedDirector] resume];
+	Settings *settings = [Settings sharedSettings];
+	[settings.sae resumeBackgroundMusic];
+	
+	int count = [moles count];
+	
+	for (int i = 0; i < count; i++) {
+		Mole *mole = (Mole *)[moles randomObject];
+		[mole continueSounds];
+	}
+	
+	paused = NO;
 }
 
 - (void) spawn{
@@ -602,6 +647,12 @@ static GameScene* instanceOfGameScene;
 	[gameOverScene initWithScore:score gameType:gtype gamePlace:gplace];
 	
 	[[CCDirector sharedDirector] replaceScene:[gameOverScene scene]];
+}
+
+- (void) mainMenuButtonTouched{
+	[self pauseOver];
+	[self clear];
+	[[CCDirector sharedDirector] replaceScene:[MainMenuScene scene]];
 }
 
 - (BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event

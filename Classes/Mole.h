@@ -20,6 +20,7 @@
 	float gspeed;
 	int posIndex;
 	BOOL beenHit;
+	int lastSound;
 }
 
 + (id) mole:(float)gameSpeed;
@@ -41,4 +42,6 @@
 - (bool)isActive;
 - (BOOL)beenHit;
 - (void)setBeenHit:(bool)state;
+- (void)stopSounds;
+- (void)continueSounds;
 @end
