@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>icon_score.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1934, 2}, {108, 98}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {108, 98}}</string>
+			<key>sourceSize</key>
+			<string>{108, 98}</string>
+		</dict>
+		<key>icon_time.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1934, 200}, {76, 84}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 0}, {76, 84}}</string>
+			<key>sourceSize</key>
+			<string>{78, 84}</string>
+		</dict>
+		<key>icon_zivoty.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1934, 102}, {88, 96}}</string>
+			<key>offset</key>
+			<string>{0, -13}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{2, 26}, {88, 96}}</string>
+			<key>sourceSize</key>
+			<string>{92, 122}</string>
+		</dict>
+		<key>mini_country_0.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{646, 2}, {320, 480}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {320, 480}}</string>
+			<key>sourceSize</key>
+			<string>{320, 480}</string>
+		</dict>
+		<key>mini_country_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{324, 2}, {320, 480}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {320, 480}}</string>
+			<key>sourceSize</key>
+			<string>{320, 480}</string>
+		</dict>
+		<key>mini_garden_0.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{968, 2}, {320, 480}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {320, 480}}</string>
+			<key>sourceSize</key>
+			<string>{320, 480}</string>
+		</dict>
+		<key>mini_garden_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1290, 2}, {320, 480}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {320, 480}}</string>
+			<key>sourceSize</key>
+			<string>{320, 480}</string>
+		</dict>
+		<key>mini_golf_0.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1612, 2}, {320, 480}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {320, 480}}</string>
+			<key>sourceSize</key>
+			<string>{320, 480}</string>
+		</dict>
+		<key>mini_golf_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 2}, {320, 480}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {320, 480}}</string>
+			<key>sourceSize</key>
+			<string>{320, 480}</string>
+		</dict>
+		<key>scoreboard1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 484}, {526, 122}}</string>
+			<key>offset</key>
+			<string>{-1, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{56, 0}, {526, 122}}</string>
+			<key>sourceSize</key>
+			<string>{640, 122}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{2048, 1024}</string>
+	</dict>
+</dict>
+</plist>

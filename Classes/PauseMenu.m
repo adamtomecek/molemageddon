@@ -11,9 +11,9 @@
 #import "MainMenuScene.h"
 #import "SettingsScene.h"
 
-#define kSettingsScene 15
-
 @implementation PauseMenu
+
+BOOL settingsOpen = NO;
 
 + (id) scene{
 	CCScene *scene = [CCScene node];
@@ -58,19 +58,31 @@
 	return self;
 }
 
+- (void) settingsClosed{
+	[self removeChildByTag:kSettingsScene cleanup:YES];
+	settingsOpen = NO;
+}
+
 - (void) continueButtonTouched{
-	GameScene *gameScene = [GameScene sharedGameScene];
-	[gameScene pauseOver];
+	if (!settingsOpen) {
+		GameScene *gameScene = [GameScene sharedGameScene];
+		[gameScene pauseOver];
+	}
 }
 
 - (void) settingsButtonTouched{
-	SettingsScene *scene = [SettingsScene scene];
-	[self addChild:scene z:10 tag:kSettingsScene];
+	if (!settingsOpen) {
+		SettingsScene *scene = [SettingsScene node];
+		[self addChild:scene z:10 tag:kSettingsScene];
+		settingsOpen = YES;
+	}
 }
 
 - (void) mainmenuButtonTouched{
-	GameScene *gameScene = [GameScene sharedGameScene];
-	[gameScene mainMenuButtonTouched];
+	if (!settingsOpen) {
+		GameScene *gameScene = [GameScene sharedGameScene];
+		[gameScene mainMenuButtonTouched];
+	}
 }
 
 @end

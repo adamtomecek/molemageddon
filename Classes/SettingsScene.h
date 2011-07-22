@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 
+#define kSettingsScene 15
+
 @interface SettingsScene : CCLayer {
 
 }

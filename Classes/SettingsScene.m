@@ -9,6 +9,8 @@
 #import "SettingsScene.h"
 #import "MainMenuScene.h"
 #import "Settings.h"
+#import "PauseMenu.h"
+#import "GameScene.h"
 
 #define kSounds 1
 #define kMusic 2
@@ -113,7 +115,9 @@
 	Settings *settings = [Settings sharedSettings];
 	[settings saveSettings];
 	
-	[[CCDirector sharedDirector] replaceScene:[MainMenuScene scene]];
+		//[[CCDirector sharedDirector] replaceScene:[MainMenuScene scene]];
+	
+	[self.parent settingsClosed];
 }
 
 - (BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event

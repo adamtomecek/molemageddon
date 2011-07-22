@@ -103,6 +103,8 @@
 		C26AE53B13D4C79F00704DBD /* story_mode-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE53413D4C79F00704DBD /* story_mode-hd.png */; };
 		C26AE54213D4C91A00704DBD /* krtci-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = C26AE54013D4C91A00704DBD /* krtci-hd.plist */; };
 		C26AE54313D4C91A00704DBD /* krtci-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE54113D4C91A00704DBD /* krtci-hd.png */; };
+		C27A76C713D9B0B2007E0C0A /* ui-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = C27A76C513D9B0B2007E0C0A /* ui-hd.plist */; };
+		C27A76C813D9B0B2007E0C0A /* ui-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C27A76C613D9B0B2007E0C0A /* ui-hd.png */; };
 		C281388813D8A9E300E38027 /* PauseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C281388713D8A9E300E38027 /* PauseMenu.m */; };
 		C2A9644813AA2C7700AABD5F /* PlayMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A9644713AA2C7700AABD5F /* PlayMenuScene.m */; };
 		C2A967A313AA801F00AABD5F /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2A967A213AA801F00AABD5F /* settings.plist */; };
@@ -502,6 +504,8 @@
 		C26AE53413D4C79F00704DBD /* story_mode-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "story_mode-hd.png"; sourceTree = "<group>"; };
 		C26AE54013D4C91A00704DBD /* krtci-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "krtci-hd.plist"; sourceTree = "<group>"; };
 		C26AE54113D4C91A00704DBD /* krtci-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "krtci-hd.png"; sourceTree = "<group>"; };
+		C27A76C513D9B0B2007E0C0A /* ui-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ui-hd.plist"; sourceTree = "<group>"; };
+		C27A76C613D9B0B2007E0C0A /* ui-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-hd.png"; sourceTree = "<group>"; };
 		C281388613D8A9E300E38027 /* PauseMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseMenu.h; sourceTree = "<group>"; };
 		C281388713D8A9E300E38027 /* PauseMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseMenu.m; sourceTree = "<group>"; };
 		C2A9644613AA2C7700AABD5F /* PlayMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayMenuScene.h; sourceTree = "<group>"; };
@@ -961,6 +965,8 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C27A76C513D9B0B2007E0C0A /* ui-hd.plist */,
+				C27A76C613D9B0B2007E0C0A /* ui-hd.png */,
 				C26AE54013D4C91A00704DBD /* krtci-hd.plist */,
 				C26AE54113D4C91A00704DBD /* krtci-hd.png */,
 				C26AE52E13D4C79F00704DBD /* bg_country-hd.png */,
@@ -1689,6 +1695,8 @@
 				C26AE53B13D4C79F00704DBD /* story_mode-hd.png in Resources */,
 				C26AE54213D4C91A00704DBD /* krtci-hd.plist in Resources */,
 				C26AE54313D4C91A00704DBD /* krtci-hd.png in Resources */,
+				C27A76C713D9B0B2007E0C0A /* ui-hd.plist in Resources */,
+				C27A76C813D9B0B2007E0C0A /* ui-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

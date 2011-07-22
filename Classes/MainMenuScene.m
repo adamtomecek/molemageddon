@@ -19,6 +19,8 @@
 
 @implementation MainMenuScene
 
+BOOL settings = NO;
+
 + (id) scene{
 	CCScene *scene = [CCScene node];
 	
@@ -95,15 +97,26 @@
 }
 
 - (void) playButtonTouched{
-	[[CCDirector sharedDirector] replaceScene:[PlayMenuScene scene]];
+	if (!settings) {
+		[[CCDirector sharedDirector] replaceScene:[PlayMenuScene scene]];
+	}
 }
 
 - (void) settingsButtonTouched{
-	[[CCDirector sharedDirector] replaceScene:[SettingsScene scene]];
+	if (!settings) {
+		SettingsScene *scene = [SettingsScene node];
+		[self addChild:scene z:2 tag:kSettingsScene];
+		settings = YES;
+	}
 }
 
 - (void) aboutButtonTouched{		
 	
+}
+
+- (void) settingsClosed{
+	[self removeChildByTag:kSettingsScene cleanup:YES];
+	settings = NO;
 }
 
 @end
