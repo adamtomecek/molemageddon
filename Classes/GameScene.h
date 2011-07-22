@@ -47,5 +47,6 @@
 - (int)gamePlace;
 - (float)gameSpeed;
 - (int)lives;
+- (BOOL)paused;
 
 @end

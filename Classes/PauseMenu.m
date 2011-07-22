@@ -11,6 +11,8 @@
 #import "MainMenuScene.h"
 #import "SettingsScene.h"
 
+#define kPauseMenu 102
+
 @implementation PauseMenu
 
 BOOL settingsOpen = NO;
@@ -52,7 +54,7 @@ BOOL settingsOpen = NO;
 		CGSize screenSize = [[CCDirector sharedDirector] winSize];
 		menu.position = CGPointMake(screenSize.width / 2, 300);
 		
-		[self addChild:menu];
+		[self addChild:menu z:1 tag:kPauseMenu];
 	}
 	
 	return self;
@@ -61,6 +63,9 @@ BOOL settingsOpen = NO;
 - (void) settingsClosed{
 	[self removeChildByTag:kSettingsScene cleanup:YES];
 	settingsOpen = NO;
+	
+	CCMenu *menu = (CCMenu *)[self getChildByTag:kPauseMenu];
+	menu.visible = YES;
 }
 
 - (void) continueButtonTouched{
@@ -75,6 +80,9 @@ BOOL settingsOpen = NO;
 		SettingsScene *scene = [SettingsScene node];
 		[self addChild:scene z:10 tag:kSettingsScene];
 		settingsOpen = YES;
+		
+		CCMenu *menu = (CCMenu *)[self getChildByTag:kPauseMenu];
+		menu.visible = NO;
 	}
 }
 

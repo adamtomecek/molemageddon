@@ -15,6 +15,7 @@
 #import <UIKit/UIKit.h>
 #import <MediaPlayer/MediaPlayer.h>
 
+#define kMainMenu 101
 
 
 @implementation MainMenuScene
@@ -83,7 +84,7 @@ BOOL settings = NO;
 	pozadi.position = ccp([pozadi texture].contentSize.width / 2, [pozadi texture].contentSize.height / 2);
 	[self addChild:pozadi];							
 	
-	[self addChild:menu];	
+	[self addChild:menu z:1 tag:kMainMenu];	
 }
 
 #pragma mark -
@@ -107,6 +108,9 @@ BOOL settings = NO;
 		SettingsScene *scene = [SettingsScene node];
 		[self addChild:scene z:2 tag:kSettingsScene];
 		settings = YES;
+		
+		CCMenu *menu = (CCMenu *)[self getChildByTag:kMainMenu];
+		menu.visible = NO;
 	}
 }
 
@@ -117,6 +121,8 @@ BOOL settings = NO;
 - (void) settingsClosed{
 	[self removeChildByTag:kSettingsScene cleanup:YES];
 	settings = NO;
+	CCMenu *menu = (CCMenu *)[self getChildByTag:kMainMenu];
+	menu.visible = YES;
 }
 
 @end

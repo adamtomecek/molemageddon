@@ -88,6 +88,7 @@ static GameScene* instanceOfGameScene;
 	gplace = place;
 	gtype = type;
 	storyMode = NO;
+	scoreLimit = 0;
 	
 	return self;
 }
@@ -730,6 +731,10 @@ static GameScene* instanceOfGameScene;
 
 - (int)lives{
 	return lives;
+}
+
+- (BOOL)paused{
+	return paused;
 }
 
 // on "dealloc" you need to release all your retained objects

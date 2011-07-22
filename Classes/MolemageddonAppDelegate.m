@@ -15,6 +15,7 @@
 #import "Settings.h"
 #import "SA_OAuthTwitterEngine.h"
 #import "OAuthTwitterDemoViewController.h"
+#import "GameScene.h"
 
 #define kOAuthConsumerKey				@"Wu1qjzsc8bEPbQOurT83Dg"		//REPLACE ME
 #define kOAuthConsumerSecret			@"kjaEvxbAdIVZzBxw0c8TxJVVXopo2qPZ0J7jffm4A"		//REPLACE ME
@@ -140,11 +141,17 @@
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
+	GameScene *scene = [GameScene sharedGameScene];
 	[[CCDirector sharedDirector] pause];
+	[scene pause];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-	[[CCDirector sharedDirector] resume];
+	GameScene *scene = [GameScene sharedGameScene];
+	
+	if (![scene paused]) {
+		[[CCDirector sharedDirector] resume];
+	}
 }
 
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {
