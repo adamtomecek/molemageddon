@@ -103,7 +103,7 @@ int gtype;
 															 position:CGPointMake(screenSize.width / 2, screenSize.height - miniGolf.contentSize.height + 20.f) 
 															  padding:CGPointMake(miniGolf.contentSize.width + 30.0f, 10.f)];
 		
-		slidingMenu.pageSize = miniGolf.contentSize.width + 30.0f;
+		slidingMenu.pageSize = miniGolf.contentSize.width + 29.0f;
 		slidingMenu.iPageCount = 3;
 		
 		
@@ -143,7 +143,13 @@ int gtype;
 		[scene initWithGameType:gtype gamePlace:kGamePlaceGarden];
 		
 		[[CCDirector sharedDirector] replaceScene: [scene scene]];
+	}else {
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Locked" message:@"You have to unlock this location in story mode first." delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+		
+		[alert show];
+		[alert release];
 	}
+
 }
 
 - (void) locationCountry{
@@ -154,6 +160,11 @@ int gtype;
 		[scene initWithGameType:gtype gamePlace:kGamePlaceCountry];
 		
 		[[CCDirector sharedDirector] replaceScene: [scene scene]];
+	}else {
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Locked" message:@"You have to unlock this location in story mode first." delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+		
+		[alert show];
+		[alert release];
 	}
 }
 
@@ -167,6 +178,11 @@ int gtype;
 		[scene initWithGameType:gtype gamePlace:kGamePlaceGolf];
 		
 		[[CCDirector sharedDirector] replaceScene: [scene scene]];
+	}else {
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Locked" message:@"You have to unlock this location in story mode first." delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+		
+		[alert show];
+		[alert release];
 	}
 }
 

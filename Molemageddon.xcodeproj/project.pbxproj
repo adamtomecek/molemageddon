@@ -108,6 +108,7 @@
 		C27A76C713D9B0B2007E0C0A /* ui-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = C27A76C513D9B0B2007E0C0A /* ui-hd.plist */; };
 		C27A76C813D9B0B2007E0C0A /* ui-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C27A76C613D9B0B2007E0C0A /* ui-hd.png */; };
 		C281388813D8A9E300E38027 /* PauseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C281388713D8A9E300E38027 /* PauseMenu.m */; };
+		C2872CE313DB567000AE0B4C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2872CE213DB567000AE0B4C /* Default@2x.png */; };
 		C2A9644813AA2C7700AABD5F /* PlayMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A9644713AA2C7700AABD5F /* PlayMenuScene.m */; };
 		C2A967A313AA801F00AABD5F /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2A967A213AA801F00AABD5F /* settings.plist */; };
 		C2A967A613AA8B3600AABD5F /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A967A513AA8B3600AABD5F /* Settings.m */; };
@@ -512,6 +513,7 @@
 		C27A76C613D9B0B2007E0C0A /* ui-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-hd.png"; sourceTree = "<group>"; };
 		C281388613D8A9E300E38027 /* PauseMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseMenu.h; sourceTree = "<group>"; };
 		C281388713D8A9E300E38027 /* PauseMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseMenu.m; sourceTree = "<group>"; };
+		C2872CE213DB567000AE0B4C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C2A9644613AA2C7700AABD5F /* PlayMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayMenuScene.h; sourceTree = "<group>"; };
 		C2A9644713AA2C7700AABD5F /* PlayMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayMenuScene.m; sourceTree = "<group>"; };
 		C2A967A213AA801F00AABD5F /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
@@ -969,6 +971,7 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C2872CE213DB567000AE0B4C /* Default@2x.png */,
 				C227A36613D9BDB600448C6C /* pause-hd.png */,
 				C227A35613D9BCA600448C6C /* pause.png */,
 				C27A76C513D9B0B2007E0C0A /* ui-hd.plist */,
@@ -1705,6 +1708,7 @@
 				C27A76C813D9B0B2007E0C0A /* ui-hd.png in Resources */,
 				C227A35713D9BCA600448C6C /* pause.png in Resources */,
 				C227A36713D9BDB600448C6C /* pause-hd.png in Resources */,
+				C2872CE313DB567000AE0B4C /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1995,7 +1999,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Adam Tomecek (S3634P54H6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NS_BLOCK_ASSERTIONS,
@@ -2010,7 +2014,7 @@
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D556FECB-F522-4DDF-8E07-899A8910E566";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";

@@ -348,24 +348,24 @@ i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/GameOverScene.m
-c000000004E2986A00000000000002187
-t1311344288
-s8583
+c000000004E2B27B500000000000021EF
+t1311451061
+s8687
 i"GameOverScene.h"
 i"GameScene.h"
 i"MainMenuScene.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.h
-c000000004E0E102B000000000000045D
-t1309544491
-s1117
+c000000004E29A2AB000000000000046E
+t1311351467
+s1134
 i"cocos2d.h"
 i"Mole.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m
-c000000004E2987100000000000004B0F
-t1311344400
-s19215
+c000000004E2BD4DE0000000000004B5D
+t1311495390
+s19293
 i"GameScene.h"
 i"CCAnimationHelper.h"
 i"Tools.h"
@@ -403,9 +403,9 @@ i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/LocationScene.m
-c000000004E0C328A00000000000017AC
-t1309422218
-s6060
+c000000004E2B194A0000000000001A93
+t1311447370
+s6803
 i"LocationScene.h"
 i"PlayMenuScene.h"
 i"SlidingMenuGrid.h"
@@ -421,9 +421,9 @@ i"cocos2d.h"
 i"MovieViewController.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m
-c000000004E29731C0000000000000EEF
-t1311339292
-s3823
+c000000004E2999950000000000000FBF
+t1311349141
+s4031
 i"MainMenuScene.h"
 i"SettingsScene.h"
 i"PlayMenuScene.h"
@@ -463,9 +463,9 @@ i"SA_OAuthTwitterController.h"
 i"FBConnect.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m
-c000000004E29441A00000000000028B1
-t1311327258
-s10417
+c000000004E2B27F20000000000002A41
+t1311451122
+s10817
 i"cocos2d.h"
 i"MolemageddonAppDelegate.h"
 i"GameConfig.h"
@@ -474,6 +474,7 @@ i"RootViewController.h"
 i"Settings.h"
 i"SA_OAuthTwitterEngine.h"
 i"OAuthTwitterDemoViewController.h"
+i"GameScene.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/MovieViewController.h
 c000000004E1AB64100000000000001DE
@@ -512,9 +513,9 @@ i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/PauseMenu.m
-c000000004E2983EA0000000000000B1C
-t1311343594
-s2844
+c000000004E299D040000000000000BF5
+t1311350020
+s3061
 i"PauseMenu.h"
 i"GameScene.h"
 i"MainMenuScene.h"
@@ -588,8 +589,8 @@ i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/SettingsScene.m
-c000000004E29770A000000000000148A
-t1311340298
+c000000004E29992E000000000000148A
+t1311349038
 s5258
 i"SettingsScene.h"
 i"MainMenuScene.h"
@@ -670,9 +671,14 @@ t1310222091
 s479020
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/Default.png
-c000000004DEF684B00000000000077AB
-t1307535435
-s30635
+c000000004DFE406600000000000199B7
+t1308508262
+s104887
+
+N/Users/adamtomecek/Programování/Molemageddon/Resources/Default@2x.png
+c000000004E29569A000000000003CD2C
+t1311331994
+s249132
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/Icon-72.png
 c000000004DEF684B0000000000002C96
@@ -735,19 +741,19 @@ t1308473524
 s91643
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/bg_garden-hd.png
-c000000004E295BBC0000000000052550
-t1311333308
-s337232
+c000000004E2BD7A00000000000063CA3
+t1311496096
+s408739
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/bg_garden.png
-c000000004E1567200000000000019BA8
-t1310025504
-s105384
+c000000004E2BD772000000000001EF5A
+t1311496050
+s126810
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/bg_golf-hd.png
-c000000004E295B58000000000004FC31
-t1311333208
-s326705
+c000000004E2BD8300000000000050407
+t1311496240
+s328711
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/bg_golf.png
 c000000004DFDB8B3000000000001BAA6
@@ -815,29 +821,29 @@ t1310166026
 s69928
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/levels.plist
-c000000004E1787D30000000000000733
-t1310164947
-s1843
+c000000004E2BD43100000000000008F9
+t1311495217
+s2297
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu-hd.plist
-c000000004E2981870000000000002AF3
-t1311342983
+c000000004E2BD6ED0000000000002AF3
+t1311495917
 s10995
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu-hd.png
-c000000004E2981870000000000142023
-t1311342983
-s1318947
+c000000004E2BD6ED0000000000133DA8
+t1311495917
+s1260968
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu.plist
-c000000004E2946CF0000000000002A93
-t1311327951
+c000000004E2BD6540000000000002A93
+t1311495764
 s10899
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu.png
-c000000004E2946CF0000000000072618
-t1311327951
-s468504
+c000000004E2BD6540000000000073A19
+t1311495764
+s473625
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/pause-hd.png
 c000000004E29861B0000000000000FDE
@@ -875,9 +881,9 @@ t1308508262
 s104887
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/settings.plist
-c000000004E295BC900000000000001A7
-t1311333321
-s423
+c000000004E2B18BE00000000000001A9
+t1311447230
+s425
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/sound_appear.wav
 c000000004DDBFC6A0000000000004168
@@ -910,24 +916,24 @@ t1310165721
 s70440
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/ui-hd.plist
-c000000004E2978DF0000000000000DF1
-t1311340767
+c000000004E2BD87F0000000000000DF1
+t1311496319
 s3569
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/ui-hd.png
-c000000004E2978DF00000000000D466B
-t1311340767
-s869995
+c000000004E2BD87F00000000000DF78B
+t1311496319
+s915339
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/ui.plist
-c000000004E0C2E030000000000000DE1
-t1309421059
-s3553
+c000000004E2BD85D0000000000000F24
+t1311496285
+s3876
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/ui.png
-c000000004E0C2E03000000000004DCFC
-t1309421059
-s318716
+c000000004E2BD85D00000000000563A1
+t1311496285
+s353185
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app
 t1310373986
@@ -952,6 +958,10 @@ s1870
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/Default.png
 t1307564437
 s31932
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/Default@2x.png
+t2
+s0
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/FBDialog.bundle
 t1310373962
@@ -3600,6 +3610,9 @@ xCopyPNGFile
 x/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/Default.png
 xResources/Default.png
 lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Molemageddon.app/Default.png Resources/Default.png329257236#329257237#0(0"0(0#0#70"/Users/adamtomecek/Programování/Molemageddon/Resources/Default.png8656163616#607"    cd /Users/adamtomecek/Programování/Molemageddon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adamtomecek/Programování/Molemageddon/Resources/Default.png /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/Default.png0#
+
+CCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/Default@2x.png Resources/Default@2x.png
+r0
 
 CCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/Icon-72.png Resources/Icon-72.png
 s329257237.346646

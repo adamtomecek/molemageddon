@@ -52,7 +52,7 @@ float waveDelayMin = 2.0f;
 
 static GameScene* instanceOfGameScene;
 +(GameScene*) sharedGameScene {
-	NSAssert(instanceOfGameScene != nil, @" instance not yet initialized!");
+		//NSAssert(instanceOfGameScene != nil, @" instance not yet initialized!");
 	return instanceOfGameScene;
 }
 
@@ -78,6 +78,7 @@ static GameScene* instanceOfGameScene;
 	gplace = place;
 	gtype = type;
 	scoreLimit = minScore;
+	scoreLimit = 2;
 	storyMode = YES;
 	
 	return self;

@@ -204,11 +204,11 @@ int scoreLimit = 0;
 
 - (void) twitterShare{
 	if ([[NSUserDefaults standardUserDefaults] objectForKey: @"authData"] == nil) {	
-		NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in Molemageddon", gScore];
+		NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in iPhone game Molemageddon http://is.gd/molemageddon #Molemageddon", gScore];
 		id appDelegate = [[UIApplication sharedApplication] delegate];
 		[appDelegate twitterAccountLogin:message];
 	}else {
-		NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in Molemageddon", gScore];
+		NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in iPhone game Molemageddon http://is.gd/molemageddon #Molemageddon", gScore];
 		id appDelegate = [[UIApplication sharedApplication] delegate];
 		[appDelegate sendUpdate:message];
 	}

@@ -11,11 +11,11 @@
 		<key>mode</key>
 		<integer>1</integer>
 		<key>score</key>
-		<integer>3</integer>
+		<integer>20</integer>
 		<key>begintext</key>
 		<string>Your garden is ruined. Can you defend it against mole hordes?</string>
 		<key>text</key>
-		<string>Great start. You&apos;ve defeated your garden today!</string>
+		<string>Great start. You&apos;ve defeated your garden...for today.</string>
 	</dict>
 	<key>2</key>
 	<dict>
@@ -26,7 +26,7 @@
 		<key>mode</key>
 		<integer>2</integer>
 		<key>score</key>
-		<integer>50</integer>
+		<integer>25</integer>
 		<key>begintext</key>
 		<string>You was woken up this morning by terrifying mole noise. Will you be able to get rid of them?</string>
 		<key>text</key>
@@ -42,25 +42,40 @@
 		<integer>1</integer>
 		<key>score</key>
 		<integer>30</integer>
-		<key>text</key>
-		<string>Great start. You&apos;ve defeated your garden today!</string>
 		<key>begintext</key>
-		<string>Your garden is ruined. Can you defend it against mole hordes?</string>
+		<string>They got back and are ruining your garden even worse!</string>
+		<key>text</key>
+		<string>I&apos;m curious, why are they keep getting back? You give them no chance!</string>
 	</dict>
 	<key>4</key>
 	<dict>
 		<key>name</key>
 		<string>1-4</string>
 		<key>difficulty</key>
+		<integer>5</integer>
+		<key>mode</key>
+		<integer>2</integer>
+		<key>score</key>
+		<integer>40</integer>
+		<key>begintext</key>
+		<string>Mayor asked you for help in city park. Will you prove your mole-hunting skills there too?</string>
+		<key>text</key>
+		<string>Not so bad for beginner!</string>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>name</key>
+		<string>1-5</string>
+		<key>difficulty</key>
 		<integer>4</integer>
 		<key>mode</key>
-		<integer>1</integer>
+		<integer>3</integer>
 		<key>score</key>
-		<integer>30</integer>
-		<key>text</key>
-		<string>Great start. You&apos;ve defeated your garden today!</string>
+		<integer>60</integer>
 		<key>begintext</key>
-		<string>Your garden is ruined. Can you defend it against mole hordes?</string>
+		<string>There are literally hordes of them in something that WAS your garden. Act while you can!</string>
+		<key>text</key>
+		<string>Now, your are able to defend your garden even against ninjas.</string>
 	</dict>
 </dict>
 </plist>

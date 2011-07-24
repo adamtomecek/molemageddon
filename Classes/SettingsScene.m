@@ -67,19 +67,19 @@
 		CCSprite *music = [CCSprite spriteWithSpriteFrameName:@"settings_music_mask.png"];
 		music.position = ccp(screenSize.width / 2, 175);
 		
-		CCSprite *soundsBackgroundBar = [CCSprite spriteWithSpriteFrameName:@"settings_bar_brown.png"];
+		CCSprite *soundsBackgroundBar = [CCSprite spriteWithSpriteFrameName:@"settings_bar_green.png"];
 		soundsBackgroundBar.position = ccp(screenSize.width / 2, 290);
 		
-		CCSprite *musicBackgroundBar = [CCSprite spriteWithSpriteFrameName:@"settings_bar_brown.png"];
+		CCSprite *musicBackgroundBar = [CCSprite spriteWithSpriteFrameName:@"settings_bar_green.png"];
 		musicBackgroundBar.position = ccp(screenSize.width / 2, 165);
 		
-		CCSprite *soundsBar = [CCSprite spriteWithSpriteFrameName:@"settings_bar_green.png"];
+		CCSprite *soundsBar = [CCSprite spriteWithSpriteFrameName:@"settings_bar_brown.png"];
 		soundsBar.anchorPoint = CGPointMake(0, 0);
 		soundsBar.position = ccp(0, 0);
 		soundsBar.scaleX = 0.5f;
 		
 		
-		CCSprite *musicBar = [CCSprite spriteWithSpriteFrameName:@"settings_bar_green.png"];
+		CCSprite *musicBar = [CCSprite spriteWithSpriteFrameName:@"settings_bar_brown.png"];
 		musicBar.anchorPoint = CGPointMake(0, 0);
 		musicBar.position = ccp(0, 0);
 		

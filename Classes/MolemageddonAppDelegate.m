@@ -315,6 +315,11 @@
 - (void) requestFailed: (NSString *) requestIdentifier withError: (NSError *) error {
 	
 	NSLog(@"Request %@ failed with error: %@", requestIdentifier, error);
+	
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Twitter error" message:@"There was an error. Try again please!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	
+	[alert show];
+	[alert release];
 
 }
 

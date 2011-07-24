@@ -7,7 +7,7 @@
 		<key>icon_score.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{812, 2}, {54, 49}}</string>
+			<string>{{538, 244}, {54, 49}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -20,7 +20,7 @@
 		<key>icon_time.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{812, 106}, {39, 42}}</string>
+			<string>{{974, 55}, {39, 42}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -33,7 +33,7 @@
 		<key>icon_zivoty.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{812, 53}, {46, 51}}</string>
+			<string>{{974, 2}, {46, 51}}</string>
 			<key>offset</key>
 			<string>{0, -4}</string>
 			<key>rotated</key>
@@ -46,7 +46,7 @@
 		<key>mini_country_0.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{326, 2}, {160, 240}}</string>
+			<string>{{812, 2}, {160, 240}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -60,6 +60,19 @@
 		<dict>
 			<key>frame</key>
 			<string>{{164, 2}, {160, 240}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {160, 240}}</string>
+			<key>sourceSize</key>
+			<string>{160, 240}</string>
+		</dict>
+		<key>mini_garden_0.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{488, 2}, {160, 240}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -85,7 +98,7 @@
 		<key>mini_golf_0.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{488, 2}, {160, 240}}</string>
+			<string>{{650, 2}, {160, 240}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -98,7 +111,7 @@
 		<key>mini_golf_1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{650, 2}, {160, 240}}</string>
+			<string>{{326, 2}, {160, 240}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>

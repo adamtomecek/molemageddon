@@ -7,7 +7,7 @@
 		<key>button_about_active.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{722, 42}, {238, 38}}</string>
+			<string>{{2, 122}, {238, 38}}</string>
 			<key>offset</key>
 			<string>{0, 1}</string>
 			<key>rotated</key>
@@ -20,7 +20,7 @@
 		<key>button_about_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{254, 206}, {250, 40}}</string>
+			<string>{{506, 164}, {250, 40}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -46,7 +46,7 @@
 		<key>button_back_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{476, 122}, {250, 40}}</string>
+			<string>{{254, 164}, {250, 40}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -59,7 +59,7 @@
 		<key>button_classic_active.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 82}, {238, 38}}</string>
+			<string>{{694, 2}, {238, 38}}</string>
 			<key>offset</key>
 			<string>{0, 1}</string>
 			<key>rotated</key>
@@ -72,7 +72,7 @@
 		<key>button_classic_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 248}, {250, 40}}</string>
+			<string>{{254, 206}, {250, 40}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -85,7 +85,7 @@
 		<key>button_continue_active.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{214, 2}, {238, 38}}</string>
+			<string>{{482, 42}, {238, 38}}</string>
 			<key>offset</key>
 			<string>{0, -1}</string>
 			<key>rotated</key>
@@ -98,7 +98,7 @@
 		<key>button_continue_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{758, 206}, {250, 40}}</string>
+			<string>{{2, 164}, {250, 40}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -124,7 +124,7 @@
 		<key>button_facebook_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{357, 122}, {117, 39}}</string>
+			<string>{{242, 122}, {117, 39}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -150,7 +150,7 @@
 		<key>button_mainmenu_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{254, 248}, {250, 40}}</string>
+			<string>{{758, 206}, {250, 40}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -163,7 +163,7 @@
 		<key>button_molemadness_active.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{242, 82}, {238, 38}}</string>
+			<string>{{722, 42}, {238, 38}}</string>
 			<key>offset</key>
 			<string>{0, 1}</string>
 			<key>rotated</key>
@@ -176,7 +176,7 @@
 		<key>button_molemadness_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 164}, {250, 40}}</string>
+			<string>{{2, 248}, {250, 40}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -189,7 +189,7 @@
 		<key>button_newstory_active.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{722, 82}, {238, 38}}</string>
+			<string>{{242, 82}, {238, 38}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -202,7 +202,7 @@
 		<key>button_newstory_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{758, 164}, {250, 40}}</string>
+			<string>{{476, 122}, {250, 40}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -215,7 +215,7 @@
 		<key>button_nextlevel_active.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{482, 42}, {238, 38}}</string>
+			<string>{{2, 42}, {238, 38}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -228,7 +228,7 @@
 		<key>button_nextlevel_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{728, 122}, {250, 40}}</string>
+			<string>{{254, 248}, {250, 40}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -241,7 +241,7 @@
 		<key>button_play_active.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 42}, {238, 38}}</string>
+			<string>{{2, 82}, {238, 38}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -254,7 +254,7 @@
 		<key>button_play_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{506, 164}, {250, 40}}</string>
+			<string>{{2, 206}, {250, 40}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -267,7 +267,7 @@
 		<key>button_playagain_active.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{694, 2}, {238, 38}}</string>
+			<string>{{214, 2}, {238, 38}}</string>
 			<key>offset</key>
 			<string>{0, -1}</string>
 			<key>rotated</key>
@@ -280,7 +280,7 @@
 		<key>button_playagain_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{254, 164}, {250, 40}}</string>
+			<string>{{758, 164}, {250, 40}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -293,7 +293,7 @@
 		<key>button_settings_active.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{482, 82}, {238, 38}}</string>
+			<string>{{722, 82}, {238, 38}}</string>
 			<key>offset</key>
 			<string>{0, 1}</string>
 			<key>rotated</key>
@@ -306,7 +306,7 @@
 		<key>button_settings_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 206}, {250, 40}}</string>
+			<string>{{506, 206}, {250, 40}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -319,7 +319,7 @@
 		<key>button_timeattack_active.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 122}, {238, 38}}</string>
+			<string>{{482, 82}, {238, 38}}</string>
 			<key>offset</key>
 			<string>{0, 1}</string>
 			<key>rotated</key>
@@ -332,7 +332,7 @@
 		<key>button_timeattack_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{506, 206}, {250, 40}}</string>
+			<string>{{728, 122}, {250, 40}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -358,7 +358,7 @@
 		<key>button_twitter_static.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{242, 122}, {113, 39}}</string>
+			<string>{{361, 122}, {113, 39}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -371,52 +371,52 @@
 		<key>settings_bar_brown.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{506, 248}, {180, 42}}</string>
+			<string>{{697, 248}, {189, 44}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0, 1}, {180, 42}}</string>
+			<string>{{0, 1}, {189, 44}}</string>
 			<key>sourceSize</key>
-			<string>{180, 44}</string>
+			<string>{189, 46}</string>
 		</dict>
 		<key>settings_bar_green.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{688, 248}, {180, 42}}</string>
+			<string>{{506, 248}, {189, 44}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0, 1}, {180, 42}}</string>
+			<string>{{0, 1}, {189, 44}}</string>
 			<key>sourceSize</key>
-			<string>{180, 44}</string>
+			<string>{189, 46}</string>
 		</dict>
 		<key>settings_music_mask.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{264, 292}, {260, 118}}</string>
+			<string>{{2, 294}, {260, 118}}</string>
 			<key>offset</key>
-			<string>{0, -0}</string>
+			<string>{0, -1}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0, 1}, {260, 118}}</string>
+			<string>{{0, 2}, {260, 118}}</string>
 			<key>sourceSize</key>
 			<string>{260, 120}</string>
 		</dict>
 		<key>settings_sounds_mask.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 292}, {260, 118}}</string>
+			<string>{{264, 294}, {260, 118}}</string>
 			<key>offset</key>
-			<string>{0, -0}</string>
+			<string>{0, -1}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0, 1}, {260, 118}}</string>
+			<string>{{0, 2}, {260, 118}}</string>
 			<key>sourceSize</key>
 			<string>{260, 120}</string>
 		</dict>
