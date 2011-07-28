@@ -117,7 +117,7 @@ CGPoint position;
 	
 	NSString *animName = [NSString stringWithFormat:@"krt_loop_%i_", self.moleType];
 	
-	CCAnimation *anim = [CCAnimation animationWithFrame:animName frameCount:1 delay:1 order:0];
+	CCAnimation *anim = [CCAnimation animationWithFrame:animName frameCount:2 delay:0.1f order:0];
 	CCAnimate *animate = [CCAnimate actionWithAnimation:anim];	
 	CCRepeatForever *repeat = [CCRepeatForever actionWithAction:animate];
 	[self runAction:repeat];

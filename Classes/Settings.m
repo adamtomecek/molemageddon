@@ -24,30 +24,29 @@ static Settings *settings;
 - (id)init{
 	settings = self;
 	
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"settings" ofType:@"plist"];
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	
-	NSDictionary *dictionary = [[NSDictionary alloc] initWithContentsOfFile:path];
+		//NSString *path = [[NSBundle mainBundle] pathForResource:@"settings" ofType:@"plist"];
 	
-	NSNumber *sounds = [dictionary objectForKey:@"SoundsVolume"];
-	NSNumber *music = [dictionary objectForKey:@"MusicVolume"];
+		//NSDictionary *dictionary = [[NSDictionary alloc] initWithContentsOfFile:path];
+	
+	NSNumber *sounds = [defaults objectForKey:@"MMSoundsVolume"];
+	NSNumber *music = [defaults objectForKey:@"MMMusicVolume"];
 	
 	[NSDictionary release];
 	
 	soundsVolume = [sounds floatValue];
 	musicVolume = [music floatValue];
-	golf = [dictionary objectForKey:@"Golf"];
-	country = [dictionary objectForKey:@"Country"];
-	garden = [dictionary objectForKey:@"Garden"];
-	lastLevel = [dictionary objectForKey:@"LastLevel"];
-	intro = [dictionary objectForKey:@"Intro"];
+	golf = [defaults objectForKey:@"MMGolf"];
+	country = [defaults objectForKey:@"MMCountry"];
+	garden = [defaults objectForKey:@"MMGarden"];
+	lastLevel = [defaults objectForKey:@"MMLastLevel"];
+	intro = [defaults objectForKey:@"MMIntro"];
 	
 	sae = [SimpleAudioEngine sharedEngine];
 	
 	[sae setEffectsVolume:settings.soundsVolume];
 	[sae setBackgroundMusicVolume:musicVolume];
-	
-	[sounds release];
-	[music release];
 	
 	return [super init];
 }
@@ -59,22 +58,20 @@ static Settings *settings;
 	NSNumber *sounds = [NSNumber numberWithFloat:soundsVolume];
 	NSNumber *music = [NSNumber numberWithFloat:musicVolume];
 	
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"settings" ofType:@"plist"];
+		//NSString *path = [[NSBundle mainBundle] pathForResource:@"settings" ofType:@"plist"];
 	
-	NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+		//NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	[defaults setObject:sounds forKey:@"MMSoundsVolume"];
+	[defaults setObject:music forKey:@"MMMusicVolume"];
+	[defaults setObject:golf forKey:@"MMGolf"];
+	[defaults setObject:country forKey:@"MMCountry"];
+	[defaults setObject:garden forKey:@"MMGarden"];
+	[defaults setObject:lastLevel forKey:@"MMLastLevel"];
+	[defaults setObject:intro forKey:@"MMIntro"];
 	
-	[dictionary setValue:sounds forKey:@"SoundsVolume"];
-	[dictionary setObject:music forKey:@"MusicVolume"];
-	[dictionary setObject:self.golf forKey:@"Golf"];
-	[dictionary setValue:self.country forKey:@"Country"];
-	[dictionary setValue:self.garden forKey:@"Garden"];
-	[dictionary setValue:self.lastLevel forKey:@"LastLevel"];
-	[dictionary setValue:self.intro forKey:@"Intro"];
-	
-	[dictionary writeToFile:path atomically:YES];
-
-	[sounds release];
-	[music release];
+	[defaults synchronize];
+		//[dictionary writeToFile:path atomically:YES];
 }
 
 - (void)setSoundsVolume:(float)volume{

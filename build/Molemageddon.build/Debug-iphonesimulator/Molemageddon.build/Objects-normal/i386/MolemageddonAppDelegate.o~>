@@ -1,0 +1,9 @@
+/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m: In function '-[MolemageddonAppDelegate applicationDidFinishLaunching:]':
+/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m:131: warning: unused variable 'settings'
+/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m: In function '-[MolemageddonAppDelegate applicationWillResignActive:]':
+/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m:155: warning: 'GameScene' may not respond to '-pause'
+/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m:155: warning: (Messages without a matching method signature
+/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m:155: warning: will be assumed to return 'id' and accept
+/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m:155: warning: '...' as arguments.)
+/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m: In function '-[MolemageddonAppDelegate applicationDidBecomeActive:]':
+/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m:165: warning: 'GameScene' may not respond to '-pause'

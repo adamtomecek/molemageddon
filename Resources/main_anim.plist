@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>main_anim_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{286, 560}, {282, 186}}</string>
+			<key>offset</key>
+			<string>{4, 4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 8}, {282, 186}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{570, 374}, {282, 184}}</string>
+			<key>offset</key>
+			<string>{4, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 10}, {282, 184}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 374}, {282, 184}}</string>
+			<key>offset</key>
+			<string>{4, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 10}, {282, 184}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_12.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 188}, {282, 184}}</string>
+			<key>offset</key>
+			<string>{4, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 10}, {282, 184}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_13.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 560}, {282, 184}}</string>
+			<key>offset</key>
+			<string>{4, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 10}, {282, 184}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_14.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{570, 560}, {282, 186}}</string>
+			<key>offset</key>
+			<string>{4, 4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 8}, {282, 186}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_15.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 748}, {282, 186}}</string>
+			<key>offset</key>
+			<string>{4, 4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 8}, {282, 186}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{570, 2}, {282, 184}}</string>
+			<key>offset</key>
+			<string>{4, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 10}, {282, 184}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{570, 748}, {282, 186}}</string>
+			<key>offset</key>
+			<string>{4, 4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 8}, {282, 186}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{286, 188}, {282, 184}}</string>
+			<key>offset</key>
+			<string>{4, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 10}, {282, 184}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{286, 748}, {282, 186}}</string>
+			<key>offset</key>
+			<string>{4, 4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 8}, {282, 186}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{286, 2}, {282, 184}}</string>
+			<key>offset</key>
+			<string>{4, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 10}, {282, 184}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 2}, {282, 184}}</string>
+			<key>offset</key>
+			<string>{4, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 10}, {282, 184}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{570, 188}, {282, 184}}</string>
+			<key>offset</key>
+			<string>{4, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 10}, {282, 184}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+		<key>main_anim_9.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{286, 374}, {282, 184}}</string>
+			<key>offset</key>
+			<string>{4, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 10}, {282, 184}}</string>
+			<key>sourceSize</key>
+			<string>{290, 210}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+	</dict>
+</dict>
+</plist>

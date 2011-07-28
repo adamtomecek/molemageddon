@@ -78,7 +78,7 @@ static GameScene* instanceOfGameScene;
 	gplace = place;
 	gtype = type;
 	scoreLimit = minScore;
-	scoreLimit = 2;
+		//scoreLimit = 2;
 	storyMode = YES;
 	
 	return self;
@@ -356,7 +356,7 @@ static GameScene* instanceOfGameScene;
 				timeRemaining = 0;
 				break;
 			case kGameModeTimeAttack:
-				self.gameSpeed = 1.0 * ((gplace / 10) + 1);
+				self.gameSpeed = 1.5f * ((gplace / 10) + 1);
 				addSpeed = 0.02f;
 				addTimeAfter = 10;
 				addTime = 5;
@@ -366,7 +366,7 @@ static GameScene* instanceOfGameScene;
 				score = 0;
 				break;
 			case kGameModeMoleMadness:
-				self.gameSpeed = 3.0f * ((gplace / 10) + 1);
+				self.gameSpeed = 3.3f * ((gplace / 10) + 1);
 				addSpeed = 0;
 				addTimeAfter = 0;
 				addTime = 0;
@@ -557,8 +557,6 @@ static GameScene* instanceOfGameScene;
 		
 		CCLayer *pauseMenu = [PauseMenu node];
 		[self addChild: pauseMenu z:10 tag:kPauseMenu];
-		Settings *settings = [Settings sharedSettings];
-		[settings.sae pauseBackgroundMusic];
 		int count = [moles count];
 		
 		for (int i = 0; i < count; i++) {
@@ -567,15 +565,16 @@ static GameScene* instanceOfGameScene;
 		}
 		
 		paused = YES;
+	}else {
+		[self pauseOver];
 	}
+
 }
 
 - (void) pauseOver{
 	[self removeChildByTag:kPauseMenu cleanup:YES];
 	[self removeChildByTag:kPauseBackground cleanup:YES];
 	[[CCDirector sharedDirector] resume];
-	Settings *settings = [Settings sharedSettings];
-	[settings.sae resumeBackgroundMusic];
 	
 	int count = [moles count];
 	
@@ -583,7 +582,26 @@ static GameScene* instanceOfGameScene;
 		Mole *mole = (Mole *)[moles randomObject];
 		[mole continueSounds];
 	}
+	/*
+	NSString *music;
 	
+	switch (gplace) {
+		case kGamePlaceGarden:
+			music = [NSString stringWithFormat:@"AllWeDid.mp3"];
+			break;
+		case kGamePlaceCountry:
+			music = [NSString stringWithFormat:@"WhyWouldI.mp3"];
+			break;
+		case kGamePlaceGolf:
+			music = [NSString stringWithFormat:@"BreakOfDawn.mp3"];
+			break;
+		default:
+			break;
+	}
+	
+	Settings *settings = [Settings sharedSettings];
+	[settings.sae playBackgroundMusic:music loop:YES];
+	*/
 	paused = NO;
 }
 
@@ -671,6 +689,7 @@ static GameScene* instanceOfGameScene;
 - (void) mainMenuButtonTouched{
 	[self pauseOver];
 	[self clear];
+	[[Settings sharedSettings].sae playBackgroundMusic:@"KeepTrying.mp3" loop:YES];
 	[[CCDirector sharedDirector] replaceScene:[MainMenuScene scene]];
 }
 

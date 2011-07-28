@@ -15,7 +15,7 @@
 		<key>begintext</key>
 		<string>Your garden is ruined. Can you defend it against mole hordes?</string>
 		<key>text</key>
-		<string>Great start. You&apos;ve defeated your garden...for today.</string>
+		<string>Great start. You&apos;ve defended your garden...for today.</string>
 	</dict>
 	<key>2</key>
 	<dict>
@@ -28,9 +28,9 @@
 		<key>score</key>
 		<integer>25</integer>
 		<key>begintext</key>
-		<string>You was woken up this morning by terrifying mole noise. Will you be able to get rid of them?</string>
+		<string>You were woken up this morning by a terrifying mole noise. Will you be able to get rid of them?</string>
 		<key>text</key>
-		<string>You&apos;re getting better. Let&apos;s hope there won&apos;t be much more moles next day!</string>
+		<string>You&apos;re getting better. Let&apos;s hope there won&apos;t be more moles next day!</string>
 	</dict>
 	<key>3</key>
 	<dict>
@@ -43,9 +43,9 @@
 		<key>score</key>
 		<integer>30</integer>
 		<key>begintext</key>
-		<string>They got back and are ruining your garden even worse!</string>
+		<string>They returned and are partying in your garden! Good luck.</string>
 		<key>text</key>
-		<string>I&apos;m curious, why are they keep getting back? You give them no chance!</string>
+		<string>I&apos;m curious, why are they keep returning? They have no chance against you!</string>
 	</dict>
 	<key>4</key>
 	<dict>
@@ -58,7 +58,7 @@
 		<key>score</key>
 		<integer>40</integer>
 		<key>begintext</key>
-		<string>Mayor asked you for help in city park. Will you prove your mole-hunting skills there too?</string>
+		<string>Mayor asked for your help in the park. Will you prove your mole-hunting skills there too?</string>
 		<key>text</key>
 		<string>Not so bad for beginner!</string>
 	</dict>
@@ -71,11 +71,176 @@
 		<key>mode</key>
 		<integer>3</integer>
 		<key>score</key>
-		<integer>60</integer>
+		<integer>40</integer>
 		<key>begintext</key>
 		<string>There are literally hordes of them in something that WAS your garden. Act while you can!</string>
 		<key>text</key>
-		<string>Now, your are able to defend your garden even against ninjas.</string>
+		<string>Now, your are able to defend your garden even against mole ninjas!</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>name</key>
+		<string>2-1</string>
+		<key>difficulty</key>
+		<integer>5</integer>
+		<key>mode</key>
+		<integer>2</integer>
+		<key>score</key>
+		<integer>60</integer>
+		<key>begintext</key>
+		<string>Hunters in the city park need your help immediately.</string>
+		<key>text</key>
+		<string>Looks like you&apos;ve just got permanent possition in city mole hunting team. Great job!</string>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>name</key>
+		<string>2-2</string>
+		<key>difficulty</key>
+		<integer>5</integer>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>score</key>
+		<integer>60</integer>
+		<key>begintext</key>
+		<string>Mole numbers in city park are stable. Looks like calm and easy hunt-o-day.</string>
+		<key>text</key>
+		<string>As predicted. Calm hunt-o-day it was.</string>
+	</dict>
+	<key>8</key>
+	<dict>
+		<key>name</key>
+		<string>2-3</string>
+		<key>difficulty</key>
+		<integer>4</integer>
+		<key>mode</key>
+		<integer>3</integer>
+		<key>score</key>
+		<integer>40</integer>
+		<key>begintext</key>
+		<string>Your garden needs some quick mole bashing.</string>
+		<key>text</key>
+		<string>Fast and accurate. Like mole surgeon.</string>
+	</dict>
+	<key>9</key>
+	<dict>
+		<key>name</key>
+		<string>2-4</string>
+		<key>difficulty</key>
+		<integer>6</integer>
+		<key>mode</key>
+		<integer>2</integer>
+		<key>score</key>
+		<integer>80</integer>
+		<key>begintext</key>
+		<string>Local golf club needs your molesome hands for a little help. Do your best!</string>
+		<key>text</key>
+		<string>You&apos;re able to perform your mole-hunting skills even on green. Interesting.</string>
+	</dict>
+	<key>10</key>
+	<dict>
+		<key>name</key>
+		<string>2-5</string>
+		<key>difficulty</key>
+		<integer>5</integer>
+		<key>mode</key>
+		<integer>3</integer>
+		<key>score</key>
+		<integer>55</integer>
+		<key>begintext</key>
+		<string>Let this be the most important battle in this mole-park war!</string>
+		<key>text</key>
+		<string>War&apos;s not won but battle is...at least.</string>
+	</dict>
+	<key>11</key>
+	<dict>
+		<key>name</key>
+		<string>3-1</string>
+		<key>difficulty</key>
+		<integer>6</integer>
+		<key>mode</key>
+		<integer>2</integer>
+		<key>score</key>
+		<integer>90</integer>
+		<key>begintext</key>
+		<string>Big disaster happened at the golf course. We need your help immediately!</string>
+		<key>text</key>
+		<string>That was pretty awesome your molemagnificence!</string>
+	</dict>
+	<key>12</key>
+	<dict>
+		<key>name</key>
+		<string>3-2</string>
+		<key>difficulty</key>
+		<integer>6</integer>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>score</key>
+		<integer>100</integer>
+		<key>begintext</key>
+		<string>Now we need to win the battle of the golf course. Long and exhausting one.</string>
+		<key>text</key>
+		<string>You are just phenomolenal!</string>
+	</dict>
+	<key>13</key>
+	<dict>
+		<key>name</key>
+		<string>3-3</string>
+		<key>difficulty</key>
+		<integer>4</integer>
+		<key>mode</key>
+		<integer>3</integer>
+		<key>score</key>
+		<integer>40</integer>
+		<key>begintext</key>
+		<string>Just don&apos;t forget about your little hilled garden.</string>
+		<key>text</key>
+		<string>Nothing special, huh?</string>
+	</dict>
+	<key>14</key>
+	<dict>
+		<key>name</key>
+		<string>3-4</string>
+		<key>difficulty</key>
+		<integer>5</integer>
+		<key>mode</key>
+		<integer>3</integer>
+		<key>score</key>
+		<integer>50</integer>
+		<key>begintext</key>
+		<string>And now a quick stop in the city park. Looks like moles are too rude in there.</string>
+		<key>text</key>
+		<string>They are calm like sleeping babies I would say.</string>
+	</dict>
+	<key>15</key>
+	<dict>
+		<key>name</key>
+		<string>3-5</string>
+		<key>difficulty</key>
+		<integer>6</integer>
+		<key>mode</key>
+		<integer>2</integer>
+		<key>score</key>
+		<integer>100</integer>
+		<key>begintext</key>
+		<string>Looks like there is even more moles. Last battle is around the corner!</string>
+		<key>text</key>
+		<string>You smashed their ranks, but this won&apos;t be enough.</string>
+	</dict>
+	<key>16</key>
+	<dict>
+		<key>name</key>
+		<string>Big finale</string>
+		<key>difficulty</key>
+		<integer>6</integer>
+		<key>mode</key>
+		<integer>3</integer>
+		<key>score</key>
+		<integer>70</integer>
+		<key>begintext</key>
+		<string>Last battle is nigh. Now or never. Life of the entire city lawns is in your hands!</string>
+		<key>text</key>
+		<string>That was so molexcelent! Let me call you duke l&apos;Mole for now!</string>
 	</dict>
 </dict>
 </plist>

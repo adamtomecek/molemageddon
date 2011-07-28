@@ -21,6 +21,10 @@
 	SA_OAuthTwitterEngine *_engine;
 	UIViewController *ctrl;
 	
+	UIActivityIndicatorView *aSpinner;
+	
+	BOOL intro;
+	
 	Facebook *facebook;
 }
 
@@ -29,5 +33,7 @@
 
 -(void) twitterAccountLogin:(NSString *)message;
 -(void) facebookAccountLogin:(NSString *)message;
+-(BOOL) intro;
+-(void) setIntro:(BOOL)value;
 
 @end

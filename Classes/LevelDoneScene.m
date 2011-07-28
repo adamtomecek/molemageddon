@@ -11,6 +11,8 @@
 #import "GameScene.h"
 #import "MainMenuScene.h"
 #import "StoryScene.h"
+#import "Settings.h"
+#import "StorySceneFinished.h"
 
 
 @implementation LevelDoneScene
@@ -66,8 +68,16 @@ int levelNumber;
 		CGSize screenSize = [[CCDirector sharedDirector] winSize];
 		
 		/* create two sprites for both states of one button */
-		CCSprite *playAgainSpriteStatic = [CCSprite spriteWithSpriteFrameName:@"button_nextlevel_static.png"];
-		CCSprite *playAgainSpriteActive = [CCSprite spriteWithSpriteFrameName:@"button_nextlevel_active.png"];
+		CCSprite *playAgainSpriteStatic;
+		CCSprite *playAgainSpriteActive;
+		
+		if (levelNumber < 16) {
+			playAgainSpriteStatic = [CCSprite spriteWithSpriteFrameName:@"button_nextlevel_static.png"];
+			playAgainSpriteActive = [CCSprite spriteWithSpriteFrameName:@"button_nextlevel_active.png"];
+		}else {
+			playAgainSpriteStatic = [CCSprite spriteWithSpriteFrameName:@"button_finish_static.png"];
+			playAgainSpriteActive = [CCSprite spriteWithSpriteFrameName:@"button_finish_active.png"];
+		}
 		
 		CCSprite *mainMenuStatic = [CCSprite spriteWithSpriteFrameName:@"button_mainmenu_static.png"];
 		CCSprite *mainMenuActive = [CCSprite spriteWithSpriteFrameName:@"button_mainmenu_active.png"];
@@ -103,15 +113,27 @@ int levelNumber;
 		[self addChild:messageLabel];
 		
 		[self addChild:skoreLabel];
+		
+		Settings *settings = [Settings sharedSettings];
+		[settings.sae playBackgroundMusic:@"KeepTrying.mp3" loop:YES];
+		
+		if (levelNumber == 16) {
+			settings.lastLevel = 0;
+			[settings saveSettings];
+		}
 	}
 	
 	return self;
 }
 
 - (void)nextLevelButtonTouched{
-	StoryScene *scene = [StoryScene alloc];
-	[scene initWithLevel:levelNumber + 1];
-	[[CCDirector sharedDirector] replaceScene:[scene scene]];
+	if (levelNumber == 16) {
+		[[CCDirector sharedDirector] replaceScene:[StorySceneFinished scene]];
+	}else {
+		StoryScene *scene = [StoryScene alloc];
+		[scene initWithLevel:levelNumber + 1];
+		[[CCDirector sharedDirector] replaceScene:[scene scene]];
+	}
 }
 
 - (void)mainMenuButtonTouched{

@@ -10,6 +10,7 @@
 #import "GameScene.h"
 #import "MainMenuScene.h"
 #import "SettingsScene.h"
+#import "Settings.h"
 
 #define kPauseMenu 102
 

@@ -51,6 +51,14 @@
 }
 - (void) applicationDidFinishLaunching:(UIApplication*)application
 {
+	intro = NO;
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"settings" ofType:@"plist"];
+	
+	NSDictionary *dictionary = [[NSDictionary alloc] initWithContentsOfFile:path];
+	[defaults registerDefaults:dictionary];
+	[defaults synchronize];
+	
 	// Init the window
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
@@ -121,10 +129,11 @@
 	[self removeStartupFlicker];
 	
 	Settings *settings = [[Settings alloc] init];
+		//
 	
 	facebook = [[Facebook alloc] initWithAppId:kFacebookAppId];
 	
-	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+		//NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	if ([defaults objectForKey:@"FBAccessTokenKey"] 
         && [defaults objectForKey:@"FBExpirationDateKey"]) {
         facebook.accessToken = [defaults objectForKey:@"FBAccessTokenKey"];
@@ -152,6 +161,8 @@
 	if (![scene paused]) {
 		[[CCDirector sharedDirector] resume];
 	}
+	
+	[scene pause];
 }
 
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {
@@ -246,6 +257,13 @@
 		}
 	}
 	else {
+		aSpinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+		
+		aSpinner.frame = CGRectMake(182.0f, 311.0f, 28.0f, 28.0f);
+		aSpinner.backgroundColor = [UIColor whiteColor];
+		[aSpinner startAnimating];
+		[[[CCDirector sharedDirector] openGLView] addSubview:aSpinner];
+		
 		NSLog(@"authenticated and ready to sendUpdate!!!!!");
 		
 		[_engine sendUpdate: message];
@@ -307,13 +325,18 @@
 #pragma mark TwitterEngineDelegate
 
 - (void) requestSucceeded: (NSString *) requestIdentifier {
+	[aSpinner stopAnimating];
 	
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Success" message:@"Successfully shared on twitter!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	[alert show];
+	[alert release];
+ 	
 	NSLog(@"Request %@ succeeded", requestIdentifier);
 	
 }
 
 - (void) requestFailed: (NSString *) requestIdentifier withError: (NSError *) error {
-	
+		//[aSpinner stopAnimating];
 	NSLog(@"Request %@ failed with error: %@", requestIdentifier, error);
 	
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Twitter error" message:@"There was an error. Try again please!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
@@ -331,6 +354,14 @@
 	[[CCDirector sharedDirector] release];
 	[window release];
 	[super dealloc];
+}
+
+- (BOOL)intro{
+	return intro;
+}
+
+- (void) setIntro:(BOOL)value{
+	intro = value;
 }
 
 @end

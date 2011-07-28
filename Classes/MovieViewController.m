@@ -24,7 +24,7 @@
 	scene = layer;
 		//Initialize a movie player object with the specified URL
 	MPMoviePlayerViewController *mp = [[MPMoviePlayerViewController alloc] initWithContentURL:mURL];
-	mp.moviePlayer.controlStyle = MPMovieControlStyleFullscreen;
+	mp.moviePlayer.controlStyle = MPMovieControlStyleNone;
 	[mp shouldAutorotateToInterfaceOrientation:YES];
 	[mp setEditing:YES];
 	
@@ -42,6 +42,15 @@
 	[player stop];
 	[self dismissMoviePlayerViewControllerAnimated];
 	[scene movieFinishedCallback];
+}
+
+- (void)stopMovie
+{
+	MPMoviePlayerController *player = [self.moviePlayer moviePlayer];
+	[[NSNotificationCenter defaultCenter] removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:player];
+	[player stop];
+	[self dismissMoviePlayerViewControllerAnimated];
+		//[scene movieFinishedCallback];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

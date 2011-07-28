@@ -9,6 +9,7 @@
 #import "GameOverScene.h"
 #import "GameScene.h"
 #import "MainMenuScene.h"
+#import "Settings.h"
 
 @implementation GameOverScene
 
@@ -190,6 +191,9 @@ int scoreLimit = 0;
 			[self addChild:messageLabel];
 			
 			[self addChild:skoreLabel];
+			
+			Settings *settings = [Settings sharedSettings];
+			[settings.sae playBackgroundMusic:@"KeepTrying.mp3" loop:YES];
 		}
 	}
 	
@@ -210,7 +214,7 @@ int scoreLimit = 0;
 	}else {
 		NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in iPhone game Molemageddon http://is.gd/molemageddon #Molemageddon", gScore];
 		id appDelegate = [[UIApplication sharedApplication] delegate];
-		[appDelegate sendUpdate:message];
+		[appDelegate twitterAccountLogin:message];
 	}
 
 
