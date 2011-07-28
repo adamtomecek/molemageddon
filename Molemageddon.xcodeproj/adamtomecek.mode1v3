@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -266,18 +264,20 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
+								<string>2D500B1D0D5A766B00DBA0E3</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
+									<integer>23</integer>
+									<integer>9</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {240, 601}}</string>
+							<string>{{0, 217}, {240, 601}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -307,12 +307,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GameScene.m</string>
+								<string>SettingsScene.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -320,11 +322,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GameScene.m</string>
+										<string>SettingsScene.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C2989F8D13E1520B0050EED9</string>
+										<string>C2989FB313E156790050EED9</string>
 										<key>history</key>
 										<array>
 											<string>C2D4A320139FB8EF0057D8CF</string>
@@ -395,7 +397,6 @@
 											<string>C2EC483613E0871800A8B2B2</string>
 											<string>C2EC483713E0871800A8B2B2</string>
 											<string>C2EC483A13E0871800A8B2B2</string>
-											<string>C2EC484713E087E500A8B2B2</string>
 											<string>C2989EC413E141260050EED9</string>
 											<string>C2989EC513E141260050EED9</string>
 											<string>C2989EE113E1451D0050EED9</string>
@@ -408,7 +409,8 @@
 											<string>C2989F8913E1520B0050EED9</string>
 											<string>C2989F8A13E1520B0050EED9</string>
 											<string>C2989F8B13E1520B0050EED9</string>
-											<string>C2989F8C13E1520B0050EED9</string>
+											<string>C2989FAA13E155270050EED9</string>
+											<string>C2989FAB13E155270050EED9</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

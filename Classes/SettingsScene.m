@@ -139,14 +139,32 @@
 		float spriteX = soundsNode.position.x - soundsNode.contentSize.width / 2;
 		float touchX = point.x;
 		float value = (touchX - spriteX) / soundsNode.contentSize.width;
-		value = round(value * 20.0f) / 20.0f;
+		value = round(value * 10.0f) / 10.0f;
+		
+		if (value > 0.95f) {
+			value = 1;
+		}
+		
+		if (value < 0.05f) {
+			value = 0;
+		}
+		
 		sounds.scaleX = value;
 		settings.soundsVolume = value;
 	}else if (CGRectContainsPoint([musicNode boundingBox], point)) {
 		float spriteX = musicNode.position.x - musicNode.contentSize.width / 2;
 		float touchX = point.x;
 		float value = (touchX - spriteX) / musicNode.contentSize.width;
-		value = round(value * 20.0f) / 20.0f;
+		value = round(value * 10.0f) / 10.0f;
+		
+		if (value > 0.95f) {
+			value = 1;
+		}
+		
+		if (value < 0.05f) {
+			value = 0;
+		}
+		
 		music.scaleX = value;
 		settings.musicVolume = value;
 	}
