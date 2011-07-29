@@ -1,7 +1,7 @@
 TMolemageddon
 v7
 r0
-t333534752.707458
+t333552471.922240
 cCheck dependencies
 cCpResource build/Release-iphoneos/Molemageddon.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Info.plist Resources/Info.plist
@@ -71,6 +71,8 @@ cCopyPlistFile /Users/adamtomecek/Programování/Molemageddon/build/Release-ip
 cCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/main_anim.png Resources/main_anim.png
 cCopyPlistFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/main_anim-hd.plist Resources/main_anim-hd.plist
 cCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/main_anim-hd.png Resources/main_anim-hd.png
+cCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/about.png Resources/about.png
+cCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/about-hd.png Resources/about-hd.png
 cProcessPCH /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-evogrurxrsgkbebuuqxeeovatcop/Molemageddon_Prefix.pch.gch Molemageddon_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
 cProcessPCH++ /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-dfozdwlzskzeyjdbpljalgsqgrfc/Molemageddon_Prefix.pch.gch Molemageddon_Prefix.pch normal armv6 objective-c++ com.apple.compilers.llvmgcc42
 cProcessPCH /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-gjjdrjofderiwgcfdpsgdnnftumy/Molemageddon_Prefix.pch.gch Molemageddon_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
@@ -128,13 +130,14 @@ cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-n
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/MovieViewController.o /Users/adamtomecek/Programování/Molemageddon/Classes/MovieViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/PauseMenu.o /Users/adamtomecek/Programování/Molemageddon/Classes/PauseMenu.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/StorySceneFinished.o /Users/adamtomecek/Programování/Molemageddon/Classes/StorySceneFinished.m normal armv6 objective-c com.apple.compilers.llvmgcc42
-cLd /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon normal armv6
+cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/AboutScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/main.o /Users/adamtomecek/Programování/Molemageddon/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/MolemageddonAppDelegate.o /Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/RootViewController.o /Users/adamtomecek/Programování/Molemageddon/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/CCAnimationHelper.o /Users/adamtomecek/Programování/Molemageddon/Classes/CCAnimationHelper.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/GameScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/MainMenuScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon normal armv6
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Mole.o /Users/adamtomecek/Programování/Molemageddon/Classes/Mole.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/SettingsScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/SettingsScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Spawner.o /Users/adamtomecek/Programování/Molemageddon/Classes/Spawner.m normal armv7 objective-c com.apple.compilers.llvmgcc42
@@ -182,6 +185,7 @@ cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-n
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/MovieViewController.o /Users/adamtomecek/Programování/Molemageddon/Classes/MovieViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/PauseMenu.o /Users/adamtomecek/Programování/Molemageddon/Classes/PauseMenu.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/StorySceneFinished.o /Users/adamtomecek/Programování/Molemageddon/Classes/StorySceneFinished.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/AboutScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 cLd /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon normal armv7
 cCreateUniversalBinary /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon normal "armv6 armv7"
 cGenerateDSYMFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app.dSYM /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon
@@ -415,6 +419,20 @@ c000000004E0DC7AD0000000000001CE3
 t1309525933
 s7395
 
+N/Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.h
+c000000004E3161560000000000000108
+t1311859030
+s264
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m
+c000000004E31627700000000000005B9
+t1311859319
+s1465
+i"AboutScene.h"
+i"MainMenuScene.h"
+
 N/Users/adamtomecek/Programování/Molemageddon/Classes/CCAnimationHelper.h
 c000000004DECC86000000000000001D0
 t1307363424
@@ -517,9 +535,9 @@ i"cocos2d.h"
 i"MovieViewController.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m
-c000000004E3116E70000000000001929
-t1311839975
-s6441
+c000000004E316244000000000000197F
+t1311859268
+s6527
 i"MainMenuScene.h"
 i"SettingsScene.h"
 i"PlayMenuScene.h"
@@ -529,6 +547,7 @@ i"CCVideoPlayer.h"
 i<UIKit/UIKit.h>
 i<MediaPlayer/MediaPlayer.h>
 i"CCAnimationHelper.h"
+i"AboutScene.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/Mole.h
 c000000004E28851D0000000000000404
@@ -859,6 +878,16 @@ c000000004E2C239F00000000000789CA
 t1311515551
 s494026
 
+N/Users/adamtomecek/Programování/Molemageddon/Resources/about-hd.png
+c000000004E3163B4000000000006A63A
+t1311859636
+s435770
+
+N/Users/adamtomecek/Programování/Molemageddon/Resources/about.png
+c000000004E3162B90000000000027FAD
+t1311859385
+s163757
+
 N/Users/adamtomecek/Programování/Molemageddon/Resources/bg_country-hd.png
 c000000004E295B93000000000004E4F3
 t1311333267
@@ -1088,6 +1117,10 @@ N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Relea
 t1311841840
 s415
 
+N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/AboutScene.o
+t1311859656
+s16012
+
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/CCAnimationHelper.o
 t1311841822
 s10576
@@ -1185,21 +1218,21 @@ t1311841825
 s21616
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/MainMenuScene.o
-t1311841822
-s64916
+t1311859658
+s65264
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Mole.o
 t1311841823
 s37408
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon
-t1311841830
-s1452124
+t1311859663
+s1452912
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon.LinkFileList
-c000000004E311DEC0000000000001EEF
-t1311841772
-s7919
+c000000004E3163C20000000000001F7F
+t1311859650
+s8063
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/MolemageddonAppDelegate.o
 t1311841822
@@ -1309,6 +1342,10 @@ N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Relea
 t1311841829
 s38268
 
+N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/AboutScene.o
+t1311859658
+s15868
+
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/CCAnimationHelper.o
 t1311841830
 s10528
@@ -1406,21 +1443,21 @@ t1311841834
 s21320
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/MainMenuScene.o
-t1311841831
-s64148
+t1311859658
+s64464
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Mole.o
 t1311841831
 s36200
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon
-t1311841839
-s1317476
+t1311859664
+s1318264
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon.LinkFileList
-c000000004E311DEC0000000000001EEF
-t1311841772
-s7919
+c000000004E3163C20000000000001F7F
+t1311859650
+s8063
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/MolemageddonAppDelegate.o
 t1311841830
@@ -1531,11 +1568,11 @@ t1311841838
 s38160
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app
-t1311841841
-s2550
+t1311859671
+s2618
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app.dSYM
-t1311841840
+t1311859666
 s102
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/AllWeDid.mp3
@@ -1599,8 +1636,8 @@ t1311841779
 s1668
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon
-t1311841839
-s2800288
+t1311859664
+s2776440
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/OAuthTwitterDemo-Info.plist
 t1311841778
@@ -1629,6 +1666,14 @@ s83241
 N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/WhyWouldI.mp3
 t1311841783
 s494026
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/about-hd.png
+t1311859655
+s467234
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/about.png
+t1311859652
+s167738
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/bg_country-hd.png
 t1311841791
@@ -3233,15 +3278,28 @@ s1428
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies333534752#333534752#0(0"0(0#1#0"8645569376#0"0#
+lSLF07#2@18"Check dependencies333552448#333552450#0(0"0(0#1#0"8627862624#0"0#
 
 CCodeSign /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app
-s333534640.684825
-e333534641.716929
+s333552466.707391
+e333552471.922084
 r1
 xCodeSign
 x/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app
-lSLF07#2@48"CodeSign build/Release-iphoneos/Molemageddon.app333534640#333534641#0(0"0(0#0#88"/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app8634208096#709"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Adam Tomecek" --resource-rules=/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/ResourceRules.plist --entitlements /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon.xcent /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app0#
+lSLF07#2@48"CodeSign build/Release-iphoneos/Molemageddon.app333552466#333552471#0(0"0(0#0#88"/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app8625324128#709"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Adam Tomecek" --resource-rules=/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/ResourceRules.plist --entitlements /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon.xcent /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app0#
+
+CCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/AboutScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s333552455.339351
+e333552456.855382
+r1
+xCompileC
+xbuild/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/AboutScene.o
+x/Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@77"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m333552455#333552456#0(0"0(0#0#69"/Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m8618156288#2504"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -DNS_BLOCK_ASSERTIONS -DNDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources/armv6 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-evogrurxrsgkbebuuqxeeovatcop/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/AboutScene.o0#
 
 CCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/CCAnimationHelper.o /Users/adamtomecek/Programování/Molemageddon/Classes/CCAnimationHelper.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 s333534621.879213
@@ -3626,8 +3684,8 @@ o/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEn
 lSLF07#2@112"Compile /Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m333534625#333534625#0(586"/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m: In function '-[MGTwitterXMLParser initWithXML:delegate:connectionIdentifier:requestType:responseType:]':/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m:35: warning: suggest parentheses around assignment used as truth value/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m:45: warning: class 'MGTwitterXMLParser' does not implement the 'NSXMLParserDelegate' protocol2(22@57"Suggest parentheses around assignment used as truth value333534625#209#174#0(6@104"/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m326487066#35#0#35#0#0"0(22@80"Class 'MGTwitterXMLParser' does not implement the 'NSXMLParserDelegate' protocol333534625#383#197#0(6@104"/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m326487066#45#0#45#0#45"class '*' does not implement the '*' protocol0(0#0#104"/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m8631447328#2547"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -DNS_BLOCK_ASSERTIONS -DNDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources/armv6 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-evogrurxrsgkbebuuqxeeovatcop/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/MGTwitterXMLParser.o0#
 
 CCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/MainMenuScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m normal armv6 objective-c com.apple.compilers.llvmgcc42
-s333534622.154559
-e333534622.573068
+s333552455.080065
+e333552458.299090
 r1
 xCompileC
 xbuild/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/MainMenuScene.o
@@ -3637,26 +3695,26 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.llvmgcc42
 o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene init]':
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:44: warning: multiple methods named '-intro' found
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: multiple methods named '-intro' found
 o/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h:42: warning: using '-(NSNumber *)intro'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h:36: warning: also found '-(BOOL)intro'
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: 'MainMenuScene' may not respond to '-createMenu'
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: (Messages without a matching method signature
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: will be assumed to return 'id' and accept
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: '...' as arguments.)
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:48: warning: multiple methods named '-setIntro:' found
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: 'MainMenuScene' may not respond to '-createMenu'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: (Messages without a matching method signature
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: will be assumed to return 'id' and accept
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: '...' as arguments.)
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:49: warning: multiple methods named '-setIntro:' found
 o/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h:34: warning: using '-(void)setIntro:(NSNumber *)set'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h:37: warning: also found '-(void)setIntro:(BOOL)value'
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:48: warning: passing argument 1 of 'setIntro:' makes pointer from integer without a cast
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:49: warning: 'MainMenuScene' may not respond to '-playIntro'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:49: warning: passing argument 1 of 'setIntro:' makes pointer from integer without a cast
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:50: warning: 'MainMenuScene' may not respond to '-playIntro'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene createMenu]':
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:89: warning: 'MainMenuScene' may not respond to '-createAnimation'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:90: warning: 'MainMenuScene' may not respond to '-createAnimation'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene stopIntro]':
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:140: warning: 'MovieViewController' may not respond to '-stopMovie'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:141: warning: 'MovieViewController' may not respond to '-stopMovie'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: At top level:
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:201: warning: property 'videoController' requires method '-videoController' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:201: warning: property 'videoController' requires the method 'setVideoController:' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@80"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333534622#333534622#0(2710"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene init]':/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:44: warning: multiple methods named '-intro' found/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h:42: warning: using '-(NSNumber *)intro'/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h:36: warning: also found '-(BOOL)intro'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: 'MainMenuScene' may not respond to '-createMenu'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: (Messages without a matching method signature/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: will be assumed to return 'id' and accept/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: '...' as arguments.)/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:48: warning: multiple methods named '-setIntro:' found/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h:34: warning: using '-(void)setIntro:(NSNumber *)set'/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h:37: warning: also found '-(void)setIntro:(BOOL)value'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:48: warning: passing argument 1 of 'setIntro:' makes pointer from integer without a cast/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:49: warning: 'MainMenuScene' may not respond to '-playIntro'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene createMenu]':/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:89: warning: 'MainMenuScene' may not respond to '-createAnimation'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene stopIntro]':/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:140: warning: 'MovieViewController' may not respond to '-stopMovie'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: At top level:/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:201: warning: property 'videoController' requires method '-videoController' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:201: warning: property 'videoController' requires the method 'setVideoController:' to be defined - use @synthesize, @dynamic or provide a method implementation15(22@37"Multiple methods named '-intro' found333534622#109#122#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#44#0#44#0#0"0(22@26"Using '-(NSNumber *)intro'333534622#231#106#0(6@67"/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h333467144#42#0#42#0#0"0(22@25"Also found '-(BOOL)intro'333534622#337#120#0(6@82"/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h333481489#36#0#36#0#0"0(22@48"'MainMenuScene' may not respond to '-createMenu'333534622#457#133#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#45#0#45#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)333534622#590#130#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#45#0#45#0#0"0(22@41"Multiple methods named '-setIntro:' found333534622#951#126#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#48#0#48#0#0"0(22@39"Using '-(void)setIntro:(NSNumber *)set'333534622#1077#119#0(6@67"/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h333467144#34#0#34#0#0"0(22@40"Also found '-(void)setIntro:(BOOL)value'333534622#1196#135#0(6@82"/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h333481489#37#0#37#0#0"0(22@75"Passing argument 1 of 'setIntro:' makes pointer from integer without a cast333534622#1331#160#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#48#0#48#0#0"0(22@47"'MainMenuScene' may not respond to '-playIntro'333534622#1491#132#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#49#0#49#0#26"'*' may not respond to '*'0(22@53"'MainMenuScene' may not respond to '-createAnimation'333534622#1738#138#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#89#0#89#0#26"'*' may not respond to '*'0(22@53"'MovieViewController' may not respond to '-stopMovie'333534622#1990#139#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#140#0#140#0#26"'*' may not respond to '*'0(23@13"At top level:333534622#2129#86#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#0#0#0#0#0"0(22@138"Property 'videoController' requires method '-videoController' to be defined - use @synthesize, @dynamic or provide a method implementation333534622#2215#224#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#201#0#201#0#0"0(22@145"Property 'videoController' requires the method 'setVideoController:' to be defined - use @synthesize, @dynamic or provide a method implementation333534622#2439#231#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#201#0#201#0#0"0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m8629342624#2510"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -DNS_BLOCK_ASSERTIONS -DNDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources/armv6 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-evogrurxrsgkbebuuqxeeovatcop/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/MainMenuScene.o0#
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:202: warning: property 'videoController' requires method '-videoController' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:202: warning: property 'videoController' requires the method 'setVideoController:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@80"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552455#333552458#0(2710"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene init]':/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: multiple methods named '-intro' found/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h:42: warning: using '-(NSNumber *)intro'/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h:36: warning: also found '-(BOOL)intro'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: 'MainMenuScene' may not respond to '-createMenu'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: (Messages without a matching method signature/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: will be assumed to return 'id' and accept/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: '...' as arguments.)/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:49: warning: multiple methods named '-setIntro:' found/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h:34: warning: using '-(void)setIntro:(NSNumber *)set'/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h:37: warning: also found '-(void)setIntro:(BOOL)value'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:49: warning: passing argument 1 of 'setIntro:' makes pointer from integer without a cast/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:50: warning: 'MainMenuScene' may not respond to '-playIntro'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene createMenu]':/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:90: warning: 'MainMenuScene' may not respond to '-createAnimation'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene stopIntro]':/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:141: warning: 'MovieViewController' may not respond to '-stopMovie'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: At top level:/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:202: warning: property 'videoController' requires method '-videoController' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:202: warning: property 'videoController' requires the method 'setVideoController:' to be defined - use @synthesize, @dynamic or provide a method implementation15(22@37"Multiple methods named '-intro' found333552458#109#122#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#45#0#45#0#0"0(22@26"Using '-(NSNumber *)intro'333552458#231#106#0(6@67"/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h333467144#42#0#42#0#0"0(22@25"Also found '-(BOOL)intro'333552458#337#120#0(6@82"/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h333481489#36#0#36#0#0"0(22@48"'MainMenuScene' may not respond to '-createMenu'333552458#457#133#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#46#0#46#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)333552458#590#130#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#46#0#46#0#0"0(22@41"Multiple methods named '-setIntro:' found333552458#951#126#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#49#0#49#0#0"0(22@39"Using '-(void)setIntro:(NSNumber *)set'333552458#1077#119#0(6@67"/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h333467144#34#0#34#0#0"0(22@40"Also found '-(void)setIntro:(BOOL)value'333552458#1196#135#0(6@82"/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h333481489#37#0#37#0#0"0(22@75"Passing argument 1 of 'setIntro:' makes pointer from integer without a cast333552458#1331#160#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#49#0#49#0#0"0(22@47"'MainMenuScene' may not respond to '-playIntro'333552458#1491#132#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#50#0#50#0#26"'*' may not respond to '*'0(22@53"'MainMenuScene' may not respond to '-createAnimation'333552458#1738#138#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#90#0#90#0#26"'*' may not respond to '*'0(22@53"'MovieViewController' may not respond to '-stopMovie'333552458#1990#139#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#141#0#141#0#26"'*' may not respond to '*'0(23@13"At top level:333552458#2129#86#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#0#0#0#0#0"0(22@138"Property 'videoController' requires method '-videoController' to be defined - use @synthesize, @dynamic or provide a method implementation333552458#2215#224#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#202#0#202#0#0"0(22@145"Property 'videoController' requires the method 'setVideoController:' to be defined - use @synthesize, @dynamic or provide a method implementation333552458#2439#231#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#202#0#202#0#0"0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m8623166432#2510"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -DNS_BLOCK_ASSERTIONS -DNDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources/armv6 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-evogrurxrsgkbebuuqxeeovatcop/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/MainMenuScene.o0#
 
 CCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Mole.o /Users/adamtomecek/Programování/Molemageddon/Classes/Mole.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 s333534622.573166
@@ -4086,6 +4144,19 @@ xobjective-c
 xcom.apple.compilers.llvmgcc42
 lSLF07#2@92"Compile /Users/adamtomecek/Programování/Molemageddon/libs/ccvideo/iOS/videoOverlayView.m333534629#333534629#0(0"0(0#0#84"/Users/adamtomecek/Programování/Molemageddon/libs/ccvideo/iOS/videoOverlayView.m8635230944#2525"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -DNS_BLOCK_ASSERTIONS -DNDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources/armv6 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-evogrurxrsgkbebuuqxeeovatcop/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/libs/ccvideo/iOS/videoOverlayView.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/videoOverlayView.o0#
 
+CCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/AboutScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s333552458.519990
+e333552458.783260
+r1
+xCompileC
+xbuild/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/AboutScene.o
+x/Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@77"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m333552458#333552458#0(0"0(0#0#69"/Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m8628406592#2501"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -DNS_BLOCK_ASSERTIONS -DNDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources/armv7 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-gjjdrjofderiwgcfdpsgdnnftumy/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/AboutScene.o0#
+
 CCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/CCAnimationHelper.o /Users/adamtomecek/Programování/Molemageddon/Classes/CCAnimationHelper.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 s333534630.716786
 e333534630.962147
@@ -4469,8 +4540,8 @@ o/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEn
 lSLF07#2@112"Compile /Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m333534634#333534634#0(586"/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m: In function '-[MGTwitterXMLParser initWithXML:delegate:connectionIdentifier:requestType:responseType:]':/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m:35: warning: suggest parentheses around assignment used as truth value/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m:45: warning: class 'MGTwitterXMLParser' does not implement the 'NSXMLParserDelegate' protocol2(22@57"Suggest parentheses around assignment used as truth value333534634#209#174#0(6@104"/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m326487066#35#0#35#0#0"0(22@80"Class 'MGTwitterXMLParser' does not implement the 'NSXMLParserDelegate' protocol333534634#383#197#0(6@104"/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m326487066#45#0#45#0#45"class '*' does not implement the '*' protocol0(0#0#104"/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m8630766464#2544"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -DNS_BLOCK_ASSERTIONS -DNDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources/armv7 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-gjjdrjofderiwgcfdpsgdnnftumy/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/MGTwitterXMLParser.o0#
 
 CCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/MainMenuScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s333534630.962258
-e333534631.485618
+s333552456.856431
+e333552458.484750
 r1
 xCompileC
 xbuild/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/MainMenuScene.o
@@ -4480,26 +4551,26 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.llvmgcc42
 o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene init]':
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:44: warning: multiple methods named '-intro' found
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: multiple methods named '-intro' found
 o/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h:42: warning: using '-(NSNumber *)intro'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h:36: warning: also found '-(BOOL)intro'
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: 'MainMenuScene' may not respond to '-createMenu'
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: (Messages without a matching method signature
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: will be assumed to return 'id' and accept
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: '...' as arguments.)
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:48: warning: multiple methods named '-setIntro:' found
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: 'MainMenuScene' may not respond to '-createMenu'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: (Messages without a matching method signature
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: will be assumed to return 'id' and accept
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: '...' as arguments.)
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:49: warning: multiple methods named '-setIntro:' found
 o/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h:34: warning: using '-(void)setIntro:(NSNumber *)set'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h:37: warning: also found '-(void)setIntro:(BOOL)value'
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:48: warning: passing argument 1 of 'setIntro:' makes pointer from integer without a cast
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:49: warning: 'MainMenuScene' may not respond to '-playIntro'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:49: warning: passing argument 1 of 'setIntro:' makes pointer from integer without a cast
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:50: warning: 'MainMenuScene' may not respond to '-playIntro'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene createMenu]':
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:89: warning: 'MainMenuScene' may not respond to '-createAnimation'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:90: warning: 'MainMenuScene' may not respond to '-createAnimation'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene stopIntro]':
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:140: warning: 'MovieViewController' may not respond to '-stopMovie'
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:141: warning: 'MovieViewController' may not respond to '-stopMovie'
 o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: At top level:
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:201: warning: property 'videoController' requires method '-videoController' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:201: warning: property 'videoController' requires the method 'setVideoController:' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@80"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333534630#333534631#0(2710"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene init]':/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:44: warning: multiple methods named '-intro' found/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h:42: warning: using '-(NSNumber *)intro'/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h:36: warning: also found '-(BOOL)intro'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: 'MainMenuScene' may not respond to '-createMenu'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: (Messages without a matching method signature/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: will be assumed to return 'id' and accept/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: '...' as arguments.)/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:48: warning: multiple methods named '-setIntro:' found/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h:34: warning: using '-(void)setIntro:(NSNumber *)set'/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h:37: warning: also found '-(void)setIntro:(BOOL)value'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:48: warning: passing argument 1 of 'setIntro:' makes pointer from integer without a cast/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:49: warning: 'MainMenuScene' may not respond to '-playIntro'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene createMenu]':/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:89: warning: 'MainMenuScene' may not respond to '-createAnimation'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene stopIntro]':/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:140: warning: 'MovieViewController' may not respond to '-stopMovie'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: At top level:/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:201: warning: property 'videoController' requires method '-videoController' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:201: warning: property 'videoController' requires the method 'setVideoController:' to be defined - use @synthesize, @dynamic or provide a method implementation15(22@37"Multiple methods named '-intro' found333534631#109#122#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#44#0#44#0#0"0(22@26"Using '-(NSNumber *)intro'333534631#231#106#0(6@67"/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h333467144#42#0#42#0#0"0(22@25"Also found '-(BOOL)intro'333534631#337#120#0(6@82"/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h333481489#36#0#36#0#0"0(22@48"'MainMenuScene' may not respond to '-createMenu'333534631#457#133#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#45#0#45#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)333534631#590#130#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#45#0#45#0#0"0(22@41"Multiple methods named '-setIntro:' found333534631#951#126#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#48#0#48#0#0"0(22@39"Using '-(void)setIntro:(NSNumber *)set'333534631#1077#119#0(6@67"/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h333467144#34#0#34#0#0"0(22@40"Also found '-(void)setIntro:(BOOL)value'333534631#1196#135#0(6@82"/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h333481489#37#0#37#0#0"0(22@75"Passing argument 1 of 'setIntro:' makes pointer from integer without a cast333534631#1331#160#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#48#0#48#0#0"0(22@47"'MainMenuScene' may not respond to '-playIntro'333534631#1491#132#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#49#0#49#0#26"'*' may not respond to '*'0(22@53"'MainMenuScene' may not respond to '-createAnimation'333534631#1738#138#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#89#0#89#0#26"'*' may not respond to '*'0(22@53"'MovieViewController' may not respond to '-stopMovie'333534631#1990#139#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#140#0#140#0#26"'*' may not respond to '*'0(23@13"At top level:333534631#2129#86#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#0#0#0#0#0"0(22@138"Property 'videoController' requires method '-videoController' to be defined - use @synthesize, @dynamic or provide a method implementation333534631#2215#224#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#201#0#201#0#0"0(22@145"Property 'videoController' requires the method 'setVideoController:' to be defined - use @synthesize, @dynamic or provide a method implementation333534631#2439#231#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333532775#201#0#201#0#0"0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m8633298496#2507"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -DNS_BLOCK_ASSERTIONS -DNDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources/armv7 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-gjjdrjofderiwgcfdpsgdnnftumy/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/MainMenuScene.o0#
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:202: warning: property 'videoController' requires method '-videoController' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:202: warning: property 'videoController' requires the method 'setVideoController:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@80"Compile /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552456#333552458#0(2710"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene init]':/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:45: warning: multiple methods named '-intro' found/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h:42: warning: using '-(NSNumber *)intro'/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h:36: warning: also found '-(BOOL)intro'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: 'MainMenuScene' may not respond to '-createMenu'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: (Messages without a matching method signature/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: will be assumed to return 'id' and accept/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:46: warning: '...' as arguments.)/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:49: warning: multiple methods named '-setIntro:' found/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h:34: warning: using '-(void)setIntro:(NSNumber *)set'/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h:37: warning: also found '-(void)setIntro:(BOOL)value'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:49: warning: passing argument 1 of 'setIntro:' makes pointer from integer without a cast/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:50: warning: 'MainMenuScene' may not respond to '-playIntro'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene createMenu]':/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:90: warning: 'MainMenuScene' may not respond to '-createAnimation'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: In function '-[MainMenuScene stopIntro]':/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:141: warning: 'MovieViewController' may not respond to '-stopMovie'/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m: At top level:/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:202: warning: property 'videoController' requires method '-videoController' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m:202: warning: property 'videoController' requires the method 'setVideoController:' to be defined - use @synthesize, @dynamic or provide a method implementation15(22@37"Multiple methods named '-intro' found333552458#109#122#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#45#0#45#0#0"0(22@26"Using '-(NSNumber *)intro'333552458#231#106#0(6@67"/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h333467144#42#0#42#0#0"0(22@25"Also found '-(BOOL)intro'333552458#337#120#0(6@82"/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h333481489#36#0#36#0#0"0(22@48"'MainMenuScene' may not respond to '-createMenu'333552458#457#133#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#46#0#46#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)333552458#590#130#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#46#0#46#0#0"0(22@41"Multiple methods named '-setIntro:' found333552458#951#126#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#49#0#49#0#0"0(22@39"Using '-(void)setIntro:(NSNumber *)set'333552458#1077#119#0(6@67"/Users/adamtomecek/Programování/Molemageddon/Classes/Settings.h333467144#34#0#34#0#0"0(22@40"Also found '-(void)setIntro:(BOOL)value'333552458#1196#135#0(6@82"/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.h333481489#37#0#37#0#0"0(22@75"Passing argument 1 of 'setIntro:' makes pointer from integer without a cast333552458#1331#160#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#49#0#49#0#0"0(22@47"'MainMenuScene' may not respond to '-playIntro'333552458#1491#132#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#50#0#50#0#26"'*' may not respond to '*'0(22@53"'MainMenuScene' may not respond to '-createAnimation'333552458#1738#138#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#90#0#90#0#26"'*' may not respond to '*'0(22@53"'MovieViewController' may not respond to '-stopMovie'333552458#1990#139#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#141#0#141#0#26"'*' may not respond to '*'0(23@13"At top level:333552458#2129#86#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#0#0#0#0#0"0(22@138"Property 'videoController' requires method '-videoController' to be defined - use @synthesize, @dynamic or provide a method implementation333552458#2215#224#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#202#0#202#0#0"0(22@145"Property 'videoController' requires the method 'setVideoController:' to be defined - use @synthesize, @dynamic or provide a method implementation333552458#2439#231#0(6@72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m333552068#202#0#202#0#0"0(0#0#72"/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m8618121248#2507"    cd /Users/adamtomecek/Programování/Molemageddon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -DNS_BLOCK_ASSERTIONS -DNDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-generated-files.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-own-target-headers.hmap -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-all-target-headers.hmap -iquote /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Molemageddon-project-headers.hmap -Wall -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -iquote/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/libxml -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources/armv7 -I/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Dj/Dj-i+t2XHMaLKFAT1yS+i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Molemageddon_Prefix-gjjdrjofderiwgcfdpsgdnnftumy/Molemageddon_Prefix.pch -c /Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/MainMenuScene.o0#
 
 CCompileC build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Mole.o /Users/adamtomecek/Programování/Molemageddon/Classes/Mole.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 s333534631.485723
@@ -5035,6 +5106,24 @@ x/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemag
 xResources/StoryFinished.png
 lSLF07#2@97"CopyPNGFile build/Release-iphoneos/Molemageddon.app/StoryFinished.png Resources/StoryFinished.png333534611#333534613#0(0"0(0#0#76"/Users/adamtomecek/Programování/Molemageddon/Resources/StoryFinished.png8634865088#621"    cd /Users/adamtomecek/Programování/Molemageddon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adamtomecek/Programování/Molemageddon/Resources/StoryFinished.png /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/StoryFinished.png0#
 
+CCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/about-hd.png Resources/about-hd.png
+s333552450.381928
+e333552455.078270
+r1
+xCopyPNGFile
+x/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/about-hd.png
+xResources/about-hd.png
+lSLF07#2@87"CopyPNGFile build/Release-iphoneos/Molemageddon.app/about-hd.png Resources/about-hd.png333552450#333552455#0(0"0(0#0#71"/Users/adamtomecek/Programování/Molemageddon/Resources/about-hd.png8615146464#611"    cd /Users/adamtomecek/Programování/Molemageddon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adamtomecek/Programování/Molemageddon/Resources/about-hd.png /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/about-hd.png0#
+
+CCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/about.png Resources/about.png
+s333552450.380536
+e333552452.320232
+r1
+xCopyPNGFile
+x/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/about.png
+xResources/about.png
+lSLF07#2@81"CopyPNGFile build/Release-iphoneos/Molemageddon.app/about.png Resources/about.png333552450#333552452#0(0"0(0#0#68"/Users/adamtomecek/Programování/Molemageddon/Resources/about.png8615246944#605"    cd /Users/adamtomecek/Programování/Molemageddon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adamtomecek/Programování/Molemageddon/Resources/about.png /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/about.png0#
+
 CCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/bg_country-hd.png Resources/bg_country-hd.png
 s333534589.806743
 e333534591.358357
@@ -5531,43 +5620,43 @@ xResources/sound_loop.wav
 lSLF07#2@29"Copy Resources/sound_loop.wav333534577#333534577#0(0"0(0#0#73"/Users/adamtomecek/Programování/Molemageddon/Resources/sound_loop.wav8631848992#526"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/adamtomecek/Programování/Molemageddon/Resources/sound_loop.wav /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app0#
 
 CCreateUniversalBinary /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon normal "armv6 armv7"
-s333534639.869597
-e333534639.880679
+s333552464.289554
+e333552464.407106
 r1
 xCreateUniversalBinary
 x/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon
 xnormal
 xarmv6 armv7
-lSLF07#2@95"CreateUniversalBinary build/Release-iphoneos/Molemageddon.app/Molemageddon normal "armv6 armv7"333534639#333534639#0(0"0(0#0#60"/Users/adamtomecek/Programování/Molemageddon/armv6 armv78620039072#604"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon -output /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon0#
+lSLF07#2@95"CreateUniversalBinary build/Release-iphoneos/Molemageddon.app/Molemageddon normal "armv6 armv7"333552464#333552464#0(0"0(0#0#60"/Users/adamtomecek/Programování/Molemageddon/armv6 armv78629930240#604"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon -output /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon0#
 
 CGenerateDSYMFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app.dSYM /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon
-s333534639.880782
-e333534640.497323
+s333552464.407201
+e333552466.695691
 r1
 xGenerateDSYMFile
 x/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app.dSYM
 x/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon
-lSLF07#2@114"GenerateDSYMFile build/Release-iphoneos/Molemageddon.app.dSYM build/Release-iphoneos/Molemageddon.app/Molemageddon333534639#333534640#0(0"0(0#0#101"/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon8633394944#411"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon -o /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app.dSYM0#
+lSLF07#2@114"GenerateDSYMFile build/Release-iphoneos/Molemageddon.app.dSYM build/Release-iphoneos/Molemageddon.app/Molemageddon333552464#333552466#0(0"0(0#0#101"/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon8628543232#411"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Molemageddon -o /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app.dSYM0#
 
 CLd /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon normal armv6
-s333534630.171287
-e333534630.750645
+s333552458.299201
+e333552464.061978
 r1
 xLd
 x/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon
 xnormal
 xarmv6
-lSLF07#2@148"Link /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon333534630#333534630#0(0"0(0#0#0"8631786624#1232"    cd /Users/adamtomecek/Programování/Molemageddon    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos "-L/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/Libraries & Headers" -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -filelist /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -lOAuth -lxml2 -framework MediaPlayer -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon0#
+lSLF07#2@148"Link /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon333552458#333552464#0(0"0(0#0#0"8613628960#1232"    cd /Users/adamtomecek/Programování/Molemageddon    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos "-L/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/Libraries & Headers" -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -filelist /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -lOAuth -lxml2 -framework MediaPlayer -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv6/Molemageddon0#
 
 CLd /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon normal armv7
-s333534639.145452
-e333534639.869475
+s333552458.783379
+e333552464.289410
 r1
 xLd
 x/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon
 xnormal
 xarmv7
-lSLF07#2@148"Link /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon333534639#333534639#0(0"0(0#0#0"8635246496#1232"    cd /Users/adamtomecek/Programování/Molemageddon    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos "-L/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/Libraries & Headers" -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -filelist /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -lOAuth -lxml2 -framework MediaPlayer -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon0#
+lSLF07#2@148"Link /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon333552458#333552464#0(0"0(0#0#0"8626689600#1232"    cd /Users/adamtomecek/Programování/Molemageddon    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos "-L/Users/adamtomecek/Programování/Molemageddon/libs/Twitter+OAuth/Libraries & Headers" -F/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos -filelist /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -lOAuth -lxml2 -framework MediaPlayer -o /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Release-iphoneos/Molemageddon.build/Objects-normal/armv7/Molemageddon0#
 
 CProcessInfoPlistFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/Info.plist Resources/Info.plist
 s333534573.015567
@@ -5780,10 +5869,10 @@ x/Users/adamtomecek/Programování/Molemageddon/libs/ccvideo/Mac/CustomVideoVi
 lSLF07#2@45"StripNIB libs/ccvideo/Mac/CustomVideoView.nib333534583#333534583#0(0"0(0#0#85"/Users/adamtomecek/Programování/Molemageddon/libs/ccvideo/Mac/CustomVideoView.nib8630202624#449"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --strip /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app/CustomVideoView.nib --output-format human-readable-text /Users/adamtomecek/Programování/Molemageddon/libs/ccvideo/Mac/CustomVideoView.nib0#
 
 CTouch /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app
-s333534640.644957
-e333534640.655552
+s333552466.696268
+e333552466.707196
 r1
 xTouch
 x/Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app
-lSLF07#2@94"Touch /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app333534640#333534640#0(0"0(0#0#0"8626976480#291"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app0#
+lSLF07#2@94"Touch /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app333552466#333552466#0(0"0(0#0#0"8627128992#291"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adamtomecek/Programování/Molemageddon/build/Release-iphoneos/Molemageddon.app0#
 

@@ -108,6 +108,9 @@
 		C26AE53B13D4C79F00704DBD /* story_mode-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE53413D4C79F00704DBD /* story_mode-hd.png */; };
 		C26AE54213D4C91A00704DBD /* krtci-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = C26AE54013D4C91A00704DBD /* krtci-hd.plist */; };
 		C26AE54313D4C91A00704DBD /* krtci-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26AE54113D4C91A00704DBD /* krtci-hd.png */; };
+		C26B63B413E198AC0051D965 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = C26B63B313E198AC0051D965 /* about.png */; };
+		C26B63B713E198B60051D965 /* AboutScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C26B63B613E198B60051D965 /* AboutScene.m */; };
+		C26B63D513E19A830051D965 /* about-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C26B63D413E19A830051D965 /* about-hd.png */; };
 		C27A76C713D9B0B2007E0C0A /* ui-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = C27A76C513D9B0B2007E0C0A /* ui-hd.plist */; };
 		C27A76C813D9B0B2007E0C0A /* ui-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C27A76C613D9B0B2007E0C0A /* ui-hd.png */; };
 		C2808B8F13DC56F40057065D /* KeepTrying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2808B8E13DC56F40057065D /* KeepTrying.mp3 */; };
@@ -521,6 +524,10 @@
 		C26AE53413D4C79F00704DBD /* story_mode-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "story_mode-hd.png"; sourceTree = "<group>"; };
 		C26AE54013D4C91A00704DBD /* krtci-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "krtci-hd.plist"; sourceTree = "<group>"; };
 		C26AE54113D4C91A00704DBD /* krtci-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "krtci-hd.png"; sourceTree = "<group>"; };
+		C26B63B313E198AC0051D965 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		C26B63B513E198B60051D965 /* AboutScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutScene.h; sourceTree = "<group>"; };
+		C26B63B613E198B60051D965 /* AboutScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutScene.m; sourceTree = "<group>"; };
+		C26B63D413E19A830051D965 /* about-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-hd.png"; sourceTree = "<group>"; };
 		C27A76C513D9B0B2007E0C0A /* ui-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ui-hd.plist"; sourceTree = "<group>"; };
 		C27A76C613D9B0B2007E0C0A /* ui-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-hd.png"; sourceTree = "<group>"; };
 		C2808B8E13DC56F40057065D /* KeepTrying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KeepTrying.mp3; sourceTree = "<group>"; };
@@ -921,6 +928,8 @@
 				C281388713D8A9E300E38027 /* PauseMenu.m */,
 				C22A90C313DEF7E8006F9A39 /* StorySceneFinished.h */,
 				C22A90C413DEF7E8006F9A39 /* StorySceneFinished.m */,
+				C26B63B513E198B60051D965 /* AboutScene.h */,
+				C26B63B613E198B60051D965 /* AboutScene.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -990,6 +999,8 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C26B63D413E19A830051D965 /* about-hd.png */,
+				C26B63B313E198AC0051D965 /* about.png */,
 				C2989F8113E151C70050EED9 /* main_anim-hd.plist */,
 				C2989F8213E151C70050EED9 /* main_anim-hd.png */,
 				C2989ED913E144650050EED9 /* main_anim.plist */,
@@ -1742,6 +1753,8 @@
 				C2989EDC13E144650050EED9 /* main_anim.png in Resources */,
 				C2989F8313E151C70050EED9 /* main_anim-hd.plist in Resources */,
 				C2989F8413E151C70050EED9 /* main_anim-hd.png in Resources */,
+				C26B63B413E198AC0051D965 /* about.png in Resources */,
+				C26B63D513E19A830051D965 /* about-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1805,6 +1818,7 @@
 				C2CBFEF813CAED6A0011ECE0 /* MovieViewController.m in Sources */,
 				C281388813D8A9E300E38027 /* PauseMenu.m in Sources */,
 				C22A90C513DEF7E8006F9A39 /* StorySceneFinished.m in Sources */,
+				C26B63B713E198B60051D965 /* AboutScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

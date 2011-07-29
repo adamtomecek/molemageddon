@@ -348,6 +348,20 @@ c000000004E0DC7AD0000000000001CE3
 t1309525933
 s7395
 
+N/Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.h
+c000000004E3161560000000000000108
+t1311859030
+s264
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m
+c000000004E31627700000000000005B9
+t1311859319
+s1465
+i"AboutScene.h"
+i"MainMenuScene.h"
+
 N/Users/adamtomecek/Programování/Molemageddon/Classes/CCAnimationHelper.h
 c000000004DECC86000000000000001D0
 t1307363424
@@ -450,9 +464,9 @@ i"cocos2d.h"
 i"MovieViewController.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m
-c000000004E3116E70000000000001929
-t1311839975
-s6441
+c000000004E316244000000000000197F
+t1311859268
+s6527
 i"MainMenuScene.h"
 i"SettingsScene.h"
 i"PlayMenuScene.h"
@@ -462,6 +476,7 @@ i"CCVideoPlayer.h"
 i<UIKit/UIKit.h>
 i<MediaPlayer/MediaPlayer.h>
 i"CCAnimationHelper.h"
+i"AboutScene.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/Mole.h
 c000000004E28851D0000000000000404
@@ -620,9 +635,9 @@ i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/SettingsScene.m
-c000000004E2BE853000000000000148A
-t1311500371
-s5258
+c000000004E311CB90000000000001552
+t1311841465
+s5458
 i"SettingsScene.h"
 i"MainMenuScene.h"
 i"Settings.h"
@@ -792,6 +807,16 @@ c000000004E2C239F00000000000789CA
 t1311515551
 s494026
 
+N/Users/adamtomecek/Programování/Molemageddon/Resources/about-hd.png
+c000000004E3163B4000000000006A63A
+t1311859636
+s435770
+
+N/Users/adamtomecek/Programování/Molemageddon/Resources/about.png
+c000000004E3162B90000000000027FAD
+t1311859385
+s163757
+
 N/Users/adamtomecek/Programování/Molemageddon/Resources/bg_country-hd.png
 c000000004E295B93000000000004E4F3
 t1311333267
@@ -908,24 +933,24 @@ t1311838112
 s230542
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu-hd.plist
-c000000004E311A720000000000002D8D
-t1311840882
+c000000004E311B530000000000002D8D
+t1311841107
 s11661
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu-hd.png
-c000000004E311A720000000000141D58
-t1311840882
-s1318232
+c000000004E311B53000000000016026E
+t1311841107
+s1442414
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu.plist
-c000000004E31193F0000000000002D2D
-t1311840575
+c000000004E311B950000000000002D2D
+t1311841173
 s11565
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu.png
-c000000004E31193F000000000007E6BF
-t1311840575
-s517823
+c000000004E311B950000000000080CB2
+t1311841173
+s527538
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/pause-hd.png
 c000000004E29861B0000000000000FDE
@@ -1116,6 +1141,14 @@ s83241
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/WhyWouldI.mp3
 t1311696649
 s494026
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/about-hd.png
+t2
+s0
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/about.png
+t2
+s0
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/bg_country-hd.png
 t1311696654
@@ -1321,6 +1354,10 @@ s3877016
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphoneos/Molemageddon.build/Molemageddon.xcent
 t1311696680
 s414
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphoneos/Molemageddon.build/Objects-normal/armv6/AboutScene.o
+t2
+s0
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphoneos/Molemageddon.build/Objects-normal/armv6/CCAnimationHelper.o
 t1311696674
@@ -2923,6 +2960,9 @@ xCodeSign
 x/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app
 lSLF07#2@46"CodeSign build/Debug-iphoneos/Molemageddon.app333533756#333533759#0(0"0(0#0#86"/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app8618069792#713"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Adam Tomecek (S3634P54H6)" --resource-rules=/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/ResourceRules.plist --entitlements /Users/adamtomecek/Programování/Molemageddon/build/Molemageddon.build/Debug-iphoneos/Molemageddon.build/Molemageddon.xcent /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app0#
 
+CCompileC build/Molemageddon.build/Debug-iphoneos/Molemageddon.build/Objects-normal/armv6/AboutScene.o /Users/adamtomecek/Programování/Molemageddon/Classes/AboutScene.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+r0
+
 CCompileC build/Molemageddon.build/Debug-iphoneos/Molemageddon.build/Objects-normal/armv6/CCAnimationHelper.o /Users/adamtomecek/Programování/Molemageddon/Classes/CCAnimationHelper.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 s333389474.568295
 e333389474.705095
@@ -3871,6 +3911,12 @@ xCopyPNGFile
 x/Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/StoryFinished.png
 xResources/StoryFinished.png
 lSLF07#2@95"CopyPNGFile build/Debug-iphoneos/Molemageddon.app/StoryFinished.png Resources/StoryFinished.png333389471#333389472#0(0"0(0#0#76"/Users/adamtomecek/Programování/Molemageddon/Resources/StoryFinished.png8665563776#619"    cd /Users/adamtomecek/Programování/Molemageddon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/adamtomecek/Programování/Molemageddon/Resources/StoryFinished.png /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/StoryFinished.png0#
+
+CCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/about-hd.png Resources/about-hd.png
+r0
+
+CCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/about.png Resources/about.png
+r0
 
 CCopyPNGFile /Users/adamtomecek/Programování/Molemageddon/build/Debug-iphoneos/Molemageddon.app/bg_country-hd.png Resources/bg_country-hd.png
 s333389453.448541

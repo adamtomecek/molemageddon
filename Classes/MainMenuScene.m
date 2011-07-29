@@ -15,6 +15,7 @@
 #import <UIKit/UIKit.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import "CCAnimationHelper.h"
+#import "AboutScene.h"
 
 #define kMainMenu 101
 #define kMainAnim 102
@@ -132,7 +133,7 @@ ALuint laugh;
 }
 
 - (void) aboutButtonTouched{		
-	
+	[[CCDirector sharedDirector] replaceScene:[AboutScene scene]];
 }
 
 - (void) stopIntro{
@@ -177,7 +178,7 @@ ALuint laugh;
 	CCAnimation *anim = [CCAnimation animationWithFrame:animName frameCount:15 delay:0.11f order:0];
 	CCAnimate *animate = [CCAnimate actionWithAnimation:anim];
 	
-	CCDelayTime *delay = [CCDelayTime actionWithDuration:2.0f];
+	CCDelayTime *delay = [CCDelayTime actionWithDuration:5.0f];
 	
 	CCSequence *animationSeq = [CCSequence actions:sound, animate, delay, nil];
 	

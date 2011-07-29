@@ -352,9 +352,9 @@ i"cocos2d.h"
 i"Mole.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/GameScene.m
-c000000004E303C1A0000000000004CA0
-t1311783962
-s19616
+c000000004E3118E40000000000004CF2
+t1311840484
+s19698
 i"GameScene.h"
 i"CCAnimationHelper.h"
 i"Tools.h"
@@ -412,9 +412,9 @@ i"cocos2d.h"
 i"MovieViewController.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/MainMenuScene.m
-c000000004E310D8F00000000000015D9
-t1311837583
-s5593
+c000000004E315DB30000000000001929
+t1311858099
+s6441
 i"MainMenuScene.h"
 i"SettingsScene.h"
 i"PlayMenuScene.h"
@@ -455,9 +455,9 @@ i"SA_OAuthTwitterController.h"
 i"FBConnect.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/MolemageddonAppDelegate.m
-c000000004E304E890000000000002E43
-t1311788681
-s11843
+c000000004E31181F0000000000002E57
+t1311840287
+s11863
 i"cocos2d.h"
 i"MolemageddonAppDelegate.h"
 i"GameConfig.h"
@@ -477,9 +477,9 @@ i<MediaPlayer/MediaPlayer.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/MovieViewController.m
-c000000004E304F940000000000000920
-t1311788948
-s2336
+c000000004E3116A70000000000000923
+t1311839911
+s2339
 i"MovieViewController.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/OAuthTwitterDemoViewController.h
@@ -582,9 +582,9 @@ i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/adamtomecek/Programování/Molemageddon/Classes/SettingsScene.m
-c000000004E2BE853000000000000148A
-t1311500371
-s5258
+c000000004E311CB90000000000001552
+t1311841465
+s5458
 i"SettingsScene.h"
 i"MainMenuScene.h"
 i"Settings.h"
@@ -849,35 +849,45 @@ c000000004E2EF3BF0000000000001A4A
 t1311699903
 s6730
 
+N/Users/adamtomecek/Programování/Molemageddon/Resources/main_anim-hd.plist
+c000000004E311A2A0000000000001460
+t1311840810
+s5216
+
+N/Users/adamtomecek/Programování/Molemageddon/Resources/main_anim-hd.png
+c000000004E311A2A0000000000083690
+t1311840810
+s538256
+
 N/Users/adamtomecek/Programování/Molemageddon/Resources/main_anim.plist
-c000000004E310CD7000000000000144F
-t1311837399
-s5199
+c000000004E310FA00000000000001441
+t1311838112
+s5185
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/main_anim.png
-c000000004E310CD7000000000002E0D6
-t1311837399
-s188630
+c000000004E310FA0000000000003848E
+t1311838112
+s230542
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu-hd.plist
-c000000004E2EBFC50000000000002D8C
-t1311686597
-s11660
+c000000004E311B530000000000002D8D
+t1311841107
+s11661
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu-hd.png
-c000000004E2EBFC50000000000167CE3
-t1311686597
-s1473763
+c000000004E311B53000000000016026E
+t1311841107
+s1442414
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu.plist
-c000000004E2EBFE20000000000002D2A
-t1311686626
-s11562
+c000000004E311B950000000000002D2D
+t1311841173
+s11565
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/menu.png
-c000000004E2EBFE20000000000081088
-t1311686626
-s528520
+c000000004E311B950000000000080CB2
+t1311841173
+s527538
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/pause-hd.png
 c000000004E29861B0000000000000FDE
@@ -905,14 +915,14 @@ t1307538639
 s109300
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/pozadi_menu_hlavni-hd.png
-c000000004E29569A000000000003CD2C
-t1311331994
-s249132
+c000000004E311018000000000003698A
+t1311838232
+s223626
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/pozadi_menu_hlavni.png
-c000000004DFE406600000000000199B7
-t1308508262
-s104887
+c000000004E310FFE00000000000166BB
+t1311838206
+s91835
 
 N/Users/adamtomecek/Programování/Molemageddon/Resources/settings.plist
 c000000004E304A1A00000000000001B8
@@ -1365,6 +1375,14 @@ s69928
 N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphonesimulator/Molemageddon.app/levels.plist
 t1311788696
 s2720
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphonesimulator/Molemageddon.app/main_anim-hd.plist
+t2
+s0
+
+N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphonesimulator/Molemageddon.app/main_anim-hd.png
+t2
+s0
 
 N/Users/adamtomecek/Programování/Molemageddon/build/Release-iphonesimulator/Molemageddon.app/main_anim.plist
 t2
@@ -3740,6 +3758,9 @@ x/Users/adamtomecek/Programování/Molemageddon/build/Release-iphonesimulator/
 xResources/levels.plist
 lSLF07#2@27"Copy Resources/levels.plist333481496#333481496#0(0"0(0#0#71"/Users/adamtomecek/Programování/Molemageddon/Resources/levels.plist8674375552#424"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/levels.plist --outdir /Users/adamtomecek/Programování/Molemageddon/build/Release-iphonesimulator/Molemageddon.app0#
 
+CCopyPlistFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphonesimulator/Molemageddon.app/main_anim-hd.plist Resources/main_anim-hd.plist
+r0
+
 CCopyPlistFile /Users/adamtomecek/Programování/Molemageddon/build/Release-iphonesimulator/Molemageddon.app/main_anim.plist Resources/main_anim.plist
 r0
 
@@ -4084,6 +4105,9 @@ xCpResource
 xbuild/Release-iphonesimulator/Molemageddon.app/level_done.png
 xResources/level_done.png
 lSLF07#2@29"Copy Resources/level_done.png331994082#331994082#0(0"0(0#0#73"/Users/adamtomecek/Programování/Molemageddon/Resources/level_done.png8604837536#540"    cd /Users/adamtomecek/Programování/Molemageddon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/adamtomecek/Programování/Molemageddon/Resources/level_done.png /Users/adamtomecek/Programování/Molemageddon/build/Release-iphonesimulator/Molemageddon.app0#
+
+CCpResource build/Release-iphonesimulator/Molemageddon.app/main_anim-hd.png Resources/main_anim-hd.png
+r0
 
 CCpResource build/Release-iphonesimulator/Molemageddon.app/main_anim.png Resources/main_anim.png
 r0
