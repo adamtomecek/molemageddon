@@ -71,7 +71,7 @@
 		<key>mode</key>
 		<integer>3</integer>
 		<key>score</key>
-		<integer>40</integer>
+		<integer>30</integer>
 		<key>begintext</key>
 		<string>There are literally hordes of them in something that WAS your garden. Act while you can!</string>
 		<key>text</key>
@@ -116,7 +116,7 @@
 		<key>mode</key>
 		<integer>3</integer>
 		<key>score</key>
-		<integer>40</integer>
+		<integer>33</integer>
 		<key>begintext</key>
 		<string>Your garden needs some quick mole bashing.</string>
 		<key>text</key>
@@ -146,7 +146,7 @@
 		<key>mode</key>
 		<integer>3</integer>
 		<key>score</key>
-		<integer>55</integer>
+		<integer>40</integer>
 		<key>begintext</key>
 		<string>Let this be the most important battle in this mole-park war!</string>
 		<key>text</key>
@@ -191,7 +191,7 @@
 		<key>mode</key>
 		<integer>3</integer>
 		<key>score</key>
-		<integer>40</integer>
+		<integer>33</integer>
 		<key>begintext</key>
 		<string>Just don&apos;t forget about your little hilled garden.</string>
 		<key>text</key>
@@ -206,7 +206,7 @@
 		<key>mode</key>
 		<integer>3</integer>
 		<key>score</key>
-		<integer>50</integer>
+		<integer>42</integer>
 		<key>begintext</key>
 		<string>And now a quick stop in the city park. Looks like moles are too rude in there.</string>
 		<key>text</key>
@@ -236,7 +236,7 @@
 		<key>mode</key>
 		<integer>3</integer>
 		<key>score</key>
-		<integer>70</integer>
+		<integer>45</integer>
 		<key>begintext</key>
 		<string>Last battle is nigh. Now or never. Life of the entire city lawns is in your hands!</string>
 		<key>text</key>

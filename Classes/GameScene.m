@@ -347,7 +347,7 @@ static GameScene* instanceOfGameScene;
 		switch (gtype) {
 			case kGameModeClassic:
 				self.gameSpeed = 1.0f * ((gplace / 10) + 1);
-				addSpeed = 0.01f;
+				addSpeed = 0.015f;
 				addTimeAfter = 0;
 				addTime = 0;
 				self.lives = 3;
@@ -760,6 +760,8 @@ static GameScene* instanceOfGameScene;
 // on "dealloc" you need to release all your retained objects
 - (void) dealloc
 {
+	
+	instanceOfGameScene = nil;
 	// in case you have something to dealloc, do it in this method
 	// in this particular example nothing needs to be released.
 	// cocos2d will automatically release all the children (Label)

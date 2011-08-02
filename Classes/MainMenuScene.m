@@ -132,7 +132,8 @@ ALuint laugh;
 	}
 }
 
-- (void) aboutButtonTouched{		
+- (void) aboutButtonTouched{
+	[self removeChildByTag:kMainAnim cleanup:YES];
 	[[CCDirector sharedDirector] replaceScene:[AboutScene scene]];
 }
 

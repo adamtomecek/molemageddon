@@ -51,9 +51,6 @@ int levelNumber;
 		
 		NSString *levelName = (NSString *)[level objectForKey:@"name"];
 		
-		int gameType = [[level objectForKey:@"mode"] intValue];
-		int gamePlace = [[level objectForKey:@"difficulty"] intValue];
-		
 		NSString *message = [level objectForKey:@"text"];
 		
 		CCSpriteFrameCache* frameCache = [CCSpriteFrameCache sharedSpriteFrameCache];

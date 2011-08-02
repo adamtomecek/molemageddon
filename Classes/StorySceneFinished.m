@@ -109,7 +109,7 @@
 	}else {
 		NSString *message = [NSString stringWithFormat:@"I've just finished story mode in iPhone game Molemageddon. Try it! http://is.gd/molemageddon #Molemageddon"];
 		id appDelegate = [[UIApplication sharedApplication] delegate];
-		[appDelegate sendUpdate:message];
+		[appDelegate twitterAccountLogin:message];
 	}
 	
 	

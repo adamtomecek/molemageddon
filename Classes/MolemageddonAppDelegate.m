@@ -152,17 +152,24 @@
 - (void)applicationWillResignActive:(UIApplication *)application {
 	GameScene *scene = [GameScene sharedGameScene];
 	[[CCDirector sharedDirector] pause];
-	[scene pause];
+	
+	if (scene != nil) {
+		if (![scene paused]) {
+			[scene pause];
+		}
+	}
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
 	GameScene *scene = [GameScene sharedGameScene];
-	
-	if (![scene paused]) {
+	if (scene != nil) {
+		if (![scene paused]) {
+			[[CCDirector sharedDirector] resume];
+		}
+	}else {
 		[[CCDirector sharedDirector] resume];
 	}
-	
-	[scene pause];
+
 }
 
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {

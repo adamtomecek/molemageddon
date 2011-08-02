@@ -41,7 +41,6 @@ CGPoint position;
 
 + (id) mole:(float)gameSpeed{
 	int type = arc4random() % 3 + 1;
-	
 	return [[[self alloc] initWithType:type speed:gameSpeed] autorelease];
 }
 
@@ -66,11 +65,17 @@ CGPoint position;
 	CCSpriteFrameCache *frameCache = [CCSpriteFrameCache sharedSpriteFrameCache];
 	[frameCache addSpriteFramesWithFile:@"krtci.plist"];
 	
+	
+	
 	NSString *string = [NSString stringWithFormat:@"krt_objev_%d_1.png", moleType];
 	
 	if ((self = [super initWithSpriteFrameName:string])) {		
 		lives = 1;
 		self.isActive = NO;
+		
+		if (self.moleType == 2) {
+			lives = 2;			
+		}
 		
 		Settings *settings = [Settings sharedSettings];
 		SimpleAudioEngine *sae = [settings sae];
@@ -130,6 +135,7 @@ CGPoint position;
 		//loopSoundId = [sae playEffect:@"sound_loop.wav"];
 	
 	[appearSound stop];
+	[hitSound stop];
 	[loopSound play];
 	loopSound.looping = YES;
 	
@@ -144,25 +150,40 @@ CGPoint position;
 	
 	NSString *animName = [NSString stringWithFormat:@"krt_hit_%i_", self.moleType];
 	
-	CCAnimation *anim = [CCAnimation animationWithFrame:animName frameCount:4 delay: 0.08f order:0];
-	CCAnimate *animate = [CCAnimate actionWithAnimation:anim];	
-	CCCallFuncN *call = [CCCallFunc actionWithTarget:self selector:@selector(runDisappearAnim)];
-	CCSequence *seq = [CCSequence actions:animate, animate, call, nil];
-	[self runAction:seq];
+	CCAnimation *anim;
+	CCCallFuncN *call;
+	CCAnimate *animate;
+	CCSequence *seq;
 	
-		//[sae stopEffect:loopSoundId];
-		//[sae playEffect:@"sound_hit.wav"];
+	if (moleType == 2) {
+		anim = [CCAnimation animationWithFrame:animName frameCount:6 delay: 0.08f order:0];
+		call = [CCCallFunc actionWithTarget:self selector:@selector(runLoopAnim)];
+		
+		animate = [CCAnimate actionWithAnimation:anim];	
+		
+		seq = [CCSequence actions:animate, call, nil];
+		moleType = 1;
+	}else {
+		anim = [CCAnimation animationWithFrame:animName frameCount:4 delay: 0.08f order:0];
+		call = [CCCallFunc actionWithTarget:self selector:@selector(runDisappearAnim)];
+		
+		animate = [CCAnimate actionWithAnimation:anim];	
+		
+		seq = [CCSequence actions:animate, animate, call, nil];
+	}
 	
 	[loopSound stop];
 	[hitSound play];
 	
-	if (lives > 1) {
-		lives--;
+	if (self.lives > 1) {
+		self.lives--;
 	}else {
 		self.beenHit = YES;
 		GameScene *scene = [GameScene sharedGameScene];
 		[scene addScore];
 	}
+	
+	[self runAction:seq];
 
 }
 
@@ -271,6 +292,14 @@ CGPoint position;
 
 - (void)setBeenHit:(BOOL)state{
 	beenHit = state;
+}
+
+- (int)lives{
+	return lives;
+}
+
+- (void)setLives:(int)val{
+	lives = val;
 }
 
 - (bool)isActive{

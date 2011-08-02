@@ -7,7 +7,7 @@
 		<key>krt_hit_1_1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{324, 2}, {148, 162}}</string>
+			<string>{{514, 2}, {148, 162}}</string>
 			<key>offset</key>
 			<string>{4, 14}</string>
 			<key>rotated</key>
@@ -20,7 +20,7 @@
 		<key>krt_hit_1_2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 2}, {160, 164}}</string>
+			<string>{{192, 2}, {160, 164}}</string>
 			<key>offset</key>
 			<string>{4, 18}</string>
 			<key>rotated</key>
@@ -33,7 +33,7 @@
 		<key>krt_hit_1_3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{164, 2}, {158, 164}}</string>
+			<string>{{354, 2}, {158, 164}}</string>
 			<key>offset</key>
 			<string>{3, 17}</string>
 			<key>rotated</key>
@@ -46,7 +46,7 @@
 		<key>krt_hit_1_4.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{644, 2}, {154, 158}}</string>
+			<string>{{834, 2}, {154, 158}}</string>
 			<key>offset</key>
 			<string>{2, 21}</string>
 			<key>rotated</key>
@@ -59,59 +59,85 @@
 		<key>krt_hit_2_1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{164, 324}, {156, 148}}</string>
-			<key>offset</key>
-			<string>{-1, 10}</string>
-			<key>rotated</key>
-			<false/>
-			<key>sourceColorRect</key>
-			<string>{{21, 16}, {156, 148}}</string>
-			<key>sourceSize</key>
-			<string>{200, 200}</string>
-		</dict>
-		<key>krt_hit_2_2.png</key>
-		<dict>
-			<key>frame</key>
-			<string>{{2, 324}, {160, 148}}</string>
-			<key>offset</key>
-			<string>{-2, 10}</string>
-			<key>rotated</key>
-			<false/>
-			<key>sourceColorRect</key>
-			<string>{{18, 16}, {160, 148}}</string>
-			<key>sourceSize</key>
-			<string>{200, 200}</string>
-		</dict>
-		<key>krt_hit_2_3.png</key>
-		<dict>
-			<key>frame</key>
-			<string>{{492, 168}, {156, 150}}</string>
-			<key>offset</key>
-			<string>{1, 9}</string>
-			<key>rotated</key>
-			<false/>
-			<key>sourceColorRect</key>
-			<string>{{23, 16}, {156, 150}}</string>
-			<key>sourceSize</key>
-			<string>{200, 200}</string>
-		</dict>
-		<key>krt_hit_2_4.png</key>
-		<dict>
-			<key>frame</key>
-			<string>{{342, 168}, {148, 152}}</string>
+			<string>{{826, 196}, {148, 152}}</string>
 			<key>offset</key>
 			<string>{2, 9}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{28, 15}, {148, 152}}</string>
+			<string>{{28, 33}, {148, 152}}</string>
 			<key>sourceSize</key>
-			<string>{200, 200}</string>
+			<string>{200, 236}</string>
+		</dict>
+		<key>krt_hit_2_2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{676, 196}, {148, 152}}</string>
+			<key>offset</key>
+			<string>{2, 9}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{28, 33}, {148, 152}}</string>
+			<key>sourceSize</key>
+			<string>{200, 236}</string>
+		</dict>
+		<key>krt_hit_2_3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{440, 356}, {152, 140}}</string>
+			<key>offset</key>
+			<string>{5, 4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{29, 44}, {152, 140}}</string>
+			<key>sourceSize</key>
+			<string>{200, 236}</string>
+		</dict>
+		<key>krt_hit_2_4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{594, 356}, {152, 140}}</string>
+			<key>offset</key>
+			<string>{5, 4}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{29, 44}, {152, 140}}</string>
+			<key>sourceSize</key>
+			<string>{200, 236}</string>
+		</dict>
+		<key>krt_hit_2_5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 196}, {162, 158}}</string>
+			<key>offset</key>
+			<string>{2, -5}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{21, 44}, {162, 158}}</string>
+			<key>sourceSize</key>
+			<string>{200, 236}</string>
+		</dict>
+		<key>krt_hit_2_6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 2}, {188, 192}}</string>
+			<key>offset</key>
+			<string>{6, -22}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{12, 44}, {188, 192}}</string>
+			<key>sourceSize</key>
+			<string>{200, 236}</string>
 		</dict>
 		<key>krt_hit_3_1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{172, 168}, {168, 154}}</string>
+			<string>{{506, 196}, {168, 154}}</string>
 			<key>offset</key>
 			<string>{16, 12}</string>
 			<key>rotated</key>
@@ -124,7 +150,7 @@
 		<key>krt_hit_3_2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 168}, {168, 154}}</string>
+			<string>{{336, 196}, {168, 154}}</string>
 			<key>offset</key>
 			<string>{16, 12}</string>
 			<key>rotated</key>
@@ -137,7 +163,7 @@
 		<key>krt_hit_3_3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{800, 2}, {168, 156}}</string>
+			<string>{{166, 196}, {168, 156}}</string>
 			<key>offset</key>
 			<string>{16, 13}</string>
 			<key>rotated</key>
@@ -150,7 +176,7 @@
 		<key>krt_hit_3_4.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{474, 2}, {168, 160}}</string>
+			<string>{{664, 2}, {168, 160}}</string>
 			<key>offset</key>
 			<string>{16, 14}</string>
 			<key>rotated</key>
@@ -163,7 +189,7 @@
 		<key>krt_loop_1_1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 474}, {144, 132}}</string>
+			<string>{{480, 508}, {144, 132}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -176,7 +202,7 @@
 		<key>krt_loop_1_2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{460, 474}, {144, 124}}</string>
+			<string>{{792, 508}, {144, 124}}</string>
 			<key>offset</key>
 			<string>{0, -4}</string>
 			<key>rotated</key>
@@ -189,7 +215,7 @@
 		<key>krt_loop_2_1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{796, 168}, {144, 150}}</string>
+			<string>{{2, 356}, {144, 150}}</string>
 			<key>offset</key>
 			<string>{0, 10}</string>
 			<key>rotated</key>
@@ -202,7 +228,7 @@
 		<key>krt_loop_2_2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{322, 324}, {144, 144}}</string>
+			<string>{{294, 356}, {144, 144}}</string>
 			<key>offset</key>
 			<string>{0, 6}</string>
 			<key>rotated</key>
@@ -215,7 +241,7 @@
 		<key>krt_loop_3_1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{614, 324}, {164, 132}}</string>
+			<string>{{148, 508}, {164, 132}}</string>
 			<key>offset</key>
 			<string>{8, -2}</string>
 			<key>rotated</key>
@@ -228,7 +254,7 @@
 		<key>krt_loop_3_2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{294, 474}, {164, 126}}</string>
+			<string>{{626, 508}, {164, 126}}</string>
 			<key>offset</key>
 			<string>{8, -5}</string>
 			<key>rotated</key>
@@ -241,7 +267,7 @@
 		<key>krt_objev_1_1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{486, 720}, {104, 50}}</string>
+			<string>{{680, 762}, {104, 50}}</string>
 			<key>offset</key>
 			<string>{1, -28}</string>
 			<key>rotated</key>
@@ -254,7 +280,7 @@
 		<key>krt_objev_1_2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{258, 720}, {120, 80}}</string>
+			<string>{{558, 762}, {120, 80}}</string>
 			<key>offset</key>
 			<string>{8, -19}</string>
 			<key>rotated</key>
@@ -267,7 +293,7 @@
 		<key>krt_objev_1_3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 720}, {132, 86}}</string>
+			<string>{{424, 762}, {132, 86}}</string>
 			<key>offset</key>
 			<string>{7, -17}</string>
 			<key>rotated</key>
@@ -280,7 +306,7 @@
 		<key>krt_objev_1_4.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{288, 608}, {142, 98}}</string>
+			<string>{{2, 762}, {142, 98}}</string>
 			<key>offset</key>
 			<string>{-1, -7}</string>
 			<key>rotated</key>
@@ -293,7 +319,7 @@
 		<key>krt_objev_1_5.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{720, 608}, {142, 94}}</string>
+			<string>{{146, 762}, {142, 94}}</string>
 			<key>offset</key>
 			<string>{-3, -11}</string>
 			<key>rotated</key>
@@ -306,7 +332,7 @@
 		<key>krt_objev_1_6.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{606, 474}, {144, 118}}</string>
+			<string>{{2, 642}, {144, 118}}</string>
 			<key>offset</key>
 			<string>{0, -9}</string>
 			<key>rotated</key>
@@ -319,7 +345,7 @@
 		<key>krt_objev_1_7.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{148, 474}, {144, 132}}</string>
+			<string>{{2, 508}, {144, 132}}</string>
 			<key>offset</key>
 			<string>{0, -0}</string>
 			<key>rotated</key>
@@ -332,7 +358,7 @@
 		<key>krt_objev_2_1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{380, 720}, {104, 50}}</string>
+			<string>{{786, 762}, {104, 50}}</string>
 			<key>offset</key>
 			<string>{-5, -26}</string>
 			<key>rotated</key>
@@ -345,7 +371,7 @@
 		<key>krt_objev_2_2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{136, 720}, {120, 80}}</string>
+			<string>{{894, 356}, {120, 80}}</string>
 			<key>offset</key>
 			<string>{2, -19}</string>
 			<key>rotated</key>
@@ -358,7 +384,7 @@
 		<key>krt_objev_2_3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{864, 608}, {132, 86}}</string>
+			<string>{{290, 762}, {132, 86}}</string>
 			<key>offset</key>
 			<string>{4, -17}</string>
 			<key>rotated</key>
@@ -371,7 +397,7 @@
 		<key>krt_objev_2_4.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{432, 608}, {142, 98}}</string>
+			<string>{{742, 642}, {142, 98}}</string>
 			<key>offset</key>
 			<string>{-1, -7}</string>
 			<key>rotated</key>
@@ -384,7 +410,7 @@
 		<key>krt_objev_2_5.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{576, 608}, {142, 98}}</string>
+			<string>{{598, 642}, {142, 98}}</string>
 			<key>offset</key>
 			<string>{-3, -10}</string>
 			<key>rotated</key>
@@ -397,7 +423,7 @@
 		<key>krt_objev_2_6.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{468, 324}, {144, 136}}</string>
+			<string>{{748, 356}, {144, 136}}</string>
 			<key>offset</key>
 			<string>{2, -1}</string>
 			<key>rotated</key>
@@ -410,7 +436,7 @@
 		<key>krt_objev_2_7.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{650, 168}, {144, 150}}</string>
+			<string>{{148, 356}, {144, 150}}</string>
 			<key>offset</key>
 			<string>{0, 8}</string>
 			<key>rotated</key>
@@ -423,7 +449,7 @@
 		<key>krt_objev_3_1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{916, 566}, {56, 40}}</string>
+			<string>{{952, 438}, {56, 40}}</string>
 			<key>offset</key>
 			<string>{2, -34}</string>
 			<key>rotated</key>
@@ -436,7 +462,7 @@
 		<key>krt_objev_3_2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{946, 324}, {56, 68}}</string>
+			<string>{{894, 438}, {56, 68}}</string>
 			<key>offset</key>
 			<string>{9, -19}</string>
 			<key>rotated</key>
@@ -449,7 +475,7 @@
 		<key>krt_objev_3_3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{916, 474}, {88, 90}}</string>
+			<string>{{886, 642}, {88, 90}}</string>
 			<key>offset</key>
 			<string>{2, -13}</string>
 			<key>rotated</key>
@@ -462,7 +488,7 @@
 		<key>krt_objev_3_4.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{2, 608}, {140, 110}}</string>
+			<string>{{312, 642}, {140, 110}}</string>
 			<key>offset</key>
 			<string>{12, -13}</string>
 			<key>rotated</key>
@@ -475,7 +501,7 @@
 		<key>krt_objev_3_5.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{144, 608}, {142, 106}}</string>
+			<string>{{454, 642}, {142, 106}}</string>
 			<key>offset</key>
 			<string>{13, -19}</string>
 			<key>rotated</key>
@@ -488,7 +514,7 @@
 		<key>krt_objev_3_6.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{752, 474}, {162, 114}}</string>
+			<string>{{148, 642}, {162, 114}}</string>
 			<key>offset</key>
 			<string>{6, -8}</string>
 			<key>rotated</key>
@@ -501,7 +527,7 @@
 		<key>krt_objev_3_7.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{780, 324}, {164, 132}}</string>
+			<string>{{314, 508}, {164, 132}}</string>
 			<key>offset</key>
 			<string>{8, 2}</string>
 			<key>rotated</key>

@@ -53,7 +53,7 @@ int scoreLimit = 0;
 }
 
 - (id) init{
-	if( (self=[super init] )) {	
+	if( (self=[super init] )) {
 		CCSpriteFrameCache* frameCache = [CCSpriteFrameCache sharedSpriteFrameCache];
 		[frameCache addSpriteFramesWithFile:@"menu.plist"];
 		
@@ -102,7 +102,9 @@ int scoreLimit = 0;
 		[self addChild:menu];
 		
 		if (scoreLimit > 0) {
-			NSString *gameOver = [NSString stringWithFormat:@"Sorry, you didn't satisfy conditions for this level"];
+				//NSString *gameOver = [NSString stringWithFormat:@"Sorry, you didn't satisfy conditions for this level"];
+			
+			NSString *gameOver = [NSString stringWithFormat:@"You have to banish %d moles to win this level", scoreLimit];
 			
 			CCLabelTTF *gameOverLabel = [CCLabelTTF labelWithString:gameOver dimensions:CGSizeMake(screenSize.width * 0.65f, 100) alignment:UITextAlignmentCenter lineBreakMode:UILineBreakModeClip fontName:@"font.otf" fontSize:20];
 			
@@ -112,6 +114,7 @@ int scoreLimit = 0;
 			[self addChild:gameOverLabel];
 			
 			NSString *conditions;
+			/*
 			
 			switch (gameType) {
 				case kGameModeClassic:
@@ -127,6 +130,10 @@ int scoreLimit = 0;
 					CCLOG(@"Default case in gameType switch in GameOverScene");
 					break;
 			}
+			
+			*/
+			
+			conditions = [NSString stringWithFormat:@"Your score is %d, better luck next time!", gScore];
 			
 			CCLabelTTF *conditionsLabel = [CCLabelTTF labelWithString:conditions dimensions:CGSizeMake(screenSize.width * 0.65f, 100) alignment:UITextAlignmentCenter lineBreakMode:UILineBreakModeClip fontName:@"font.otf" fontSize:22];
 			
@@ -191,28 +198,62 @@ int scoreLimit = 0;
 			[self addChild:messageLabel];
 			
 			[self addChild:skoreLabel];
-			
-			Settings *settings = [Settings sharedSettings];
-			[settings.sae playBackgroundMusic:@"KeepTrying.mp3" loop:YES];
 		}
+		
+		Settings *settings = [Settings sharedSettings];
+		[settings.sae playBackgroundMusic:@"KeepTrying.mp3" loop:YES];
 	}
 	
 	return self;
 }
 
 - (void) facebookShare{
+	NSString *gameMode;
+	
+	switch (gameType) {
+		case kGameModeClassic:
+			gameMode = [NSString stringWithFormat:@"Classic"];
+			break;
+		case kGameModeTimeAttack:
+			gameMode = [NSString stringWithFormat:@"Time Attack"];
+			break;
+		case kGameModeMoleMadness:
+			gameMode = [NSString stringWithFormat:@"Mole Madness"];
+			break;
+		default:
+			CCLOG(@"Default case in gameType switch in GameOverScene");
+			break;
+	}
+	
 	id appDelegate = [[UIApplication sharedApplication] delegate];
-	NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in iPhone game Molemageddon. Can you do better?", gScore];
+	NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in iPhone game Molemageddon in %@ mode. Can you do better?", gScore, gameMode];
 	[appDelegate facebookAccountLogin:message];
 }
 
 - (void) twitterShare{
+	NSString *gameMode;
+	
+	switch (gameType) {
+		case kGameModeClassic:
+			gameMode = [NSString stringWithFormat:@"Classic"];
+			break;
+		case kGameModeTimeAttack:
+			gameMode = [NSString stringWithFormat:@"Time Attack"];
+			break;
+		case kGameModeMoleMadness:
+			gameMode = [NSString stringWithFormat:@"Mole Madness"];
+			break;
+		default:
+			CCLOG(@"Default case in gameType switch in GameOverScene");
+			break;
+	}
+	
 	if ([[NSUserDefaults standardUserDefaults] objectForKey: @"authData"] == nil) {	
-		NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in iPhone game Molemageddon http://is.gd/molemageddon #Molemageddon", gScore];
+		NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in iPhone game Molemageddon in %@ mode - http://is.gd/molemageddon #Molemageddon", gScore, gameMode];
 		id appDelegate = [[UIApplication sharedApplication] delegate];
 		[appDelegate twitterAccountLogin:message];
 	}else {
-		NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in iPhone game Molemageddon http://is.gd/molemageddon #Molemageddon", gScore];
+		NSString *message = [NSString stringWithFormat:@"I've just banished %d moles in iPhone game Molemageddon in %@ mode -  http://is.gd/molemageddon #Molemageddon", gScore, gameMode];
 		id appDelegate = [[UIApplication sharedApplication] delegate];
 		[appDelegate twitterAccountLogin:message];
 	}

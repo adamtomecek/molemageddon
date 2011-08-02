@@ -16,6 +16,7 @@
 	CDSoundSource* hitSound;
 	CDSoundSource* loopSound;
 	int moleType;
+	int lives;
 	BOOL isActive;
 	float gspeed;
 	int posIndex;
@@ -33,6 +34,8 @@
 - (CGPoint) getPosition;
 - (bool) hit;
 - (int) moleType;
+- (int) lives;
+- (void) setLives:(int)val;
 - (void) setMoleType:(int)type;
 - (void) setIsActive:(_Bool)is;
 - (void) setGspeed:(float)s;
