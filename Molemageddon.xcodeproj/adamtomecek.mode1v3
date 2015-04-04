@@ -275,13 +275,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>28</integer>
+									<integer>21</integer>
 									<integer>9</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 364}, {240, 601}}</string>
+							<string>{{0, 20}, {240, 601}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -316,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GameConfig.h</string>
+								<string>GameScene.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,15 +324,14 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GameConfig.h</string>
+										<string>GameScene.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C244470113E7226A00ADAF54</string>
+										<string>C2743A2415BAE70100FC5377</string>
 										<key>history</key>
 										<array>
 											<string>C2D4A320139FB8EF0057D8CF</string>
-											<string>C2D4A324139FB8EF0057D8CF</string>
 											<string>C2D4A46D139FCBE70057D8CF</string>
 											<string>C2A9692B13AB40FC00AABD5F</string>
 											<string>C2B4E47813ADF494007CF07F</string>
@@ -380,7 +379,6 @@
 											<string>C22A90ED13DEFB18006F9A39</string>
 											<string>C22A913013DEFF08006F9A39</string>
 											<string>C22A913113DEFF08006F9A39</string>
-											<string>C22A91A013DF1D12006F9A39</string>
 											<string>C22A91F813DF2B41006F9A39</string>
 											<string>C270983C13E00D6800A7BB9F</string>
 											<string>C2EC470C13E0765000A8B2B2</string>
@@ -392,30 +390,33 @@
 											<string>C2989F6013E14D890050EED9</string>
 											<string>C2989F6213E14D890050EED9</string>
 											<string>C2989F7713E14E6D0050EED9</string>
-											<string>C2989F8913E1520B0050EED9</string>
 											<string>C2989F8B13E1520B0050EED9</string>
-											<string>C26B63BA13E199C80051D965</string>
 											<string>C26B63BB13E199C80051D965</string>
 											<string>C26B63BD13E199C80051D965</string>
 											<string>C26B63BF13E199C80051D965</string>
 											<string>C26B63C113E199C80051D965</string>
 											<string>C2FF43DC13E29E6000A4FD4F</string>
-											<string>C2FF440013E29F7B00A4FD4F</string>
 											<string>C288A04E13E310C600B2BDE7</string>
-											<string>C288A08713E3130C00B2BDE7</string>
 											<string>C288A09413E3136E00B2BDE7</string>
 											<string>C288A0C413E3172C00B2BDE7</string>
-											<string>C288A0E913E31B0100B2BDE7</string>
 											<string>C288A0EB13E31B0100B2BDE7</string>
-											<string>C2F83DFE13E4054200CFC090</string>
 											<string>C2F83E2013E40E2100CFC090</string>
 											<string>C2F83E2313E40E2100CFC090</string>
-											<string>C2F83E2413E40E2100CFC090</string>
 											<string>C2F83E2A13E40EAC00CFC090</string>
 											<string>C2CDBC7A13E450730099D81A</string>
 											<string>C25D988E13E46CCB00898882</string>
 											<string>C24446FF13E7226A00ADAF54</string>
-											<string>C244470013E7226A00ADAF54</string>
+											<string>C269DC831449C09800BD5ACC</string>
+											<string>C269DC841449C09800BD5ACC</string>
+											<string>C2DC7F7014A399220001CF9A</string>
+											<string>C2DC7F7114A399220001CF9A</string>
+											<string>C274AE301592701300C265BA</string>
+											<string>C274AE311592701300C265BA</string>
+											<string>C274AE321592701300C265BA</string>
+											<string>C274AE331592701300C265BA</string>
+											<string>C274AE341592701300C265BA</string>
+											<string>C274AE351592701300C265BA</string>
+											<string>C274AE371592701300C265BA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -427,14 +428,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1011, 515}}</string>
+								<string>{{0, 0}, {1011, 501}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 118 1273 660 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>515pt</string>
+							<string>501pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -447,14 +448,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 520}, {1011, 99}}</string>
+								<string>{{0, 506}, {1011, 113}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 118 1273 660 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>99pt</string>
+							<string>113pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -473,9 +474,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>C24446FB13E7223100ADAF54</string>
+				<string>C2743A1F15BAE6CC00FC5377</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>C24446FC13E7223100ADAF54</string>
+				<string>C2743A2015BAE6CC00FC5377</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -613,8 +614,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>C2743A2515BAE70100FC5377</string>
 		<string>C2D4A23D139FA14E0057D8CF</string>
-		<string>/Users/adamtomecek/Programování/Molemageddon/Molemageddon.xcodeproj</string>
+		<string>/Users/adamtomecek/Programovani/iPhone/Molemageddon/Molemageddon-full/Molemageddon.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>4 118 1273 660 0 0 1280 778 </string>
@@ -694,7 +696,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>C2D4A23D139FA14E0057D8CF</string>
-				<string>C24446FD13E7223100ADAF54</string>
+				<string>C2743A2115BAE6CC00FC5377</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
